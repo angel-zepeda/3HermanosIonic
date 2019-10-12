@@ -12,8 +12,8 @@ import Swal from 'sweetalert2'
   templateUrl: 'firma-foto.html',
 })
 export class FirmaFotoPage {
-   // url = 'http://157.230.81.230:5000/api/report/create'
-  url = 'http://localhost:5000/api/report/create'
+  url = 'http://157.230.81.230:5000/api/report/create'
+  // url = 'http://localhost:5000/api/report/create'
 
   @ViewChild(SignaturePad) public signaturePad: SignaturePad;
   public signaturePadOptions: Object = {
@@ -30,12 +30,12 @@ export class FirmaFotoPage {
   cal = localStorage.getItem('cal_area');
   score: any;
 
-  constructor(public navCtrl: NavController, 
-     public navParams: NavParams, 
-     private view: ViewController, 
-     private http: HttpClient, 
-     private camara: Camera, 
-     public loadingController: LoadingController) { }
+  constructor(public navCtrl: NavController,
+    public navParams: NavParams,
+    private view: ViewController,
+    private http: HttpClient,
+    private camara: Camera,
+    public loadingController: LoadingController) { }
 
   ionViewDidLoad() {
   }
@@ -90,12 +90,12 @@ export class FirmaFotoPage {
       .subscribe(res => {
         console.log(res);
         this.score = res;
-        
+
         if (this.score.reportStore.score.toFixed(2) <= 5) {
           Swal.fire({
-            html: '<h1 style="color:white; font-size:5rem;">Oops!'+
-            '</h1>' +
-            '<h2 style="color: white"> La tienda tiene muchos detalles. </h2>',
+            html: '<h1 style="color:white; font-size:5rem;">Oops!' +
+              '</h1>' +
+              '<h2 style="color: white"> La tienda tiene muchos detalles. </h2>',
             imageUrl: '../../assets/imgs/11.png',
             imageHeight: 65,
             background: 'rgba(0,0,0,0.7)',
@@ -105,9 +105,9 @@ export class FirmaFotoPage {
         }
         if (this.score.reportStore.score.toFixed(2) > 5 && this.score.reportStore.score.toFixed(2) <= 7) {
           Swal.fire({
-            html: '<h1 style="color:white; font-size:5rem;">Ok!'+
-            '</h1>' +
-            '<h2 style="color: white"> La tienda tiene algunos detalles. </h2>',
+            html: '<h1 style="color:white; font-size:5rem;">Ok!' +
+              '</h1>' +
+              '<h2 style="color: white"> La tienda tiene algunos detalles. </h2>',
             imageUrl: '../../assets/imgs/33.png',
             imageHeight: 65,
             imageAlt: 'A tall image',
@@ -117,9 +117,9 @@ export class FirmaFotoPage {
         }
         if (this.score.reportStore.score.toFixed(2) > 7 && this.score.reportStore.score.toFixed(2) < 9) {
           Swal.fire({
-            html: '<h1 style="color:white; font-size:5rem;">Muy bien!'+
-            '</h1>' +
-            '<h2 style="color: white"> La tienda tiene pocos detalles. </h2>',
+            html: '<h1 style="color:white; font-size:5rem;">Muy bien!' +
+              '</h1>' +
+              '<h2 style="color: white"> La tienda tiene pocos detalles. </h2>',
             imageUrl: '../../assets/imgs/44.png',
             imageHeight: 65,
             imageAlt: 'A tall image',
@@ -129,9 +129,9 @@ export class FirmaFotoPage {
         }
         if (this.score.reportStore.score.toFixed(2) > 9 && this.score.reportStore.score.toFixed(2) <= 10) {
           Swal.fire({
-            html: '<h1 style="color:white; font-size:5rem;">Perfecto!'+
-            '</h1>' +
-            '<h2 style="color: white"> La tienda esta en excelente estado. </h2>',
+            html: '<h1 style="color:white; font-size:5rem;">Perfecto!' +
+              '</h1>' +
+              '<h2 style="color: white"> La tienda esta en excelente estado. </h2>',
             imageUrl: '../../assets/imgs/55.png',
             imageHeight: 65,
             imageAlt: 'A tall image',

@@ -1,1 +1,85 @@
-webpackJsonp([10],{247:function(l,n,e){"use strict";function u(l){return t["ɵvid"](0,[(l()(),t["ɵeld"](0,0,null,null,20,"ion-header",[],null,null,null,null,null)),t["ɵdid"](1,16384,null,0,p.a,[h.a,t.ElementRef,t.Renderer,[2,R.a]],null,null),(l()(),t["ɵted"](-1,null,["\n  "])),(l()(),t["ɵeld"](3,0,null,null,16,"ion-navbar",[["class","toolbar"],["color","danger"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,k.b,k.a)),t["ɵdid"](4,49152,null,0,v.a,[y.a,[2,R.a],[2,C.a],h.a,t.ElementRef,t.Renderer],{color:[0,"color"]},null),(l()(),t["ɵted"](-1,3,["\n    "])),(l()(),t["ɵeld"](6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,e){var u=!0;if("click"===n){u=!1!==t["ɵnov"](l,8).toggle()&&u}return u},x.b,x.a)),t["ɵdid"](7,1097728,[[1,4]],0,E.a,[[8,""],h.a,t.ElementRef,t.Renderer],null,null),t["ɵdid"](8,1064960,null,0,_.a,[D.a,[2,R.a],[2,E.a],[2,v.a]],{menuToggle:[0,"menuToggle"]},null),t["ɵdid"](9,16384,null,1,w.a,[h.a,t.ElementRef,t.Renderer,[2,I.a],[2,v.a]],null,null),t["ɵqud"](603979776,1,{_buttons:1}),(l()(),t["ɵted"](-1,0,["\n      "])),(l()(),t["ɵeld"](12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t["ɵdid"](13,147456,null,0,V.a,[h.a,t.ElementRef,t.Renderer],{name:[0,"name"]},null),(l()(),t["ɵted"](-1,0,["\n    "])),(l()(),t["ɵted"](-1,3,["\n    "])),(l()(),t["ɵeld"](16,0,null,3,2,"ion-title",[["class","text-white"]],null,null,null,P.b,P.a)),t["ɵdid"](17,49152,null,0,T.a,[h.a,t.ElementRef,t.Renderer,[2,I.a],[2,v.a]],null,null),(l()(),t["ɵted"](18,0,["\n      Gerente: ","\n    "])),(l()(),t["ɵted"](-1,3,["\n  "])),(l()(),t["ɵted"](-1,null,["\n"])),(l()(),t["ɵted"](-1,null,["\n\n"])),(l()(),t["ɵeld"](22,0,null,null,32,"ion-content",[["class","body"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,K.b,K.a)),t["ɵdid"](23,4374528,null,0,L.a,[h.a,F.a,G.a,t.ElementRef,t.Renderer,y.a,z.a,t.NgZone,[2,R.a],[2,C.a]],null,null),(l()(),t["ɵted"](-1,1,["\n  "])),(l()(),t["ɵeld"](25,0,null,1,11,"ion-list",[["id","inicio-list2"]],null,null,null,null,null)),t["ɵdid"](26,16384,null,0,M.a,[h.a,t.ElementRef,t.Renderer,F.a,N.l,G.a],null,null),(l()(),t["ɵted"](-1,null,["\n    "])),(l()(),t["ɵeld"](28,0,null,null,3,"div",[["align","center"]],null,null,null,null,null)),(l()(),t["ɵted"](-1,null,["\n      "])),(l()(),t["ɵeld"](30,0,null,null,0,"img",[["alt","Logo 3H"],["src","assets/imgs/logo3h.png"],["width","50%"]],null,null,null,null,null)),(l()(),t["ɵted"](-1,null,["\n    "])),(l()(),t["ɵted"](-1,null,["\n    "])),(l()(),t["ɵeld"](33,0,null,null,0,"div",[["class","spacer"],["id","home-spacer2"],["style","width:300px;height:11px;"]],null,null,null,null,null)),(l()(),t["ɵted"](-1,null,["\n    "])),(l()(),t["ɵeld"](35,0,null,null,0,"div",[["class","spacer"],["id","home-spacer2"],["style","width:300px;height:5px;"]],null,null,null,null,null)),(l()(),t["ɵted"](-1,null,["\n  "])),(l()(),t["ɵted"](-1,1,["\n  "])),(l()(),t["ɵeld"](38,0,null,1,0,"img",[["alt",""],["height","200"],["src","http://hostingwebmex.com/z3h/infraestructura.png"],["width","100%"]],null,null,null,null,null)),(l()(),t["ɵted"](-1,1,["\n  "])),(l()(),t["ɵeld"](40,0,null,1,13,"button",[["block",""],["class","boton1"],["color","light"],["icon-left",""],["ion-button",""],["large",""],["style","font-weight:500;font-size:25px; color:#fff; border-radius: 15px"]],null,[[null,"click"]],function(l,n,e){var u=!0;if("click"===n){u=!1!==l.component.buscarTienda()&&u}return u},x.b,x.a)),t["ɵdid"](41,1097728,null,0,E.a,[[8,""],h.a,t.ElementRef,t.Renderer],{color:[0,"color"],large:[1,"large"],block:[2,"block"]},null),(l()(),t["ɵted"](-1,0,["\n    "])),(l()(),t["ɵeld"](43,0,null,0,3,"div",[["style","float: left; width: 25%; text-align:center;"]],null,null,null,null,null)),(l()(),t["ɵted"](-1,null,["\n      "])),(l()(),t["ɵeld"](45,0,null,null,0,"img",[["alt",""],["src","http://hostingwebmex.com/z3h/iconos/reporteo.png"],["style","width: 32px; height: 32px;"]],null,null,null,null,null)),(l()(),t["ɵted"](-1,null,["\n    "])),(l()(),t["ɵted"](-1,0,["\n    "])),(l()(),t["ɵeld"](48,0,null,0,4,"div",[["style","float: left; width: 75%; text-align:center; padding-top:\n        2px;"]],null,null,null,null,null)),(l()(),t["ɵted"](-1,null,["\n      "])),(l()(),t["ɵeld"](50,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),t["ɵted"](-1,null,["Reporteo"])),(l()(),t["ɵted"](-1,null,["\n    "])),(l()(),t["ɵted"](-1,0,["\n  "])),(l()(),t["ɵted"](-1,1,["\n\n\n"]))],function(l,n){l(n,4,0,"danger");l(n,8,0,"");l(n,13,0,"menu");l(n,41,0,"light","","")},function(l,n){var e=n.component;l(n,3,0,t["ɵnov"](n,4)._hidden,t["ɵnov"](n,4)._sbPadding);l(n,6,0,t["ɵnov"](n,8).isHidden);l(n,12,0,t["ɵnov"](n,13)._hidden);l(n,18,0,e.username);l(n,22,0,t["ɵnov"](n,23).statusbarPadding,t["ɵnov"](n,23)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var t=e(0),a=(e(5),e(51),function(){function l(l,n){this.navCtrl=l,this.navParams=n,this.username=localStorage.getItem("username")}return l.prototype.buscarTienda=function(){this.navCtrl.push("TiendasGerentesPage")},l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad GerentePage")},l}()),d=function(){return function(){}}(),o=e(191),r=e(192),i=e(193),s=e(194),c=e(195),f=e(196),b=e(197),g=e(198),m=e(199),p=e(115),h=e(1),R=e(4),k=e(256),v=e(42),y=e(8),C=e(20),x=e(32),E=e(19),_=e(121),D=e(25),w=e(119),I=e(52),V=e(43),P=e(257),T=e(114),K=e(200),L=e(21),F=e(3),G=e(9),z=e(24),M=e(56),N=e(7),j=e(10),B=t["ɵcrt"]({encapsulation:2,styles:[],data:{}}),H=t["ɵccf"]("page-gerente",a,function(l){return t["ɵvid"](0,[(l()(),t["ɵeld"](0,0,null,null,1,"page-gerente",[],null,null,null,u,B)),t["ɵdid"](1,49152,null,0,a,[C.a,j.a],null,null)],null,null)},{},{},[]),O=e(14),q=e(15),A=e(116),J=e(36);e.d(n,"GerentePageModuleNgFactory",function(){return S});var S=t["ɵcmf"](d,[],function(l){return t["ɵmod"]([t["ɵmpd"](512,t.ComponentFactoryResolver,t["ɵCodegenComponentFactoryResolver"],[[8,[o.a,r.a,i.a,s.a,c.a,f.a,b.a,g.a,m.a,H]],[3,t.ComponentFactoryResolver],t.NgModuleRef]),t["ɵmpd"](4608,O.k,O.j,[t.LOCALE_ID,[2,O.s]]),t["ɵmpd"](4608,q.r,q.r,[]),t["ɵmpd"](4608,q.d,q.d,[]),t["ɵmpd"](512,O.b,O.b,[]),t["ɵmpd"](512,q.o,q.o,[]),t["ɵmpd"](512,q.e,q.e,[]),t["ɵmpd"](512,q.m,q.m,[]),t["ɵmpd"](512,A.a,A.a,[]),t["ɵmpd"](512,A.b,A.b,[]),t["ɵmpd"](512,d,d,[]),t["ɵmpd"](256,J.a,a,[])])})},256:function(l,n,e){"use strict";function u(l){return t["ɵvid"](0,[(l()(),t["ɵeld"](0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),t["ɵdid"](1,278528,null,0,a.g,[t.IterableDiffers,t.KeyValueDiffers,t.ElementRef,t.Renderer2],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t["ɵeld"](2,0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,e){var u=!0;if("click"===n){u=!1!==l.component.backButtonClick(e)&&u}return u},d.b,d.a)),t["ɵdid"](3,278528,null,0,a.g,[t.IterableDiffers,t.KeyValueDiffers,t.ElementRef,t.Renderer2],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t["ɵdid"](4,1097728,null,0,o.a,[[8,"bar-button"],r.a,t.ElementRef,t.Renderer],null,null),(l()(),t["ɵeld"](5,0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t["ɵdid"](6,278528,null,0,a.g,[t.IterableDiffers,t.KeyValueDiffers,t.ElementRef,t.Renderer2],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t["ɵdid"](7,147456,null,0,i.a,[r.a,t.ElementRef,t.Renderer],{name:[0,"name"]},null),(l()(),t["ɵeld"](8,0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),t["ɵdid"](9,278528,null,0,a.g,[t.IterableDiffers,t.KeyValueDiffers,t.ElementRef,t.Renderer2],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t["ɵted"](10,null,["",""])),t["ɵncd"](null,0),t["ɵncd"](null,1),t["ɵncd"](null,2),(l()(),t["ɵeld"](14,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),t["ɵdid"](15,278528,null,0,a.g,[t.IterableDiffers,t.KeyValueDiffers,t.ElementRef,t.Renderer2],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t["ɵncd"](null,3)],function(l,n){var e=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+e._mode);l(n,3,0,"back-button","back-button-"+e._mode);l(n,6,0,"back-button-icon","back-button-icon-"+e._mode);l(n,7,0,e._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+e._mode);l(n,15,0,"toolbar-content","toolbar-content-"+e._mode)},function(l,n){var e=n.component;l(n,2,0,e._hideBb);l(n,5,0,t["ɵnov"](n,7)._hidden);l(n,10,0,e._backText)})}e.d(n,"a",function(){return s}),n.b=u;var t=e(0),a=e(14),d=e(32),o=e(19),r=e(1),i=e(43),s=(e(4),e(20),t["ɵcrt"]({encapsulation:2,styles:[],data:{}}))},257:function(l,n,e){"use strict";function u(l){return t["ɵvid"](2,[(l()(),t["ɵeld"](0,0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),t["ɵdid"](1,278528,null,0,a.g,[t.IterableDiffers,t.KeyValueDiffers,t.ElementRef,t.Renderer2],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t["ɵncd"](null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}e.d(n,"a",function(){return d}),n.b=u;var t=e(0),a=e(14),d=(e(1),t["ɵcrt"]({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([10],{
+
+/***/ 285:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GerentePageModule", function() { return GerentePageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gerente__ = __webpack_require__(307);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var GerentePageModule = /** @class */ (function () {
+    function GerentePageModule() {
+    }
+    GerentePageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__gerente__["a" /* GerentePage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__gerente__["a" /* GerentePage */]),
+            ],
+        })
+    ], GerentePageModule);
+    return GerentePageModule;
+}());
+
+//# sourceMappingURL=gerente.module.js.map
+
+/***/ }),
+
+/***/ 307:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GerentePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var GerentePage = /** @class */ (function () {
+    function GerentePage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.username = localStorage.getItem('username');
+    }
+    GerentePage.prototype.buscarTienda = function () {
+        this.navCtrl.push('TiendasGerentesPage');
+    };
+    GerentePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad GerentePage');
+    };
+    GerentePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-gerente',template:/*ion-inline-start:"/home/angelzepeda/Documentos/Dev/3H/3HermanosIonic/src/pages/gerente/gerente.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title class="text-white">\n      Gerente: {{ this.username }}\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding class="body">\n  <ion-list id="inicio-list2">\n    <div align="center">\n      <img src="assets/imgs/logo3h.png" width="50%" alt="Logo 3H">\n    </div>\n    <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n    <div class="spacer" style="width:300px;height:5px;" id="home-spacer2"></div>\n  </ion-list>\n  <img src="http://hostingwebmex.com/z3h/infraestructura.png" alt="" width="100%" height="200">\n  <button ion-button color="light" class="boton1" block large icon-left\n    style="font-weight:500;font-size:25px; color:#fff; border-radius: 15px" (click)="buscarTienda()">\n    <div style="float: left; width: 25%; text-align:center;">\n      <img src="http://hostingwebmex.com/z3h/iconos/reporteo.png" alt="" style="width: 32px; height: 32px;">\n    </div>\n    <div style="float: left; width: 75%; text-align:center; padding-top:\n        2px;">\n      <p>Reporteo</p>\n    </div>\n  </button>\n\n\n</ion-content>'/*ion-inline-end:"/home/angelzepeda/Documentos/Dev/3H/3HermanosIonic/src/pages/gerente/gerente.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+    ], GerentePage);
+    return GerentePage;
+}());
+
+//# sourceMappingURL=gerente.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=10.js.map
