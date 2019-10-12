@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title style="text-align: center;">
+      Búsqueda de tiendas
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding>
+  <div *ngFor="let shop of shops">
+    <ion-card style="word-wrap:break-word; font-size:
+        2rem; background: #B91919; color:white;font-weight: bold;">
+      <ion-card-header color="light">
+        <ion-avatar>
+          <img src="assets/imgs/hSDtdnxwQMqFa4QC9INn_logo.png" style="width:32px;height: 32px;">
+        </ion-avatar>
+        <strong>Tienda: {{ shop.name }}</strong>
+      </ion-card-header>
+      <ion-card-content>
+        Dirección: {{ shop.address }}
+        <br>
+        Cp: {{ shop.cp }}
+        <br>
+        Número tienda: {{ shop.shop_number}}
+        <br>
+        Colonia: {{ shop.suburb }}
+        <br>
+        Localidad: {{ shop.location }}
+      </ion-card-content>
+      <button id="buscar" ion-button block color="light"
+        (click)="inicio(this.shop._id, this.shop.name, this.shop.shop_number)" style="color:red;">
+        INGRESAR
+      </button>
+      <br>
+    </ion-card>
+  </div>
+</ion-content>

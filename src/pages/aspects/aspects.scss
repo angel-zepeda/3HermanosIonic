@@ -63,31 +63,36 @@ page-aspects {
     font-size: 8rem;
   }
   .radio {
-    margin: 28px;
-    padding: 15px;    
+    margin: 0px;
+    padding: 26px;
   }
-  
-  .happy {
-    background-image: url('../../assets/imgs/6.png');
-    background-size: cover;
-  }
-    
-  .semi-happy {
-    background-image: url('../../assets/imgs/5.png');
-    background-size: cover;
-  }
-  .semi-sad {
-    background-image: url('../../assets/imgs/4.png');
-    background-size: cover;
-  }
-  .sad {
-    background-image: url('../../assets/imgs/3.png');
-    background-size: cover;
-  }
-  .super-sad {
+
+  .two {
     background-image: url('../../assets/imgs/1.png');
     background-size: cover;
   }
+
+  .four {
+    background-image: url('../../assets/imgs/2.png');
+    background-size: cover;
+  }
+
+  .six {
+    background-image: url('../../assets/imgs/4.png');
+    background-size: cover;
+  }
+
+  .eigth {
+    background-image: url('../../assets/imgs/5.png');
+    background-size: cover;
+  }
+
+  .ten {
+    background-image: url('../../assets/imgs/6.png');
+    background-size: cover;
+  }
+
+
   .active {
     border-bottom: 5px solid red;
   }

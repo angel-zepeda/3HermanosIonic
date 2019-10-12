@@ -7,10 +7,23 @@
     "files": {}
   },
   "installed_plugins": {
+    "cordova-pdf-generator": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-browsertab": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "io.ionic.starter"
     },
     "cordova-plugin-device": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
+    "cordova-plugin-file-opener2": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
       "PACKAGE_NAME": "io.ionic.starter"
     },
     "cordova-plugin-ionic-keyboard": {
@@ -20,6 +33,9 @@
       "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+",
       "PACKAGE_NAME": "io.ionic.starter"
     },
+    "cordova-plugin-ios-camera-permissions": {
+      "PACKAGE_NAME": "io.ionic.starter"
+    },
     "cordova-plugin-splashscreen": {
       "PACKAGE_NAME": "io.ionic.starter"
     },
@@ -27,15 +43,6 @@
       "PACKAGE_NAME": "io.ionic.starter"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-ios-camera-permissions": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-browsertab": {
-      "PACKAGE_NAME": "io.ionic.starter"
-    },
-    "cordova-plugin-file": {
       "PACKAGE_NAME": "io.ionic.starter"
     }
   },

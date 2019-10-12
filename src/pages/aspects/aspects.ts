@@ -113,36 +113,97 @@ export class AspectsPage {
   active(emojiId, name) {
     var emoji = document.getElementById(emojiId);
 
-    if (emoji.id.includes('happy')) {
-      var emoji2 = document.getElementById('mad' + name);
-      var emoji3 = document.getElementById('angry' + name);
-      emoji2.style.background = "url('../../assets/imgs/3.png')";
-      emoji3.style.background = "url('../../assets/imgs/1.png')";
-      emoji.style.background = "url('../../assets/imgs/55.png')";
-      emoji.style.backgroundSize = "cover";
-      emoji2.style.backgroundSize = "cover";
-      emoji3.style.backgroundSize = "cover";
-    }
-    if (emoji.id.includes('mad')) {
-      var emoji2 = document.getElementById('happy' + name);
-      var emoji3 = document.getElementById('angry' + name);
-      emoji2.style.background = "url('../../assets/imgs/6.png')";
-      emoji3.style.background = "url('../../assets/imgs/1.png')";
-      emoji.style.background = "url('../../assets/imgs/22.png')";
-      emoji.style.backgroundSize = "cover";
-      emoji2.style.backgroundSize = "cover";
-      emoji3.style.backgroundSize = "cover";
-    }
-    if (emoji.id.includes('angry')) {
-      var emoji2 = document.getElementById('mad' + name);
-      var emoji3 = document.getElementById('happy' + name);
-      emoji2.style.background = "url('../../assets/imgs/3.png')";
-      emoji3.style.background = "url('../../assets/imgs/6.png')";
+    if (emoji.id.includes('two')) {
+      var emoji2 = document.getElementById('four' + name);
+      var emoji3 = document.getElementById('six' + name);
+      var emoji4 = document.getElementById('eigth' + name);
+      var emoji5 = document.getElementById('ten' + name);
       emoji.style.background = "url('../../assets/imgs/11.png')";
-      emoji.style.backgroundSize = "cover";
-      emoji2.style.backgroundSize = "cover";
-      emoji3.style.backgroundSize = "cover";
+      emoji2.style.background = "url('../../assets/imgs/2.png')";
+      emoji3.style.background = "url('../../assets/imgs/4.png')";
+      emoji4.style.background = "url('../../assets/imgs/5.png')";
+      emoji5.style.background = "url('../../assets/imgs/6.png')";
+
     }
+    if (emoji.id.includes('four')) {
+      var emoji2 = document.getElementById('two' + name);
+      var emoji3 = document.getElementById('six' + name);
+      var emoji4 = document.getElementById('eigth' + name);
+      var emoji5 = document.getElementById('ten' + name);
+      emoji.style.background = "url('../../assets/imgs/22.png')";
+      emoji2.style.background = "url('../../assets/imgs/1.png')";
+      emoji3.style.background = "url('../../assets/imgs/4.png')";
+      emoji4.style.background = "url('../../assets/imgs/5.png')";
+      emoji5.style.background = "url('../../assets/imgs/6.png')";
+
+    }
+    if (emoji.id.includes('six')) {
+      var emoji2 = document.getElementById('two' + name);
+      var emoji3 = document.getElementById('four' + name);
+      var emoji4 = document.getElementById('eigth' + name);
+      var emoji5 = document.getElementById('ten' + name);
+      emoji.style.background = "url('../../assets/imgs/33.png')";
+      emoji2.style.background = "url('../../assets/imgs/1.png')";
+      emoji3.style.background = "url('../../assets/imgs/2.png')";
+      emoji4.style.background = "url('../../assets/imgs/5.png')";
+      emoji5.style.background = "url('../../assets/imgs/6.png')";
+
+    }
+    if (emoji.id.includes('eigth')) {
+      var emoji2 = document.getElementById('two' + name);
+      var emoji3 = document.getElementById('four' + name);
+      var emoji4 = document.getElementById('six' + name);
+      var emoji5 = document.getElementById('ten' + name);
+      emoji.style.background = "url('../../assets/imgs/44.png')";
+      emoji2.style.background = "url('../../assets/imgs/1.png')";
+      emoji3.style.background = "url('../../assets/imgs/2.png')";
+      emoji4.style.background = "url('../../assets/imgs/4.png')";
+      emoji5.style.background = "url('../../assets/imgs/6.png')";
+
+    }
+    if (emoji.id.includes('ten')) {
+      var emoji2 = document.getElementById('two' + name);
+      var emoji3 = document.getElementById('four' + name);
+      var emoji4 = document.getElementById('six' + name);
+      var emoji5 = document.getElementById('eigth' + name);
+      emoji.style.background = "url('../../assets/imgs/55.png')";
+      emoji2.style.background = "url('../../assets/imgs/1.png')";
+      emoji3.style.background = "url('../../assets/imgs/2.png')";
+      emoji4.style.background = "url('../../assets/imgs/4.png')";
+      emoji5.style.background = "url('../../assets/imgs/5.png')";
+
+    }
+
+    // if (emoji.id.includes('happy')) {
+    //   var emoji2 = document.getElementById('mad' + name);
+    //   var emoji3 = document.getElementById('angry' + name);
+    //   emoji2.style.background = "url('../../assets/imgs/3.png')";
+    //   emoji3.style.background = "url('../../assets/imgs/1.png')";
+    //   emoji.style.background = "url('../../assets/imgs/55.png')";
+    //   emoji.style.backgroundSize = "cover";
+    //   emoji2.style.backgroundSize = "cover";
+    //   emoji3.style.backgroundSize = "cover";
+    // }
+    // if (emoji.id.includes('mad')) {
+    //   var emoji2 = document.getElementById('happy' + name);
+    //   var emoji3 = document.getElementById('angry' + name);
+    //   emoji2.style.background = "url('../../assets/imgs/6.png')";
+    //   emoji3.style.background = "url('../../assets/imgs/1.png')";
+    //   emoji.style.background = "url('../../assets/imgs/22.png')";
+    //   emoji.style.backgroundSize = "cover";
+    //   emoji2.style.backgroundSize = "cover";
+    //   emoji3.style.backgroundSize = "cover";
+    // }
+    // if (emoji.id.includes('angry')) {
+    //   var emoji2 = document.getElementById('mad' + name);
+    //   var emoji3 = document.getElementById('happy' + name);
+    //   emoji2.style.background = "url('../../assets/imgs/3.png')";
+    //   emoji3.style.background = "url('../../assets/imgs/6.png')";
+    //   emoji.style.background = "url('../../assets/imgs/11.png')";
+    //   emoji.style.backgroundSize = "cover";
+    //   emoji2.style.backgroundSize = "cover";
+    //   emoji3.style.backgroundSize = "cover";
+    // }
   }
 
   calProdV() {

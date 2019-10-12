@@ -1,0 +1,18 @@
+page-gerente {
+  .body {
+    //background: url('https://t3.ftcdn.net/jpg/01/30/82/72/240_F_130827267_qiwaSzorZ1Lixv5W2dPc1NXqVnxbpQiV.jpg');
+    background: url('https://image.freepik.com/free-photo/leather-shoes-wooden-background_1203-7617.jpg');   
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgba(255,255,255,0.7);
+  }
+
+  .boton1 {
+    background: #860000;
+    background: -moz-linear-gradient(top, #860000 0%, #b91919 59%);
+    background: -webkit-linear-gradient(top, #860000 0%, #b91919 59%);
+    background: linear-gradient(to bottom, #860000 0%, #b91919 59%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#860000', endColorstr='#b91919', GradientType=0);
+  }
+
+}

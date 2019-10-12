@@ -35,6 +35,7 @@ export class BuscarTiendaPage {
     this.http.get('http://157.230.81.230:5000/api/users/index')
       .subscribe(res => {
         this.users = res;
+        this.users = this.users.users
       })
   }
 
