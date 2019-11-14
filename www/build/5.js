@@ -1,6 +1,6 @@
 webpackJsonp([5],{
 
-/***/ 292:
+/***/ 293:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TiendasGerentesPageModule", function() { return TiendasGerentesPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tiendas_gerentes__ = __webpack_require__(314);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tiendas_gerentes__ = __webpack_require__(315);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var TiendasGerentesPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 314:
+/***/ 315:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -81,7 +81,7 @@ var TiendasGerentesPage = /** @class */ (function () {
     };
     TiendasGerentesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-tiendas-gerentes',template:/*ion-inline-start:"/home/angelzepeda/Documentos/Dev/3H/3HermanosIonic/src/pages/tiendas-gerentes/tiendas-gerentes.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title style="text-align: center;">\n      Búsqueda de tiendas\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n  <div *ngFor="let shop of shops">\n    <ion-card style="word-wrap:break-word; font-size:\n        2rem; background: #B91919; color:white;font-weight: bold;">\n      <ion-card-header color="light">\n        <ion-avatar>\n          <img src="assets/imgs/hSDtdnxwQMqFa4QC9INn_logo.png" style="width:32px;height: 32px;">\n        </ion-avatar>\n        <strong>Tienda: {{ shop.name }}</strong>\n      </ion-card-header>\n      <ion-card-content>\n        Dirección: {{ shop.address }}\n        <br>\n        Cp: {{ shop.cp }}\n        <br>\n        Número tienda: {{ shop.shop_number}}\n        <br>\n        Colonia: {{ shop.suburb }}\n        <br>\n        Localidad: {{ shop.location }}\n      </ion-card-content>\n      <button id="buscar" ion-button block color="light"\n        (click)="inicio(this.shop._id, this.shop.name, this.shop.shop_number)" style="color:red;">\n        INGRESAR\n      </button>\n      <br>\n    </ion-card>\n  </div>\n</ion-content>'/*ion-inline-end:"/home/angelzepeda/Documentos/Dev/3H/3HermanosIonic/src/pages/tiendas-gerentes/tiendas-gerentes.html"*/,
+            selector: 'page-tiendas-gerentes',template:/*ion-inline-start:"/home/angelzepeda/Documentos/Dev/3HermanosIonic/src/pages/tiendas-gerentes/tiendas-gerentes.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title style="text-align: center;">\n      Búsqueda de tiendas\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n  <div *ngFor="let shop of shops">\n    <ion-card style="word-wrap:break-word; font-size:\n        2rem; background: #B91919; color:white;font-weight: bold;">\n      <ion-card-header color="light">\n        <ion-avatar>\n          <img src="assets/imgs/hSDtdnxwQMqFa4QC9INn_logo.png" style="width:32px;height: 32px;">\n        </ion-avatar>\n        <strong>Tienda: {{ shop.name }}</strong>\n      </ion-card-header>\n      <ion-card-content>\n        Dirección: {{ shop.address }}\n        <br>\n        Cp: {{ shop.cp }}\n        <br>\n        Número tienda: {{ shop.shop_number}}\n        <br>\n        Colonia: {{ shop.suburb }}\n        <br>\n        Localidad: {{ shop.location }}\n      </ion-card-content>\n      <button id="buscar" ion-button block color="light"\n        (click)="inicio(this.shop._id, this.shop.name, this.shop.shop_number)" style="color:red;">\n        INGRESAR\n      </button>\n      <br>\n    </ion-card>\n  </div>\n</ion-content>'/*ion-inline-end:"/home/angelzepeda/Documentos/Dev/3HermanosIonic/src/pages/tiendas-gerentes/tiendas-gerentes.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */]])
     ], TiendasGerentesPage);

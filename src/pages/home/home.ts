@@ -43,8 +43,7 @@ export class HomePage {
           localStorage.setItem('user_data', this.user_data);
           localStorage.setItem('user_id', this.user_data.user._id);
           localStorage.setItem('username', this.user_data.user.nick);
-          console.log(this.user_data.user)
-
+          localStorage.setItem('role', this.user_data.user.role);
           if (this.user_data.user.role === 'ROLE_USER') {
             swal("Bienvenido!", "Supervisor: " + this.user_data.user.nick, "success");
             this.navCtrl.push('InicioPage');

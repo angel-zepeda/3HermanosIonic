@@ -22,51 +22,51 @@ webpackEmptyAsyncContext.id = 112;
 
 var map = {
 	"../pages/aspects/aspects.module": [
-		293,
+		282,
 		2
 	],
 	"../pages/buscar-tienda/buscar-tienda.module": [
-		282,
+		283,
 		0
 	],
 	"../pages/eventos/eventos.module": [
-		283,
+		284,
 		11
 	],
 	"../pages/firma-foto/firma-foto.module": [
-		284,
+		285,
 		1
 	],
 	"../pages/gerente/gerente.module": [
-		285,
+		286,
 		10
 	],
 	"../pages/historial/historial.module": [
-		286,
+		287,
 		9
 	],
 	"../pages/historial2/historial2.module": [
-		287,
+		288,
 		8
 	],
 	"../pages/inicio/inicio.module": [
-		288,
+		289,
 		7
 	],
 	"../pages/mercadeo/mercadeo.module": [
-		289,
+		290,
 		4
 	],
 	"../pages/reporteo/reporteo.module": [
-		290,
+		291,
 		3
 	],
 	"../pages/reports-user/reports-user.module": [
-		291,
+		292,
 		6
 	],
 	"../pages/tiendas-gerentes/tiendas-gerentes.module": [
-		292,
+		293,
 		5
 	]
 };
@@ -142,7 +142,7 @@ var HomePage = /** @class */ (function () {
                 localStorage.setItem('user_data', _this.user_data);
                 localStorage.setItem('user_id', _this.user_data.user._id);
                 localStorage.setItem('username', _this.user_data.user.nick);
-                console.log(_this.user_data.user);
+                localStorage.setItem('role', _this.user_data.user.role);
                 if (_this.user_data.user.role === 'ROLE_USER') {
                     __WEBPACK_IMPORTED_MODULE_3_sweetalert___default()("Bienvenido!", "Supervisor: " + _this.user_data.user.nick, "success");
                     _this.navCtrl.push('InicioPage');
@@ -156,7 +156,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-home',template:/*ion-inline-start:"/home/angelzepeda/Documentos/Dev/3H/3HermanosIonic/src/pages/home/home.html"*/'<ion-content padding\n  style="background:url(assets/imgs/Wm5s9eJ6RvCShoptfZgZ_background_o.jpg) no-repeat center;background-size:cover;"\n  id="page1">\n  <div class="spacer" style="width:300px;height:45px;" id="home-spacer5"></div>\n  <img src="assets/imgs/hSDtdnxwQMqFa4QC9INn_logo.png"\n    style="display:block;width:40%;height:auto;margin-left:auto;margin-right:auto;" />\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <div id="home-container1">\n    <h2 id="home-heading2" style="color:#FFFFFF;font-weight:600;text-align:center;">\n      BIENVENIDO\n    </h2>\n  </div>\n  <div id="home-container2">\n    <div id="home-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">\n      <p style="color:#FFFFFF;">\n        SUPERVICIÓN DE SUCURSALES\n      </p>\n    </div>\n    <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n    <p style="color:#FFFFFF; font-weight: bold; text-align: center; letter-spacing: 2px;">\n      Iniciar sesión\n    </p>\n  </div>\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <form id="home-form3">\n    <ion-item id="home-input3">\n      <ion-label>\n        Usuario\n      </ion-label>\n      <ion-input type="text" placeholder="" name="email" [(ngModel)]="user_sign_in.email"></ion-input>\n    </ion-item>\n  </form>\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <form id="home-form4">\n    <ion-item id="home-input5">\n      <ion-label>\n        Contraseña\n      </ion-label>\n      <ion-input type="password" placeholder="" name="password" [(ngModel)]="user_sign_in.password"></ion-input>\n    </ion-item>\n  </form>\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <button id="home-button1" ion-button block\n    style="font-weight:500;border-radius:10px; background: rgba(0,0,0,0.3); border: 1px solid white;" full\n    (click)="login()">\n    INGRESAR\n  </button>\n</ion-content>'/*ion-inline-end:"/home/angelzepeda/Documentos/Dev/3H/3HermanosIonic/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/home/angelzepeda/Documentos/Dev/3HermanosIonic/src/pages/home/home.html"*/'<ion-content padding\n  style="background:url(assets/imgs/Wm5s9eJ6RvCShoptfZgZ_background_o.jpg) no-repeat center;background-size:cover;"\n  id="page1">\n  <div class="spacer" style="width:300px;height:45px;" id="home-spacer5"></div>\n  <img src="assets/imgs/hSDtdnxwQMqFa4QC9INn_logo.png"\n    style="display:block;width:40%;height:auto;margin-left:auto;margin-right:auto;" />\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <div id="home-container1">\n    <h2 id="home-heading2" style="color:#FFFFFF;font-weight:600;text-align:center;">\n      BIENVENIDO\n    </h2>\n  </div>\n  <div id="home-container2">\n    <div id="home-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">\n      <p style="color:#FFFFFF;">\n        SUPERVICIÓN DE SUCURSALES\n      </p>\n    </div>\n    <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n    <p style="color:#FFFFFF; font-weight: bold; text-align: center; letter-spacing: 2px;">\n      Iniciar sesión\n    </p>\n  </div>\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <form id="home-form3">\n    <ion-item id="home-input3">\n      <ion-label>\n        Usuario\n      </ion-label>\n      <ion-input type="text" placeholder="" name="email" [(ngModel)]="user_sign_in.email"></ion-input>\n    </ion-item>\n  </form>\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <form id="home-form4">\n    <ion-item id="home-input5">\n      <ion-label>\n        Contraseña\n      </ion-label>\n      <ion-input type="password" placeholder="" name="password" [(ngModel)]="user_sign_in.password"></ion-input>\n    </ion-item>\n  </form>\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <button id="home-button1" ion-button block\n    style="font-weight:500;border-radius:10px; background: rgba(0,0,0,0.3); border: 1px solid white;" full\n    (click)="login()">\n    INGRESAR\n  </button>\n</ion-content>'/*ion-inline-end:"/home/angelzepeda/Documentos/Dev/3HermanosIonic/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */],
@@ -230,6 +230,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_7_angular2_signaturepad__["SignaturePadModule"],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
                     links: [
+                        { loadChildren: '../pages/aspects/aspects.module#AspectsPageModule', name: 'AspectsPage', segment: 'aspects', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/buscar-tienda/buscar-tienda.module#BuscarTiendaPageModule', name: 'BuscarTiendaPage', segment: 'buscar-tienda', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/eventos/eventos.module#EventosPageModule', name: 'EventosPage', segment: 'eventos', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/firma-foto/firma-foto.module#FirmaFotoPageModule', name: 'FirmaFotoPage', segment: 'firma-foto', priority: 'low', defaultHistory: [] },
@@ -240,8 +241,7 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/mercadeo/mercadeo.module#MercadeoPageModule', name: 'MercadeoPage', segment: 'mercadeo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/reporteo/reporteo.module#ReporteoPageModule', name: 'ReporteoPage', segment: 'reporteo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/reports-user/reports-user.module#ReportsUserPageModule', name: 'ReportsUserPage', segment: 'reports-user', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/tiendas-gerentes/tiendas-gerentes.module#TiendasGerentesPageModule', name: 'TiendasGerentesPage', segment: 'tiendas-gerentes', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/aspects/aspects.module#AspectsPageModule', name: 'AspectsPage', segment: 'aspects', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/tiendas-gerentes/tiendas-gerentes.module#TiendasGerentesPageModule', name: 'TiendasGerentesPage', segment: 'tiendas-gerentes', priority: 'low', defaultHistory: [] }
                     ]
                 })
             ],
@@ -300,7 +300,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/home/angelzepeda/Documentos/Dev/3H/3HermanosIonic/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/angelzepeda/Documentos/Dev/3H/3HermanosIonic/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/home/angelzepeda/Documentos/Dev/3HermanosIonic/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/angelzepeda/Documentos/Dev/3HermanosIonic/src/app/app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);

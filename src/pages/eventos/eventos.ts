@@ -14,6 +14,8 @@ export class EventosPage {
   pdfButtons;
   user = localStorage.getItem('username');
   report: any = [];
+  report_color: String;
+  role = localStorage.getItem('role');
 
   constructor(
     public navCtrl: NavController,
@@ -22,6 +24,7 @@ export class EventosPage {
     private loadingController: LoadingController) { }
 
   ionViewDidLoad() {
+    
     let loader = this.loadingController.create({
       content: "Cargando eventos..."
     });

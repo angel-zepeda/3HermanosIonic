@@ -1,6 +1,6 @@
 webpackJsonp([1],{
 
-/***/ 284:
+/***/ 285:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FirmaFotoPageModule", function() { return FirmaFotoPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__firma_foto__ = __webpack_require__(306);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__firma_foto__ = __webpack_require__(307);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_signaturepad__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_signaturepad___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_angular2_signaturepad__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -2788,7 +2788,7 @@ if (typeof window !== 'undefined' && window.Sweetalert2){  window.swal = window.
 
 /***/ }),
 
-/***/ 306:
+/***/ 307:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2944,16 +2944,20 @@ var FirmaFotoPage = /** @class */ (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_2_angular2_signaturepad_signature_pad__["SignaturePad"]),
-        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2_angular2_signaturepad_signature_pad__["SignaturePad"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angular2_signaturepad_signature_pad__["SignaturePad"]) === "function" && _a || Object)
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2_angular2_signaturepad_signature_pad__["SignaturePad"])
     ], FirmaFotoPage.prototype, "signaturePad", void 0);
     FirmaFotoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-firma-foto',template:/*ion-inline-start:"/home/angelzepeda/Documentos/Dev/3H/3HermanosIonic/src/pages/firma-foto/firma-foto.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <ion-title align="center">\n      <ion-icon name="photos"></ion-icon>\n      Evidencias\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button (click)="closeModal()">X</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding\n  style="background: url(\'https://t3.ftcdn.net/jpg/01/30/82/72/240_F_130827267_qiwaSzorZ1Lixv5W2dPc1NXqVnxbpQiV.jpg\')">\n  <div align="center">\n    <img src="https://lh3.ggpht.com/tU-zfWFzbltfzz2A9Qen_7X1tZx3wXCp078X7rgkUOWqQdl567bEZc8v2OEizoDBr0Q=w300" alt=""\n      width="50%" height="20%">\n  </div>\n  <form action="">\n    <button ion-button block color="warning" (click)="foto()">\n      <ion-icon name="camera"> </ion-icon>\n      Tomar fotos\n    </button>\n    <div *ngFor="let img of image"\n      style="width: 25vw;height:15vh; background: white; padding: 15px; border-radius: 10px;">\n      <img [src]="img" *ngIf="image" />\n    </div>\n    <br>\n    <br>\n    <p align="center">Firma del supervisor</p>\n    <br>\n    <signature-pad [options]="signaturePadOptions" (onBeginEvent)="drawStart()" (onEndEvent)="drawComplete()">\n    </signature-pad>\n    <button ion-button type=" submit" (click)="enviar()" block>Enviar Reporte</button>\n  </form>\n</ion-content>'/*ion-inline-end:"/home/angelzepeda/Documentos/Dev/3H/3HermanosIonic/src/pages/firma-foto/firma-foto.html"*/,
+            selector: 'page-firma-foto',template:/*ion-inline-start:"/home/angelzepeda/Documentos/Dev/3HermanosIonic/src/pages/firma-foto/firma-foto.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <ion-title align="center">\n      <ion-icon name="photos"></ion-icon>\n      Evidencias\n    </ion-title>\n    <ion-buttons end>\n      <button ion-button (click)="closeModal()">X</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n<ion-content padding\n  style="background: url(\'https://t3.ftcdn.net/jpg/01/30/82/72/240_F_130827267_qiwaSzorZ1Lixv5W2dPc1NXqVnxbpQiV.jpg\')">\n  <div align="center">\n    <img src="https://lh3.ggpht.com/tU-zfWFzbltfzz2A9Qen_7X1tZx3wXCp078X7rgkUOWqQdl567bEZc8v2OEizoDBr0Q=w300" alt=""\n      width="50%" height="20%">\n  </div>\n  <form action="">\n    <button ion-button block color="warning" (click)="foto()">\n      <ion-icon name="camera"> </ion-icon>\n      Tomar fotos\n    </button>\n    <div *ngFor="let img of image"\n      style="width: 25vw;height:15vh; background: white; padding: 15px; border-radius: 10px;">\n      <img [src]="img" *ngIf="image" />\n    </div>\n    <br>\n    <br>\n    <p align="center">Firma del supervisor</p>\n    <br>\n    <signature-pad [options]="signaturePadOptions" (onBeginEvent)="drawStart()" (onEndEvent)="drawComplete()">\n    </signature-pad>\n    <button ion-button type=" submit" (click)="enviar()" block>Enviar Reporte</button>\n  </form>\n</ion-content>'/*ion-inline-end:"/home/angelzepeda/Documentos/Dev/3HermanosIonic/src/pages/firma-foto/firma-foto.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__angular_common_http__["a" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__angular_common_http__["a" /* HttpClient */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_4__ionic_native_camera__["a" /* Camera */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__ionic_native_camera__["a" /* Camera */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]) === "function" && _g || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_3__angular_common_http__["a" /* HttpClient */],
+            __WEBPACK_IMPORTED_MODULE_4__ionic_native_camera__["a" /* Camera */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]])
     ], FirmaFotoPage);
     return FirmaFotoPage;
-    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=firma-foto.js.map

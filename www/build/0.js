@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 282:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BuscarTiendaPageModule", function() { return BuscarTiendaPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__buscar_tienda__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__buscar_tienda__ = __webpack_require__(298);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -43,8 +43,8 @@ var BuscarTiendaPageModule = /** @class */ (function () {
 
 "use strict";
 
-var AsyncAction_1 = __webpack_require__(300);
-var AsyncScheduler_1 = __webpack_require__(302);
+var AsyncAction_1 = __webpack_require__(301);
+var AsyncScheduler_1 = __webpack_require__(303);
 /**
  *
  * Async Scheduler
@@ -92,7 +92,7 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 
 /***/ }),
 
-/***/ 297:
+/***/ 298:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -100,7 +100,7 @@ exports.async = new AsyncScheduler_1.AsyncScheduler(AsyncAction_1.AsyncAction);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_common_http__ = __webpack_require__(101);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_debounceTime__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_debounceTime__ = __webpack_require__(299);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_debounceTime___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_debounceTime__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -176,7 +176,7 @@ var BuscarTiendaPage = /** @class */ (function () {
     };
     BuscarTiendaPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-buscar-tienda',template:/*ion-inline-start:"/home/angelzepeda/Documentos/Dev/3H/3HermanosIonic/src/pages/buscar-tienda/buscar-tienda.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title style="text-align: center;">\n      Búsqueda de tiendas\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n  <form>\n    <img src="assets/imgs/gps.png" alt="" width="128" height="128" style="position: relative;left: 31%;">\n    <ion-searchbar placeholder="Número tienda o razón social" name="name" [(ngModel)]="search.name">\n    </ion-searchbar>\n    <button id="buscar" ion-button type="submit" shape="round" color="danger" (click)="enviar()">Buscar tienda</button>\n    <ion-card *ngFor="let shop of shops" style="word-wrap:break-word; font-size:\n      2rem; background: #B91919; color:white;font-weight: bold;">\n      <ion-card-header color="light">\n        <ion-avatar>\n          <img src="assets/imgs/hSDtdnxwQMqFa4QC9INn_logo.png" style="width:32px;height: 32px;">\n        </ion-avatar>\n        <strong>Tienda: {{ shop.name }}</strong>\n      </ion-card-header>\n      <ion-card-content>\n        Dirección: {{ shop.address }}\n        <br>\n        Cp: {{ shop.cp }}\n        <br>\n        Número tienda: {{ shop.shop_number}}\n        <br>\n        Colonia: {{ shop.suburb }}\n        <br>\n        Localidad: {{ shop.location }}\n      </ion-card-content>\n      <button id="buscar" ion-button block color="light"\n        (click)="inicio(this.shop._id, this.shop.name, this.shop.shop_number)" style="color:red;">\n        INGRESAR\n      </button>\n      <br>\n    </ion-card>\n  </form>\n\n  <div *ngIf="this.page === \'HistorialPage\'">\n    <hr>\n    <form (ngSubmit)="filterByUser()" id="filter">\n      <h3 align="center">Filtrar reportes</h3>\n      <select name="id" [(ngModel)]="this.user_id.id" id="user_ID">\n        <option *ngFor="let user of this.users" value={{user._id}}>{{user.name}}</option>\n      </select>\n      <div align="center">\n        <button ion-button color="danger" ion-block type="submit">Buscar</button>\n      </div>\n    </form>\n  </div>\n</ion-content>'/*ion-inline-end:"/home/angelzepeda/Documentos/Dev/3H/3HermanosIonic/src/pages/buscar-tienda/buscar-tienda.html"*/,
+            selector: 'page-buscar-tienda',template:/*ion-inline-start:"/home/angelzepeda/Documentos/Dev/3HermanosIonic/src/pages/buscar-tienda/buscar-tienda.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title style="text-align: center;">\n      Búsqueda de tiendas\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n  <form>\n    <img src="assets/imgs/gps.png" alt="" width="128" height="128" style="position: relative;left: 31%;">\n    <ion-searchbar placeholder="Número tienda o razón social" name="name" [(ngModel)]="search.name">\n    </ion-searchbar>\n    <button id="buscar" ion-button type="submit" shape="round" color="danger" (click)="enviar()">Buscar tienda</button>\n    <ion-card *ngFor="let shop of shops" style="word-wrap:break-word; font-size:\n      2rem; background: #B91919; color:white;font-weight: bold;">\n      <ion-card-header color="light">\n        <ion-avatar>\n          <img src="assets/imgs/hSDtdnxwQMqFa4QC9INn_logo.png" style="width:32px;height: 32px;">\n        </ion-avatar>\n        <strong>Tienda: {{ shop.name }}</strong>\n      </ion-card-header>\n      <ion-card-content>\n        Dirección: {{ shop.address }}\n        <br>\n        Cp: {{ shop.cp }}\n        <br>\n        Número tienda: {{ shop.shop_number}}\n        <br>\n        Colonia: {{ shop.suburb }}\n        <br>\n        Localidad: {{ shop.location }}\n      </ion-card-content>\n      <button id="buscar" ion-button block color="light"\n        (click)="inicio(this.shop._id, this.shop.name, this.shop.shop_number)" style="color:red;">\n        INGRESAR\n      </button>\n      <br>\n    </ion-card>\n  </form>\n\n  <div *ngIf="this.page === \'HistorialPage\'">\n    <hr>\n    <form (ngSubmit)="filterByUser()" id="filter">\n      <h3 align="center">Filtrar reportes</h3>\n      <select name="id" [(ngModel)]="this.user_id.id" id="user_ID">\n        <option *ngFor="let user of this.users" value={{user._id}}>{{user.name}}</option>\n      </select>\n      <div align="center">\n        <button ion-button color="danger" ion-block type="submit">Buscar</button>\n      </div>\n    </form>\n  </div>\n</ion-content>'/*ion-inline-end:"/home/angelzepeda/Documentos/Dev/3HermanosIonic/src/pages/buscar-tienda/buscar-tienda.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */]])
     ], BuscarTiendaPage);
@@ -187,25 +187,25 @@ var BuscarTiendaPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 298:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-var Observable_1 = __webpack_require__(9);
-var debounceTime_1 = __webpack_require__(299);
-Observable_1.Observable.prototype.debounceTime = debounceTime_1.debounceTime;
-//# sourceMappingURL=debounceTime.js.map
-
-/***/ }),
-
 /***/ 299:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
+var Observable_1 = __webpack_require__(9);
+var debounceTime_1 = __webpack_require__(300);
+Observable_1.Observable.prototype.debounceTime = debounceTime_1.debounceTime;
+//# sourceMappingURL=debounceTime.js.map
+
+/***/ }),
+
+/***/ 300:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
 var async_1 = __webpack_require__(296);
-var debounceTime_1 = __webpack_require__(304);
+var debounceTime_1 = __webpack_require__(305);
 /**
  * Emits a value from the source Observable only after a particular time span
  * has passed without another source emission.
@@ -261,7 +261,7 @@ exports.debounceTime = debounceTime;
 
 /***/ }),
 
-/***/ 300:
+/***/ 301:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -272,7 +272,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
 var root_1 = __webpack_require__(28);
-var Action_1 = __webpack_require__(301);
+var Action_1 = __webpack_require__(302);
 /**
  * We need this JSDoc comment for affecting ESDoc.
  * @ignore
@@ -410,7 +410,7 @@ exports.AsyncAction = AsyncAction;
 
 /***/ }),
 
-/***/ 301:
+/***/ 302:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -461,7 +461,7 @@ exports.Action = Action;
 
 /***/ }),
 
-/***/ 302:
+/***/ 303:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -471,7 +471,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Scheduler_1 = __webpack_require__(303);
+var Scheduler_1 = __webpack_require__(304);
 var AsyncScheduler = (function (_super) {
     __extends(AsyncScheduler, _super);
     function AsyncScheduler() {
@@ -519,7 +519,7 @@ exports.AsyncScheduler = AsyncScheduler;
 
 /***/ }),
 
-/***/ 303:
+/***/ 304:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -575,7 +575,7 @@ exports.Scheduler = Scheduler;
 
 /***/ }),
 
-/***/ 304:
+/***/ 305:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
