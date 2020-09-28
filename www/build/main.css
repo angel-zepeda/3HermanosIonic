@@ -33462,7 +33462,18 @@ page-aspects #buttonM {
 }
 
 page-aspects #ion-list {
-  display: inline-block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 page-aspects .container-emoji {
@@ -33470,7 +33481,18 @@ page-aspects .container-emoji {
   height: 100px;
   width: 100vw;
   padding: 6.5px;
-  font-size: 8rem;
+  font-size: 6rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 page-aspects .radio {
@@ -33509,6 +33531,10 @@ page-aspects .active {
 
 page-aspects .radio-icon {
   display: none !important;
+}
+
+page-buscar-tienda .searchbar-ios {
+  background: none;
 }
 
 page-buscar-tienda #buscar {

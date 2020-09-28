@@ -53,15 +53,22 @@ page-aspects {
   }
   
   #ion-list {    
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }  
+
   .container-emoji {
     background: #fff;
     height: 100px;
     width: 100vw;
     padding: 6.5px;
-    font-size: 8rem;
+    font-size: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
+
   .radio {
     margin: 0px;
     padding: 22px;

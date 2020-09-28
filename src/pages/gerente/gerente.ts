@@ -12,8 +12,12 @@ export class GerentePage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  buscarTienda() {
+  buscarTienda(historialPage) {
+    if (historialPage !== undefined) {
+      localStorage.setItem('page', historialPage);
+    }
     this.navCtrl.push('TiendasGerentesPage');
+    
   }
 
   ionViewDidLoad() {

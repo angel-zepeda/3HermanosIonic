@@ -65,35 +65,38 @@ var HistorialPage = /** @class */ (function () {
         this.http = http;
         this.modal = modal;
         this.loadingController = loadingController;
-        this.url = 'http://157.230.81.230:5000/api/history/report/by-shop/last';
+        this.url = "http://157.230.81.230:5000/api/history/report/by-shop/last";
         // url = 'http://localhost:5000/api/history/report/by-shop/last';
         this.shop_id = {
-            "shop_id": localStorage.getItem('shop_id')
+            shop_id: localStorage.getItem("shop_id"),
         };
         this.report = [];
     }
     HistorialPage.prototype.ionViewDidLoad = function () {
-        var _this = this;
         // let loader = this.loadingController.create({
         //   content: "Cargando ultimo reporte ..."
         // });
         // loader.present();
-        this.http.post(this.url, this.shop_id)
-            .subscribe(function (res) {
+        var _this = this;
+        this.http.post(this.url, this.shop_id).subscribe(function (res) {
             console.log(res);
             _this.report = res;
-            localStorage.setItem('report', JSON.stringify(_this.report));
+            if (_this.report.message === 'No hay reportes') {
+                _this.report = [];
+            }
+            localStorage.setItem("report", JSON.stringify(_this.report));
         });
     };
     HistorialPage.prototype.details = function () {
-        var myModal = this.modal.create('Historial2Page');
+        var myModal = this.modal.create("Historial2Page");
         myModal.present();
     };
+    var _a, _b, _c, _d, _e;
     HistorialPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: 'page-historial',template:/*ion-inline-start:"/home/angelzepeda/Documentos/Dev/3HermanosIonic/src/pages/historial/historial.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <ion-title align="center">\n      <ion-icon name="clipboard"></ion-icon>\n      Historial por tienda\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding\n  style="background: url(\'https://t3.ftcdn.net/jpg/01/30/82/72/240_F_130827267_qiwaSzorZ1Lixv5W2dPc1NXqVnxbpQiV.jpg\')">\n  <div align="center">\n    <img src="http://www.liberaldictionary.com/wp-content/uploads/2018/11/test-1.png" alt="" height="120px">\n  </div>\n  <div *ngIf="report">\n    <div *ngFor="let report of report">\n      <ion-card color="danger">\n        <ion-item>\n          <ion-icon name="pin" slot="start"></ion-icon>\n          <ion-label>\n            <ion-icon name="cart"></ion-icon>\n            Tienda: {{ report.shop.name}}, Nº: {{ report.shop.shop_number}}\n          </ion-label>\n        </ion-item>\n        <ion-card-content style="font-size: 1.5rem;">\n          <br>\n          <ion-icon name="contact"></ion-icon>\n          Supervisor: {{ report.user.nick}}\n          <br><br>\n          <ion-icon name="create"></ion-icon>\n          <strong style="padding: 8px; border-radius:5px; color: red;background: white;">\n            Calificación de tienda: {{ report.score.toFixed(2) }}\n          </strong>\n          <br><br>\n          <ion-icon name="calendar"></ion-icon>\n          Fecha de supervisón: {{ report.created_at}}\n          <br><br>\n          <ion-icon name="clock"></ion-icon>\n          Hora: {{report.time}}\n        </ion-card-content>\n        <hr>\n      </ion-card>\n      <button ion-button color="danger" (click)="details()">Ver más</button>\n    </div>\n  </div>\n\n  <div *ngIf="report == 0">\n    <h2>No hay reportes</h2>\n  </div>\n</ion-content>'/*ion-inline-end:"/home/angelzepeda/Documentos/Dev/3HermanosIonic/src/pages/historial/historial.html"*/,
+            selector: "page-historial",template:/*ion-inline-start:"/Users/adrianperez/Documents/Dev/Projects/3H/3HermanosIonic/src/pages/historial/historial.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <ion-title align="center">\n      <ion-icon name="clipboard"></ion-icon>\n      Historial por tienda\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding\n  style="background: url(\'https://t3.ftcdn.net/jpg/01/30/82/72/240_F_130827267_qiwaSzorZ1Lixv5W2dPc1NXqVnxbpQiV.jpg\')">\n  <div align="center">\n    <img src="http://www.liberaldictionary.com/wp-content/uploads/2018/11/test-1.png" alt="" height="120px">\n  </div>\n  <div *ngIf="report">\n    <div *ngFor="let report of report">\n      <ion-card color="danger">\n        <ion-item>\n          <ion-icon name="pin" slot="start"></ion-icon>\n          <ion-label>\n            <ion-icon name="cart"></ion-icon>\n            Tienda: {{ report.shop.name}}, Nº: {{ report.shop.shop_number}}\n          </ion-label>\n        </ion-item>\n        <ion-card-content style="font-size: 1.5rem;">\n          <br>\n          <ion-icon name="contact"></ion-icon>\n          Supervisor: {{ report.user.nick}}\n          <br><br>\n          <ion-icon name="create"></ion-icon>\n          <strong style="padding: 8px; border-radius:5px; color: red;background: white;">\n            Calificación de tienda: {{ report.score.toFixed(2) }}\n          </strong>\n          <br><br>\n          <ion-icon name="calendar"></ion-icon>\n          Fecha de supervisón: {{ report.created_at}}\n          <br><br>\n          <ion-icon name="clock"></ion-icon>\n          Hora: {{report.time}}\n        </ion-card-content>\n        <hr>\n      </ion-card>\n      <button ion-button color="danger" (click)="details()">Ver más</button>\n    </div>\n  </div>\n\n  <div *ngIf="report == 0">\n    <h2>No hay reportes</h2>\n  </div>\n</ion-content>'/*ion-inline-end:"/Users/adrianperez/Documents/Dev/Projects/3H/3HermanosIonic/src/pages/historial/historial.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" ? _a : Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" ? _b : Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */]) === "function" ? _c : Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]) === "function" ? _d : Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]) === "function" ? _e : Object])
     ], HistorialPage);
     return HistorialPage;
 }());
