@@ -6,7 +6,7 @@ import { IonicPage, NavController } from 'ionic-angular';
   templateUrl: 'historial2.html'
 })
 export class Historial2Page {
-  report = JSON.parse(localStorage.getItem('report'));
+  report = [JSON.parse(localStorage.getItem('report'))];
   constructor(public navCtrl: NavController) { }
 
   ionViewDidLoad() {

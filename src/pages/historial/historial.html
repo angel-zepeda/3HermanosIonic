@@ -6,40 +6,68 @@
     </ion-title>
   </ion-navbar>
 </ion-header>
-<ion-content padding
-  style="background: url('https://t3.ftcdn.net/jpg/01/30/82/72/240_F_130827267_qiwaSzorZ1Lixv5W2dPc1NXqVnxbpQiV.jpg')">
+<ion-content padding style="background: #eeeeee">
   <div align="center">
-    <img src="http://www.liberaldictionary.com/wp-content/uploads/2018/11/test-1.png" alt="" height="120px">
+    <img
+      src="http://www.liberaldictionary.com/wp-content/uploads/2018/11/test-1.png"
+      alt=""
+      height="120px"
+    />
   </div>
   <div *ngIf="report">
-    <div *ngFor="let report of report">
-      <ion-card color="danger">
-        <ion-item>
+    <div *ngFor="let report of report.report">
+      <ion-card>
+        <ion-item style="background: white">
           <ion-icon name="pin" slot="start"></ion-icon>
           <ion-label>
             <ion-icon name="cart"></ion-icon>
             Tienda: {{ report.shop.name}}, Nº: {{ report.shop.shop_number}}
           </ion-label>
         </ion-item>
-        <ion-card-content style="font-size: 1.5rem;">
-          <br>
-          <ion-icon name="contact"></ion-icon>
-          Supervisor: {{ report.user.nick}}
-          <br><br>
+        <ion-card-content
+          style="font-size: 1.5rem; background: #b91919; color: white"
+        >
+          <br />
+          <div *ngIf="report.user.role === 'zona' || role === 'user'">
+            <ion-icon name="contact"></ion-icon>
+            Gerente de zona: {{ report.user.nick}}
+          </div>
+          <div *ngIf="report.user.role === 'tienda'">
+            <ion-icon name="contact"></ion-icon>
+            Gerente de tienda: {{ report.user.nick}}
+          </div>
+          <div *ngIf="report.user.role === 'ROLE_USER'">
+            <ion-icon name="contact"></ion-icon>
+            Supervisor: {{ report.user.nick}}
+          </div>
+          <br />
           <ion-icon name="create"></ion-icon>
-          <strong style="padding: 8px; border-radius:5px; color: red;background: white;">
+          <strong>
             Calificación de tienda: {{ report.score.toFixed(2) }}
           </strong>
-          <br><br>
+          <br /><br />
           <ion-icon name="calendar"></ion-icon>
           Fecha de supervisón: {{ report.created_at}}
-          <br><br>
+          <br /><br />
           <ion-icon name="clock"></ion-icon>
           Hora: {{report.time}}
         </ion-card-content>
-        <hr>
       </ion-card>
-      <button ion-button color="danger" (click)="details()">Ver más</button>
+      <button
+        ion-button
+        block
+        color="light"
+        style="
+          color: #b91919;
+          width: calc(100% - 24px);
+          margin: 0 auto;
+          margin-bottom: 5rem;
+        "
+        (click)="details(report)"
+      >
+        VER REPORTE
+      </button>
+      <hr />
     </div>
   </div>
 

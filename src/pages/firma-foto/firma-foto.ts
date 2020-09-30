@@ -14,6 +14,7 @@ import Swal from 'sweetalert2'
 export class FirmaFotoPage {
   url = 'http://157.230.81.230:5000/api/report/create'
   // url = 'http://localhost:5000/api/report/create'
+  role: string = localStorage.getItem('role');
 
   @ViewChild(SignaturePad) public signaturePad: SignaturePad;
   public signaturePadOptions: Object = {
@@ -141,6 +142,9 @@ export class FirmaFotoPage {
         }
         loader.dismiss();
         this.navCtrl.popAll();
+        if (this.role && this.role !== 'ROLE_USER') {
+          return this.navCtrl.push('GerentePage');  
+        }
         this.navCtrl.push('InicioPage');
       });
     console.log(this.report);

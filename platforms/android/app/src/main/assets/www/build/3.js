@@ -1,1 +1,1200 @@
-webpackJsonp([3],{246:function(t,e,n){"use strict";function o(t){return i["ɵvid"](0,[(t()(),i["ɵeld"](0,0,null,null,0,"canvas",[],null,null,null,null,null))],null,null)}function a(t){return i["ɵvid"](0,[(t()(),i["ɵeld"](0,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null))],null,function(t,e){t(e,0,0,e.parent.context.$implicit)})}function s(t){return i["ɵvid"](0,[(t()(),i["ɵeld"](0,0,null,null,4,"div",[["style","width: 25vw;height:15vh; background: white; padding: 15px; border-radius: 10px;"]],null,null,null,null,null)),(t()(),i["ɵted"](-1,null,["\n      "])),(t()(),i["ɵand"](16777216,null,null,1,null,a)),i["ɵdid"](3,16384,null,0,E.i,[i.ViewContainerRef,i.TemplateRef],{ngIf:[0,"ngIf"]},null),(t()(),i["ɵted"](-1,null,["\n    "]))],function(t,e){t(e,3,0,e.component.image)},null)}function r(t){return i["ɵvid"](0,[i["ɵqud"](402653184,1,{signaturePad:0}),(t()(),i["ɵeld"](1,0,null,null,22,"ion-header",[],null,null,null,null,null)),i["ɵdid"](2,16384,null,0,A.a,[T.a,i.ElementRef,i.Renderer,[2,L.a]],null,null),(t()(),i["ɵted"](-1,null,["\n  "])),(t()(),i["ɵeld"](4,0,null,null,18,"ion-navbar",[["class","toolbar"],["color","danger"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,R.b,R.a)),i["ɵdid"](5,49152,null,0,O.a,[z.a,[2,L.a],[2,j.a],T.a,i.ElementRef,i.Renderer],{color:[0,"color"]},null),(t()(),i["ɵted"](-1,3,["\n    "])),(t()(),i["ɵeld"](7,0,null,3,5,"ion-title",[["align","center"]],null,null,null,M.b,M.a)),i["ɵdid"](8,49152,null,0,I.a,[T.a,i.ElementRef,i.Renderer,[2,V.a],[2,O.a]],null,null),(t()(),i["ɵted"](-1,0,["\n      "])),(t()(),i["ɵeld"](10,0,null,0,1,"ion-icon",[["name","photos"],["role","img"]],[[2,"hide",null]],null,null,null,null)),i["ɵdid"](11,147456,null,0,_.a,[T.a,i.ElementRef,i.Renderer],{name:[0,"name"]},null),(t()(),i["ɵted"](-1,0,["\n      Evidencias\n    "])),(t()(),i["ɵted"](-1,3,["\n    "])),(t()(),i["ɵeld"](14,0,null,2,7,"ion-buttons",[["end",""]],null,null,null,null,null)),i["ɵdid"](15,16384,null,1,q.a,[T.a,i.ElementRef,i.Renderer,[2,V.a],[2,O.a]],null,null),i["ɵqud"](603979776,2,{_buttons:1}),(t()(),i["ɵted"](-1,null,["\n      "])),(t()(),i["ɵeld"](18,0,null,null,2,"button",[["ion-button",""]],null,[[null,"click"]],function(t,e,n){var o=!0;if("click"===e){o=!1!==t.component.closeModal()&&o}return o},D.b,D.a)),i["ɵdid"](19,1097728,[[2,4]],0,H.a,[[8,""],T.a,i.ElementRef,i.Renderer],null,null),(t()(),i["ɵted"](-1,0,["X"])),(t()(),i["ɵted"](-1,null,["\n    "])),(t()(),i["ɵted"](-1,3,["\n  "])),(t()(),i["ɵted"](-1,null,["\n"])),(t()(),i["ɵted"](-1,null,["\n"])),(t()(),i["ɵeld"](25,0,null,null,42,"ion-content",[["padding",""],["style","background: url('https://t3.ftcdn.net/jpg/01/30/82/72/240_F_130827267_qiwaSzorZ1Lixv5W2dPc1NXqVnxbpQiV.jpg')"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Z.b,Z.a)),i["ɵdid"](26,4374528,null,0,U.a,[T.a,Y.a,N.a,i.ElementRef,i.Renderer,z.a,F.a,i.NgZone,[2,L.a],[2,j.a]],null,null),(t()(),i["ɵted"](-1,1,["\n  "])),(t()(),i["ɵeld"](28,0,null,1,3,"div",[["align","center"]],null,null,null,null,null)),(t()(),i["ɵted"](-1,null,["\n    "])),(t()(),i["ɵeld"](30,0,null,null,0,"img",[["alt",""],["height","20%"],["src","https://lh3.ggpht.com/tU-zfWFzbltfzz2A9Qen_7X1tZx3wXCp078X7rgkUOWqQdl567bEZc8v2OEizoDBr0Q=w300"],["width","50%"]],null,null,null,null,null)),(t()(),i["ɵted"](-1,null,["\n  "])),(t()(),i["ɵted"](-1,1,["\n  "])),(t()(),i["ɵeld"](33,0,null,1,33,"form",[["action",""],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(t,e,n){var o=!0;if("submit"===e){o=!1!==i["ɵnov"](t,35).onSubmit(n)&&o}if("reset"===e){o=!1!==i["ɵnov"](t,35).onReset()&&o}return o},null,null)),i["ɵdid"](34,16384,null,0,X.q,[],null,null),i["ɵdid"](35,4210688,null,0,X.j,[[8,null],[8,null]],null,null),i["ɵprd"](2048,null,X.b,null,[X.j]),i["ɵdid"](37,16384,null,0,X.i,[X.b],null,null),(t()(),i["ɵted"](-1,null,["\n    "])),(t()(),i["ɵeld"](39,0,null,null,6,"button",[["block",""],["color","warning"],["ion-button",""]],null,[[null,"click"]],function(t,e,n){var o=!0;if("click"===e){o=!1!==t.component.foto()&&o}return o},D.b,D.a)),i["ɵdid"](40,1097728,null,0,H.a,[[8,""],T.a,i.ElementRef,i.Renderer],{color:[0,"color"],block:[1,"block"]},null),(t()(),i["ɵted"](-1,0,["\n      "])),(t()(),i["ɵeld"](42,0,null,0,2,"ion-icon",[["name","camera"],["role","img"]],[[2,"hide",null]],null,null,null,null)),i["ɵdid"](43,147456,null,0,_.a,[T.a,i.ElementRef,i.Renderer],{name:[0,"name"]},null),(t()(),i["ɵted"](-1,null,[" "])),(t()(),i["ɵted"](-1,0,["\n      Tomar fotos\n    "])),(t()(),i["ɵted"](-1,null,["\n    "])),(t()(),i["ɵand"](16777216,null,null,1,null,s)),i["ɵdid"](48,802816,null,0,E.h,[i.ViewContainerRef,i.TemplateRef,i.IterableDiffers],{ngForOf:[0,"ngForOf"]},null),(t()(),i["ɵted"](-1,null,["\n    "])),(t()(),i["ɵeld"](50,0,null,null,0,"br",[],null,null,null,null,null)),(t()(),i["ɵted"](-1,null,["\n    "])),(t()(),i["ɵeld"](52,0,null,null,0,"br",[],null,null,null,null,null)),(t()(),i["ɵted"](-1,null,["\n    "])),(t()(),i["ɵeld"](54,0,null,null,1,"p",[["align","center"]],null,null,null,null,null)),(t()(),i["ɵted"](-1,null,["Firma del supervisor"])),(t()(),i["ɵted"](-1,null,["\n    "])),(t()(),i["ɵeld"](57,0,null,null,0,"br",[],null,null,null,null,null)),(t()(),i["ɵted"](-1,null,["\n    "])),(t()(),i["ɵeld"](59,0,null,null,2,"signature-pad",[],null,[[null,"onBeginEvent"],[null,"onEndEvent"]],function(t,e,n){var o=!0,a=t.component;if("onBeginEvent"===e){o=!1!==a.drawStart()&&o}if("onEndEvent"===e){o=!1!==a.drawComplete()&&o}return o},o,W)),i["ɵdid"](60,1097728,[[1,4]],0,l.SignaturePad,[i.ElementRef],{options:[0,"options"]},{onBeginEvent:"onBeginEvent",onEndEvent:"onEndEvent"}),(t()(),i["ɵted"](-1,null,["\n    "])),(t()(),i["ɵted"](-1,null,["\n    "])),(t()(),i["ɵeld"](63,0,null,null,2,"button",[["block",""],["ion-button",""],["type"," submit"]],null,[[null,"click"]],function(t,e,n){var o=!0;if("click"===e){o=!1!==t.component.enviar()&&o}return o},D.b,D.a)),i["ɵdid"](64,1097728,null,0,H.a,[[8,""],T.a,i.ElementRef,i.Renderer],{block:[0,"block"]},null),(t()(),i["ɵted"](-1,0,["Enviar Reporte"])),(t()(),i["ɵted"](-1,null,["\n  "])),(t()(),i["ɵted"](-1,1,["\n"]))],function(t,e){var n=e.component;t(e,5,0,"danger");t(e,11,0,"photos");t(e,40,0,"warning","");t(e,43,0,"camera");t(e,48,0,n.image);t(e,60,0,n.signaturePadOptions);t(e,64,0,"")},function(t,e){t(e,4,0,i["ɵnov"](e,5)._hidden,i["ɵnov"](e,5)._sbPadding);t(e,10,0,i["ɵnov"](e,11)._hidden);t(e,25,0,i["ɵnov"](e,26).statusbarPadding,i["ɵnov"](e,26)._hasRefresher);t(e,33,0,i["ɵnov"](e,37).ngClassUntouched,i["ɵnov"](e,37).ngClassTouched,i["ɵnov"](e,37).ngClassPristine,i["ɵnov"](e,37).ngClassDirty,i["ɵnov"](e,37).ngClassValid,i["ɵnov"](e,37).ngClassInvalid,i["ɵnov"](e,37).ngClassPending);t(e,42,0,i["ɵnov"](e,43)._hidden)})}Object.defineProperty(e,"__esModule",{value:!0});var i=n(0),l=(n(5),n(51),n(201)),c=n(53),u=n(125),d=n(203),m=n.n(d),p=n(258),f=n.n(p),w=function(){function t(t,e,n,o,a,s){this.navCtrl=t,this.navParams=e,this.view=n,this.http=o,this.camara=a,this.loadingController=s,this.url="http://localhost:5000/api/report/create",this.signaturePadOptions={minWidth:2,canvasWidth:300,canvasHeight:150},this.report=JSON.parse(localStorage.getItem("report")),this.report_id=localStorage.getItem("report_id"),this.user_id=localStorage.getItem("user_id"),this.shop_id=localStorage.getItem("shop_id"),this.image=[],this.cal=localStorage.getItem("cal_area")}return t.prototype.ionViewDidLoad=function(){},t.prototype.closeModal=function(){this.view.dismiss()},t.prototype.canvasResize=function(){var t=document.querySelector("canvas");this.signaturePad.set("minWidth",1),this.signaturePad.set("canvasWidth",t.offsetWidth),this.signaturePad.set("canvasHeight",t.offsetHeight)},t.prototype.ngAfterViewInit=function(){console.log("Reset Model Screen"),this.signaturePad.clear(),this.canvasResize()},t.prototype.drawComplete=function(){console.log(this.signaturePad.toDataURL()),this.report.signature=this.signaturePad.toDataURL()},t.prototype.drawStart=function(){console.log("begin drawing")},t.prototype.foto=function(){var t=this;this.camara.getPicture({destinationType:this.camara.DestinationType.DATA_URL,quality:30,encodingType:this.camara.EncodingType.JPEG,mediaType:this.camara.MediaType.PICTURE}).then(function(e){t.image.push("data:image/jpeg;base64,"+e),t.report.photos.push("data:image/jpeg;base64,"+e)},function(t){m()("No se pudo guardar la imágen","","error")})},t.prototype.enviar=function(){var t=this,e=this.loadingController.create({content:"Procesando reporte ..."});e.present(),this.http.post(this.url,this.report).subscribe(function(n){console.log(n),t.score=n,t.score.reportStore.score.toFixed(2)<=5&&f.a.fire({html:'<h1 style="color:white; font-size:5rem;">Oops!</h1><h2 style="color: white"> La tienda tiene muchos detalles. </h2>',imageUrl:"../../assets/imgs/11.png",imageHeight:65,background:"rgba(0,0,0,0.7)",backdrop:"url('https://image.freepik.com/free-photo/leather-shoes-wooden-background_1203-7617.jpg')",imageAlt:"A tall image"}),t.score.reportStore.score.toFixed(2)>5&&t.score.reportStore.score.toFixed(2)<=7&&f.a.fire({html:'<h1 style="color:white; font-size:5rem;">Ok!</h1><h2 style="color: white"> La tienda tiene algunos detalles. </h2>',imageUrl:"../../assets/imgs/33.png",imageHeight:65,imageAlt:"A tall image",background:"rgba(0,0,0,0.7)",backdrop:"url('https://image.freepik.com/free-photo/leather-shoes-wooden-background_1203-7617.jpg')"}),t.score.reportStore.score.toFixed(2)>7&&t.score.reportStore.score.toFixed(2)<9&&f.a.fire({html:'<h1 style="color:white; font-size:5rem;">Muy bien!</h1><h2 style="color: white"> La tienda tiene pocos detalles. </h2>',imageUrl:"../../assets/imgs/44.png",imageHeight:65,imageAlt:"A tall image",background:"rgba(0,0,0,0.7)",backdrop:"url('https://image.freepik.com/free-photo/leather-shoes-wooden-background_1203-7617.jpg')"}),t.score.reportStore.score.toFixed(2)>9&&t.score.reportStore.score.toFixed(2)<=10&&f.a.fire({html:'<h1 style="color:white; font-size:5rem;">Perfecto!</h1><h2 style="color: white"> La tienda esta en excelente estado. </h2>',imageUrl:"../../assets/imgs/55.png",imageHeight:65,imageAlt:"A tall image",background:"rgba(0,0,0,0.7)",backdrop:"url('https://image.freepik.com/free-photo/leather-shoes-wooden-background_1203-7617.jpg')"}),e.dismiss(),t.navCtrl.popAll(),t.navCtrl.push("InicioPage")}),console.log(this.report)},t}(),g=n(126),h=function(){return function(){}}(),b=n(191),y=n(192),v=n(193),k=n(194),x=n(195),C=n(196),S=n(197),P=n(198),B=n(199),E=n(14),A=n(115),T=n(1),L=n(4),R=n(256),O=n(42),z=n(8),j=n(20),M=n(257),I=n(114),V=n(52),_=n(43),q=n(119),D=n(32),H=n(19),Z=n(200),U=n(21),Y=n(3),N=n(9),F=n(24),X=n(15),W=i["ɵcrt"]({encapsulation:2,styles:[],data:{}}),K=n(10),$=n(54),Q=i["ɵcrt"]({encapsulation:2,styles:[],data:{}}),J=i["ɵccf"]("page-firma-foto",w,function(t){return i["ɵvid"](0,[(t()(),i["ɵeld"](0,0,null,null,1,"page-firma-foto",[],null,null,null,r,Q)),i["ɵdid"](1,4243456,null,0,w,[j.a,K.a,L.a,c.c,u.a,$.a],null,null)],null,null)},{},{},[]),G=n(116),tt=n(36);n.d(e,"FirmaFotoPageModuleNgFactory",function(){return et});var et=i["ɵcmf"](h,[],function(t){return i["ɵmod"]([i["ɵmpd"](512,i.ComponentFactoryResolver,i["ɵCodegenComponentFactoryResolver"],[[8,[b.a,y.a,v.a,k.a,x.a,C.a,S.a,P.a,B.a,J]],[3,i.ComponentFactoryResolver],i.NgModuleRef]),i["ɵmpd"](4608,E.k,E.j,[i.LOCALE_ID,[2,E.s]]),i["ɵmpd"](4608,X.r,X.r,[]),i["ɵmpd"](4608,X.d,X.d,[]),i["ɵmpd"](512,g.SignaturePadModule,g.SignaturePadModule,[]),i["ɵmpd"](512,E.b,E.b,[]),i["ɵmpd"](512,X.o,X.o,[]),i["ɵmpd"](512,X.e,X.e,[]),i["ɵmpd"](512,X.m,X.m,[]),i["ɵmpd"](512,G.a,G.a,[]),i["ɵmpd"](512,G.b,G.b,[]),i["ɵmpd"](512,h,h,[]),i["ɵmpd"](256,tt.a,w,[])])})},256:function(t,e,n){"use strict";function o(t){return a["ɵvid"](0,[(t()(),a["ɵeld"](0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),a["ɵdid"](1,278528,null,0,s.g,[a.IterableDiffers,a.KeyValueDiffers,a.ElementRef,a.Renderer2],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(t()(),a["ɵeld"](2,0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(t,e,n){var o=!0;if("click"===e){o=!1!==t.component.backButtonClick(n)&&o}return o},r.b,r.a)),a["ɵdid"](3,278528,null,0,s.g,[a.IterableDiffers,a.KeyValueDiffers,a.ElementRef,a.Renderer2],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a["ɵdid"](4,1097728,null,0,i.a,[[8,"bar-button"],l.a,a.ElementRef,a.Renderer],null,null),(t()(),a["ɵeld"](5,0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),a["ɵdid"](6,278528,null,0,s.g,[a.IterableDiffers,a.KeyValueDiffers,a.ElementRef,a.Renderer2],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a["ɵdid"](7,147456,null,0,c.a,[l.a,a.ElementRef,a.Renderer],{name:[0,"name"]},null),(t()(),a["ɵeld"](8,0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),a["ɵdid"](9,278528,null,0,s.g,[a.IterableDiffers,a.KeyValueDiffers,a.ElementRef,a.Renderer2],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(t()(),a["ɵted"](10,null,["",""])),a["ɵncd"](null,0),a["ɵncd"](null,1),a["ɵncd"](null,2),(t()(),a["ɵeld"](14,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),a["ɵdid"](15,278528,null,0,s.g,[a.IterableDiffers,a.KeyValueDiffers,a.ElementRef,a.Renderer2],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a["ɵncd"](null,3)],function(t,e){var n=e.component;t(e,1,0,"toolbar-background","toolbar-background-"+n._mode);t(e,3,0,"back-button","back-button-"+n._mode);t(e,6,0,"back-button-icon","back-button-icon-"+n._mode);t(e,7,0,n._bbIcon);t(e,9,0,"back-button-text","back-button-text-"+n._mode);t(e,15,0,"toolbar-content","toolbar-content-"+n._mode)},function(t,e){var n=e.component;t(e,2,0,n._hideBb);t(e,5,0,a["ɵnov"](e,7)._hidden);t(e,10,0,n._backText)})}n.d(e,"a",function(){return u}),e.b=o;var a=n(0),s=n(14),r=n(32),i=n(19),l=n(1),c=n(43),u=(n(4),n(20),a["ɵcrt"]({encapsulation:2,styles:[],data:{}}))},257:function(t,e,n){"use strict";function o(t){return a["ɵvid"](2,[(t()(),a["ɵeld"](0,0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),a["ɵdid"](1,278528,null,0,s.g,[a.IterableDiffers,a.KeyValueDiffers,a.ElementRef,a.Renderer2],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),a["ɵncd"](null,0)],function(t,e){t(e,1,0,"toolbar-title","toolbar-title-"+e.component._mode)},null)}n.d(e,"a",function(){return r}),e.b=o;var a=n(0),s=n(14),r=(n(1),a["ɵcrt"]({encapsulation:2,styles:[],data:{}}))},258:function(t,e,n){!function(e,n){t.exports=n()}(0,function(){"use strict";function t(e){return(t="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t})(e)}function e(t,e){if(!(t instanceof e))throw new TypeError("Cannot call a class as a function")}function n(t,e){for(var n=0;n<e.length;n++){var o=e[n];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(t,o.key,o)}}function o(t,e,o){return e&&n(t.prototype,e),o&&n(t,o),t}function a(){return(a=Object.assign||function(t){for(var e=1;e<arguments.length;e++){var n=arguments[e];for(var o in n)Object.prototype.hasOwnProperty.call(n,o)&&(t[o]=n[o])}return t}).apply(this,arguments)}function s(t){return(s=Object.setPrototypeOf?Object.getPrototypeOf:function(t){return t.__proto__||Object.getPrototypeOf(t)})(t)}function r(t,e){return(r=Object.setPrototypeOf||function(t,e){return t.__proto__=e,t})(t,e)}function i(t,e,n){return(i=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],function(){})),!0}catch(t){return!1}}()?Reflect.construct:function(t,e,n){var o=[null];o.push.apply(o,e);var a=new(Function.bind.apply(t,o));return n&&r(a,n.prototype),a}).apply(null,arguments)}function l(t,e){return!e||"object"!=typeof e&&"function"!=typeof e?function(t){if(void 0===t)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return t}(t):e}function c(t,e,n){return(c="undefined"!=typeof Reflect&&Reflect.get?Reflect.get:function(t,e,n){var o=function(t,e){for(;!Object.prototype.hasOwnProperty.call(t,e)&&null!==(t=s(t)););return t}(t,e);if(o){var a=Object.getOwnPropertyDescriptor(o,e);return a.get?a.get.call(n):a.value}})(t,e,n||t)}function u(t,e){if(!e)return null;switch(e){case"select":case"textarea":case"file":return D(t,R[e]);case"checkbox":return t.querySelector(".".concat(R.checkbox," input"));case"radio":return t.querySelector(".".concat(R.radio," input:checked"))||t.querySelector(".".concat(R.radio," input:first-child"));case"range":return t.querySelector(".".concat(R.range," input"));default:return D(t,R.input)}}function d(t,e,n){Y(t,n["showC"+e.substring(1)+"Button"],"inline-block"),t.innerHTML=n[e+"ButtonText"],t.setAttribute("aria-label",n[e+"ButtonAriaLabel"]),t.className=R[e],M(t,n.customClass,e+"Button"),_(t,n[e+"ButtonClass"])}function m(){var t=kt.innerParams.get(this),e=kt.domCache.get(this);t.showConfirmButton||(U(e.confirmButton),t.showCancelButton||U(e.actions)),q([e.popup,e.actions],R.loading),e.popup.removeAttribute("aria-busy"),e.popup.removeAttribute("data-loading"),e.confirmButton.disabled=!1,e.cancelButton.disabled=!1}function p(t,e){dt()?ne(e):(It().then(function(){return ne(e)}),Mt.keydownTarget.removeEventListener("keydown",Mt.keydownHandler,{capture:Mt.keydownListenerCapture}),Mt.keydownHandlerAdded=!1),t.parentNode&&t.parentNode.removeChild(t),q([document.documentElement,document.body],[R.shown,R["height-auto"],R["no-backdrop"],R["toast-shown"],R["toast-column"]]),ut()&&(Kt(),$t(),Gt(),te())}function f(t,e,n){t.removeEventListener(bt,f),j(t,R.hide)&&p(e,n)}function w(t){var e=F(),n=K(),o=kt.innerParams.get(this),a=ee.swalPromiseResolve.get(this),s=o.onClose,r=o.onAfterClose;n&&(null!==s&&"function"==typeof s&&s(n),q(n,R.show),_(n,R.hide),bt&&!j(n,R.noanimation)?n.addEventListener(bt,f.bind(null,n,e,r)):p(e,r),a(t||{}))}function g(t,e,n){var o=kt.domCache.get(t);e.forEach(function(t){o[t].disabled=n})}function h(t,e){if(!t)return!1;if("radio"===t.type)for(var n=t.parentNode.parentNode.querySelectorAll("input"),o=0;o<n.length;o++)n[o].disabled=e;else t.disabled=e}function b(t,e){t.removeEventListener(bt,b),e.style.overflowY="auto"}function y(){if("undefined"!=typeof window){"undefined"==typeof Promise&&S("This package requires a Promise library, please include a shim to enable it in this browser (See: https://github.com/sweetalert2/sweetalert2/wiki/Migration-from-SweetAlert-to-SweetAlert2#1-ie-support)"),Bt=this;for(var t=arguments.length,e=new Array(t),n=0;n<t;n++)e[n]=arguments[n];var o=Object.freeze(this.constructor.argsToParams(e));Object.defineProperties(this,{params:{value:o,writable:!1,enumerable:!0,configurable:!0}});var a=this._main(this.params);kt.promise.set(this,a)}}var v,k=function(t){return Object.keys(t).map(function(e){return t[e]})},x=function(t){return Array.prototype.slice.call(t)},C=function(t){console.warn("".concat("SweetAlert2:"," ").concat(t))},S=function(t){console.error("".concat("SweetAlert2:"," ").concat(t))},P=[],B=function(t,e){!function(t){-1===P.indexOf(t)&&(P.push(t),C(t))}('"'.concat(t,'" is deprecated and will be removed in the next major release. Please use "').concat(e,'" instead.'))},E=function(t){return"function"==typeof t?t():t},A=function(t){return t&&Promise.resolve(t)===t},T=Object.freeze({cancel:"cancel",backdrop:"backdrop",close:"close",esc:"esc",timer:"timer"}),L=function(t){var e={};for(var n in t)e[t[n]]="swal2-"+t[n];return e},R=L(["container","shown","height-auto","iosfix","popup","modal","no-backdrop","toast","toast-shown","toast-column","fade","show","hide","noanimation","close","title","header","content","actions","confirm","cancel","footer","icon","image","input","file","range","select","radio","checkbox","label","textarea","inputerror","validation-message","progress-steps","active-progress-step","progress-step","progress-step-line","loading","styled","top","top-start","top-end","top-left","top-right","center","center-start","center-end","center-left","center-right","bottom","bottom-start","bottom-end","bottom-left","bottom-right","grow-row","grow-column","grow-fullscreen","rtl"]),O=L(["success","warning","info","question","error"]),z={previousBodyPadding:null},j=function(t,e){return t.classList.contains(e)},M=function(t,e,n){x(t.classList).forEach(function(e){-1===k(R).indexOf(e)&&-1===k(O).indexOf(e)&&t.classList.remove(e)}),e&&e[n]&&_(t,e[n])},I=function(t){if(t.focus(),"file"!==t.type){var e=t.value;t.value="",t.value=e}},V=function(t,e,n){t&&e&&("string"==typeof e&&(e=e.split(/\s+/).filter(Boolean)),e.forEach(function(e){t.forEach?t.forEach(function(t){n?t.classList.add(e):t.classList.remove(e)}):n?t.classList.add(e):t.classList.remove(e)}))},_=function(t,e){V(t,e,!0)},q=function(t,e){V(t,e,!1)},D=function(t,e){for(var n=0;n<t.childNodes.length;n++)if(j(t.childNodes[n],e))return t.childNodes[n]},H=function(t,e,n){n||0===parseInt(n)?t.style[e]="number"==typeof n?n+"px":n:t.style.removeProperty(e)},Z=function(t){var e=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"flex";t.style.opacity="",t.style.display=e},U=function(t){t.style.opacity="",t.style.display="none"},Y=function(t,e,n){e?Z(t,n):U(t)},N=function(t){return!(!t||!(t.offsetWidth||t.offsetHeight||t.getClientRects().length))},F=function(){return document.body.querySelector("."+R.container)},X=function(t){var e=F();return e?e.querySelector(t):null},W=function(t){return X("."+t)},K=function(){return W(R.popup)},$=function(){var t=K();return x(t.querySelectorAll("."+R.icon))},Q=function(){var t=$().filter(function(t){return N(t)});return t.length?t[0]:null},J=function(){return W(R.title)},G=function(){return W(R.content)},tt=function(){return W(R.image)},et=function(){return W(R["progress-steps"])},nt=function(){return W(R["validation-message"])},ot=function(){return X("."+R.actions+" ."+R.confirm)},at=function(){return X("."+R.actions+" ."+R.cancel)},st=function(){return W(R.actions)},rt=function(){return W(R.header)},it=function(){return W(R.footer)},lt=function(){return W(R.close)},ct=function(){var t=x(K().querySelectorAll('[tabindex]:not([tabindex="-1"]):not([tabindex="0"])')).sort(function(t,e){return t=parseInt(t.getAttribute("tabindex")),e=parseInt(e.getAttribute("tabindex")),t>e?1:t<e?-1:0}),e=x(K().querySelectorAll('a[href], area[href], input:not([disabled]), select:not([disabled]), textarea:not([disabled]), button:not([disabled]), iframe, object, embed, [tabindex="0"], [contenteditable], audio[controls], video[controls]')).filter(function(t){return"-1"!==t.getAttribute("tabindex")});return function(t){for(var e=[],n=0;n<t.length;n++)-1===e.indexOf(t[n])&&e.push(t[n]);return e}(t.concat(e)).filter(function(t){return N(t)})},ut=function(){return!dt()&&!document.body.classList.contains(R["no-backdrop"])},dt=function(){return document.body.classList.contains(R["toast-shown"])},mt=function(){return"undefined"==typeof window||"undefined"==typeof document},pt='\n <div aria-labelledby="'.concat(R.title,'" aria-describedby="').concat(R.content,'" class="').concat(R.popup,'" tabindex="-1">\n   <div class="').concat(R.header,'">\n     <ul class="').concat(R["progress-steps"],'"></ul>\n     <div class="').concat(R.icon," ").concat(O.error,'">\n       <span class="swal2-x-mark"><span class="swal2-x-mark-line-left"></span><span class="swal2-x-mark-line-right"></span></span>\n     </div>\n     <div class="').concat(R.icon," ").concat(O.question,'"></div>\n     <div class="').concat(R.icon," ").concat(O.warning,'"></div>\n     <div class="').concat(R.icon," ").concat(O.info,'"></div>\n     <div class="').concat(R.icon," ").concat(O.success,'">\n       <div class="swal2-success-circular-line-left"></div>\n       <span class="swal2-success-line-tip"></span> <span class="swal2-success-line-long"></span>\n       <div class="swal2-success-ring"></div> <div class="swal2-success-fix"></div>\n       <div class="swal2-success-circular-line-right"></div>\n     </div>\n     <img class="').concat(R.image,'" />\n     <h2 class="').concat(R.title,'" id="').concat(R.title,'"></h2>\n     <button type="button" class="').concat(R.close,'">&times;</button>\n   </div>\n   <div class="').concat(R.content,'">\n     <div id="').concat(R.content,'"></div>\n     <input class="').concat(R.input,'" />\n     <input type="file" class="').concat(R.file,'" />\n     <div class="').concat(R.range,'">\n       <input type="range" />\n       <output></output>\n     </div>\n     <select class="').concat(R.select,'"></select>\n     <div class="').concat(R.radio,'"></div>\n     <label for="').concat(R.checkbox,'" class="').concat(R.checkbox,'">\n       <input type="checkbox" />\n       <span class="').concat(R.label,'"></span>\n     </label>\n     <textarea class="').concat(R.textarea,'"></textarea>\n     <div class="').concat(R["validation-message"],'" id="').concat(R["validation-message"],'"></div>\n   </div>\n   <div class="').concat(R.actions,'">\n     <button type="button" class="').concat(R.confirm,'">OK</button>\n     <button type="button" class="').concat(R.cancel,'">Cancel</button>\n   </div>\n   <div class="').concat(R.footer,'">\n   </div>\n </div>\n').replace(/(^|\n)\s*/g,""),ft=function(t){me.isVisible()&&v!==t.target.value&&me.resetValidationMessage(),v=t.target.value},wt=function(t){if(function(){var t=F();t&&(t.parentNode.removeChild(t),q([document.documentElement,document.body],[R["no-backdrop"],R["toast-shown"],R["has-column"]]))}(),mt())S("SweetAlert2 requires document to initialize");else{var e=document.createElement("div");e.className=R.container,e.innerHTML=pt;var n=function(t){return"string"==typeof t?document.querySelector(t):t}(t.target);n.appendChild(e),function(t){var e=K();e.setAttribute("role",t.toast?"alert":"dialog"),e.setAttribute("aria-live",t.toast?"polite":"assertive"),t.toast||e.setAttribute("aria-modal","true")}(t),function(t){"rtl"===window.getComputedStyle(t).direction&&_(F(),R.rtl)}(n),function(){var t=G(),e=D(t,R.input),n=D(t,R.file),o=t.querySelector(".".concat(R.range," input")),a=t.querySelector(".".concat(R.range," output")),s=D(t,R.select),r=t.querySelector(".".concat(R.checkbox," input")),i=D(t,R.textarea);e.oninput=ft,n.onchange=ft,s.onchange=ft,r.onchange=ft,i.oninput=ft,o.oninput=function(t){ft(t),a.value=o.value},o.onchange=function(t){ft(t),o.nextSibling.value=o.value}}()}},gt=function(e,n){e instanceof HTMLElement?n.appendChild(e):"object"===t(e)?ht(n,e):e&&(n.innerHTML=e)},ht=function(t,e){if(t.innerHTML="",0 in e)for(var n=0;n in e;n++)t.appendChild(e[n].cloneNode(!0));else t.appendChild(e.cloneNode(!0))},bt=function(){if(mt())return!1;var t=document.createElement("div"),e={WebkitAnimation:"webkitAnimationEnd",OAnimation:"oAnimationEnd oanimationend",animation:"animationend"};for(var n in e)if(e.hasOwnProperty(n)&&void 0!==t.style[n])return e[n];return!1}(),yt=function(t,e){var n=st(),o=ot(),a=at();e.showConfirmButton||e.showCancelButton?Z(n):U(n),M(n,e.customClass,"actions"),d(o,"confirm",e),d(a,"cancel",e),e.buttonsStyling?function(t,e,n){_([t,e],R.styled),n.confirmButtonColor&&(t.style.backgroundColor=n.confirmButtonColor),n.cancelButtonColor&&(e.style.backgroundColor=n.cancelButtonColor);var o=window.getComputedStyle(t).getPropertyValue("background-color");t.style.borderLeftColor=o,t.style.borderRightColor=o}(o,a,e):(q([o,a],R.styled),o.style.backgroundColor=o.style.borderLeftColor=o.style.borderRightColor="",a.style.backgroundColor=a.style.borderLeftColor=a.style.borderRightColor="")},vt=function(t,e){var n=F();n&&(!function(t,e){"string"==typeof e?t.style.background=e:e||_([document.documentElement,document.body],R["no-backdrop"])}(n,e.backdrop),!e.backdrop&&e.allowOutsideClick&&C('"allowOutsideClick" parameter requires `backdrop` parameter to be set to `true`'),function(t,e){e in R?_(t,R[e]):(C('The "position" parameter is not valid, defaulting to "center"'),_(t,R.center))}(n,e.position),function(t,e){if(e&&"string"==typeof e){var n="grow-"+e;n in R&&_(t,R[n])}}(n,e.grow),M(n,e.customClass,"container"),e.customContainerClass&&_(n,e.customContainerClass))},kt={promise:new WeakMap,innerParams:new WeakMap,domCache:new WeakMap},xt=function(t,e){var n=u(G(),t);if(n){!function(t){for(var e=0;e<t.attributes.length;e++){var n=t.attributes[e].name;-1===["type","value","style"].indexOf(n)&&t.removeAttribute(n)}}(n);for(var o in e)"range"===t&&"placeholder"===o||n.setAttribute(o,e[o])}},Ct=function(t,e,n){t.className=e,n.inputClass&&_(t,n.inputClass),n.customClass&&_(t,n.customClass.input)},St=function(t,e){t.placeholder&&!e.inputPlaceholder||(t.placeholder=e.inputPlaceholder)},Pt={};Pt.text=Pt.email=Pt.password=Pt.number=Pt.tel=Pt.url=function(e){var n=D(G(),R.input);return"string"==typeof e.inputValue||"number"==typeof e.inputValue?n.value=e.inputValue:A(e.inputValue)||C('Unexpected type of inputValue! Expected "string", "number" or "Promise", got "'.concat(t(e.inputValue),'"')),St(n,e),n.type=e.input,n},Pt.file=function(t){var e=D(G(),R.file);return St(e,t),e.type=t.input,e},Pt.range=function(t){var e=D(G(),R.range),n=e.querySelector("input"),o=e.querySelector("output");return n.value=t.inputValue,n.type=t.input,o.value=t.inputValue,e},Pt.select=function(t){var e=D(G(),R.select);if(e.innerHTML="",t.inputPlaceholder){var n=document.createElement("option");n.innerHTML=t.inputPlaceholder,n.value="",n.disabled=!0,n.selected=!0,e.appendChild(n)}return e},Pt.radio=function(){var t=D(G(),R.radio);return t.innerHTML="",t},Pt.checkbox=function(t){var e=D(G(),R.checkbox),n=u(G(),"checkbox");n.type="checkbox",n.value=1,n.id=R.checkbox,n.checked=Boolean(t.inputValue);return e.querySelector("span").innerHTML=t.inputPlaceholder,e},Pt.textarea=function(t){var e=D(G(),R.textarea);return e.value=t.inputValue,St(e,t),e};var Bt,Et=function(t,e){var n=G().querySelector("#"+R.content);e.html?(gt(e.html,n),Z(n,"block")):e.text?(n.textContent=e.text,Z(n,"block")):U(n),function(t,e){for(var n=kt.innerParams.get(t),o=!n||e.input!==n.input,a=G(),s=["input","file","range","select","radio","checkbox","textarea"],r=0;r<s.length;r++){var i=R[s[r]],l=D(a,i);xt(s[r],e.inputAttributes),Ct(l,i,e),o&&U(l)}if(e.input){if(!Pt[e.input])return S('Unexpected type of input! Expected "text", "email", "password", "number", "tel", "select", "radio", "checkbox", "textarea", "file" or "url", got "'.concat(e.input,'"'));if(o){var c=Pt[e.input](e);Z(c)}}}(t,e),M(G(),e.customClass,"content")},At=function(){for(var t=$(),e=0;e<t.length;e++)U(t[e])},Tt=function(){for(var t=K(),e=window.getComputedStyle(t).getPropertyValue("background-color"),n=t.querySelectorAll("[class^=swal2-success-circular-line], .swal2-success-fix"),o=0;o<n.length;o++)n[o].style.backgroundColor=e},Lt=function(t,e){var n=et();if(!e.progressSteps||0===e.progressSteps.length)return U(n);Z(n),n.innerHTML="";var o=parseInt(null===e.currentProgressStep?me.getQueueStep():e.currentProgressStep);o>=e.progressSteps.length&&C("Invalid currentProgressStep parameter, it should be less than progressSteps.length (currentProgressStep like JS arrays starts from 0)"),e.progressSteps.forEach(function(t,a){var s=function(t){var e=document.createElement("li");return _(e,R["progress-step"]),e.innerHTML=t,e}(t);if(n.appendChild(s),a===o&&_(s,R["active-progress-step"]),a!==e.progressSteps.length-1){var r=function(t){var e=document.createElement("li");return _(e,R["progress-step-line"]),t.progressStepsDistance&&(e.style.width=t.progressStepsDistance),e}(t);n.appendChild(r)}})},Rt=function(t,e){var n=rt();M(n,e.customClass,"header"),Lt(t,e),function(t,e){var n=kt.innerParams.get(t);if(n&&e.type===n.type&&Q())M(Q(),e.customClass,"icon");else if(At(),e.type)if(Tt(),-1!==Object.keys(O).indexOf(e.type)){var o=X(".".concat(R.icon,".").concat(O[e.type]));Z(o),M(o,e.customClass,"icon"),V(o,"swal2-animate-".concat(e.type,"-icon"),e.animation)}else S('Unknown type! Expected "success", "error", "warning", "info" or "question", got "'.concat(e.type,'"'))}(t,e),function(t,e){var n=tt();if(!e.imageUrl)return U(n);Z(n),n.setAttribute("src",e.imageUrl),n.setAttribute("alt",e.imageAlt),H(n,"width",e.imageWidth),H(n,"height",e.imageHeight),n.className=R.image,M(n,e.customClass,"image"),e.imageClass&&_(n,e.imageClass)}(0,e),function(t,e){var n=J();Y(n,e.title||e.titleText),e.title&&gt(e.title,n),e.titleText&&(n.innerText=e.titleText),M(n,e.customClass,"title")}(0,e),function(t,e){var n=lt();M(n,e.customClass,"closeButton"),Y(n,e.showCloseButton),n.setAttribute("aria-label",e.closeButtonAriaLabel)}(0,e)},Ot=function(t,e){!function(t,e){var n=K();H(n,"width",e.width),H(n,"padding",e.padding),e.background&&(n.style.background=e.background),n.className=R.popup,e.toast?(_([document.documentElement,document.body],R["toast-shown"]),_(n,R.toast)):_(n,R.modal),M(n,e.customClass,"popup"),"string"==typeof e.customClass&&_(n,e.customClass),V(n,R.noanimation,!e.animation)}(0,e),vt(0,e),Rt(t,e),Et(t,e),yt(0,e),function(t,e){var n=it();Y(n,e.footer),e.footer&&gt(e.footer,n),M(n,e.customClass,"footer")}(0,e)},zt=[],jt=function(){var t=K();t||me.fire(""),t=K();var e=st(),n=ot(),o=at();Z(e),Z(n),_([t,e],R.loading),n.disabled=!0,o.disabled=!0,t.setAttribute("data-loading",!0),t.setAttribute("aria-busy",!0),t.focus()},Mt={},It=function(){return new Promise(function(t){var e=window.scrollX,n=window.scrollY;Mt.restoreFocusTimeout=setTimeout(function(){Mt.previousActiveElement&&Mt.previousActiveElement.focus?(Mt.previousActiveElement.focus(),Mt.previousActiveElement=null):document.body&&document.body.focus(),t()},100),void 0!==e&&void 0!==n&&window.scrollTo(e,n)})},Vt={title:"",titleText:"",text:"",html:"",footer:"",type:null,toast:!1,customClass:"",customContainerClass:"",target:"body",backdrop:!0,animation:!0,heightAuto:!0,allowOutsideClick:!0,allowEscapeKey:!0,allowEnterKey:!0,stopKeydownPropagation:!0,keydownListenerCapture:!1,showConfirmButton:!0,showCancelButton:!1,preConfirm:null,confirmButtonText:"OK",confirmButtonAriaLabel:"",confirmButtonColor:null,confirmButtonClass:"",cancelButtonText:"Cancel",cancelButtonAriaLabel:"",cancelButtonColor:null,cancelButtonClass:"",buttonsStyling:!0,reverseButtons:!1,focusConfirm:!0,focusCancel:!1,showCloseButton:!1,closeButtonAriaLabel:"Close this dialog",showLoaderOnConfirm:!1,imageUrl:null,imageWidth:null,imageHeight:null,imageAlt:"",imageClass:"",timer:null,width:null,padding:null,background:null,input:null,inputPlaceholder:"",inputValue:"",inputOptions:{},inputAutoTrim:!0,inputClass:"",inputAttributes:{},inputValidator:null,validationMessage:null,grow:!1,position:"center",progressSteps:[],currentProgressStep:null,progressStepsDistance:null,onBeforeOpen:null,onAfterClose:null,onOpen:null,onClose:null,scrollbarPadding:!0},_t=["title","titleText","text","html","type","customClass","showConfirmButton","showCancelButton","confirmButtonText","confirmButtonAriaLabel","confirmButtonColor","confirmButtonClass","cancelButtonText","cancelButtonAriaLabel","cancelButtonColor","cancelButtonClass","buttonsStyling","reverseButtons","imageUrl","imageWidth","imageHeigth","imageAlt","imageClass","progressSteps","currentProgressStep"],qt={customContainerClass:"customClass",confirmButtonClass:"customClass",cancelButtonClass:"customClass",imageClass:"customClass",inputClass:"customClass"},Dt=["allowOutsideClick","allowEnterKey","backdrop","focusConfirm","focusCancel","heightAuto","keydownListenerCapture"],Ht=function(t){return Vt.hasOwnProperty(t)},Zt=function(t){return qt[t]},Ut=function(t){Ht(t)||C('Unknown parameter "'.concat(t,'"'))},Yt=function(t){-1!==Dt.indexOf(t)&&C('The parameter "'.concat(t,'" is incompatible with toasts'))},Nt=function(t){Zt(t)&&B(t,Zt(t))},Ft=function(t){for(var e in t)Ut(e),t.toast&&Yt(e),Nt()},Xt=Object.freeze({isValidParameter:Ht,isUpdatableParameter:function(t){return-1!==_t.indexOf(t)},isDeprecatedParameter:Zt,argsToParams:function(e){var n={};switch(t(e[0])){case"object":a(n,e[0]);break;default:["title","html","type"].forEach(function(o,a){switch(t(e[a])){case"string":n[o]=e[a];break;case"undefined":break;default:S("Unexpected type of ".concat(o,'! Expected "string", got ').concat(t(e[a])))}})}return n},isVisible:function(){return N(K())},clickConfirm:function(){return ot()&&ot().click()},clickCancel:function(){return at()&&at().click()},getContainer:F,getPopup:K,getTitle:J,getContent:G,getImage:tt,getIcon:Q,getIcons:$,getCloseButton:lt,getActions:st,getConfirmButton:ot,getCancelButton:at,getHeader:rt,getFooter:it,getFocusableElements:ct,getValidationMessage:nt,isLoading:function(){return K().hasAttribute("data-loading")},fire:function(){for(var t=arguments.length,e=new Array(t),n=0;n<t;n++)e[n]=arguments[n];return i(this,e)},mixin:function(t){return function(n){function i(){return e(this,i),l(this,s(i).apply(this,arguments))}return function(t,e){if("function"!=typeof e&&null!==e)throw new TypeError("Super expression must either be null or a function");t.prototype=Object.create(e&&e.prototype,{constructor:{value:t,writable:!0,configurable:!0}}),e&&r(t,e)}(i,n),o(i,[{key:"_main",value:function(e){return c(s(i.prototype),"_main",this).call(this,a({},t,e))}}]),i}(this)},queue:function(t){var e=this;zt=t;var n=function(t,e){zt=[],document.body.removeAttribute("data-swal2-queue-step"),t(e)},o=[];return new Promise(function(t){!function a(s,r){s<zt.length?(document.body.setAttribute("data-swal2-queue-step",s),e.fire(zt[s]).then(function(e){void 0!==e.value?(o.push(e.value),a(s+1,r)):n(t,{dismiss:e.dismiss})})):n(t,{value:o})}(0)})},getQueueStep:function(){return document.body.getAttribute("data-swal2-queue-step")},insertQueueStep:function(t,e){return e&&e<zt.length?zt.splice(e,0,t):zt.push(t)},deleteQueueStep:function(t){void 0!==zt[t]&&zt.splice(t,1)},showLoading:jt,enableLoading:jt,getTimerLeft:function(){return Mt.timeout&&Mt.timeout.getTimerLeft()},stopTimer:function(){return Mt.timeout&&Mt.timeout.stop()},resumeTimer:function(){return Mt.timeout&&Mt.timeout.start()},toggleTimer:function(){var t=Mt.timeout;return t&&(t.running?t.stop():t.start())},increaseTimer:function(t){return Mt.timeout&&Mt.timeout.increase(t)},isTimerRunning:function(){return Mt.timeout&&Mt.timeout.isRunning()}}),Wt=function(){null===z.previousBodyPadding&&document.body.scrollHeight>window.innerHeight&&(z.previousBodyPadding=parseInt(window.getComputedStyle(document.body).getPropertyValue("padding-right")),document.body.style.paddingRight=z.previousBodyPadding+function(){if("ontouchstart"in window||navigator.msMaxTouchPoints)return 0;var t=document.createElement("div");t.style.width="50px",t.style.height="50px",t.style.overflow="scroll",document.body.appendChild(t);var e=t.offsetWidth-t.clientWidth;return document.body.removeChild(t),e}()+"px")},Kt=function(){null!==z.previousBodyPadding&&(document.body.style.paddingRight=z.previousBodyPadding+"px",z.previousBodyPadding=null)},$t=function(){if(j(document.body,R.iosfix)){var t=parseInt(document.body.style.top,10);q(document.body,R.iosfix),document.body.style.top="",document.body.scrollTop=-1*t}},Qt=function(){return!!window.MSInputMethodContext&&!!document.documentMode},Jt=function(){var t=F(),e=K();t.style.removeProperty("align-items"),e.offsetTop<0&&(t.style.alignItems="flex-start")},Gt=function(){"undefined"!=typeof window&&Qt()&&window.removeEventListener("resize",Jt)},te=function(){x(document.body.children).forEach(function(t){t.hasAttribute("data-previous-aria-hidden")?(t.setAttribute("aria-hidden",t.getAttribute("data-previous-aria-hidden")),t.removeAttribute("data-previous-aria-hidden")):t.removeAttribute("aria-hidden")})},ee={swalPromiseResolve:new WeakMap},ne=function(t){null!==t&&"function"==typeof t&&setTimeout(function(){t()})},oe=function(){function t(n,o){e(this,t),this.callback=n,this.remaining=o,this.running=!1,this.start()}return o(t,[{key:"start",value:function(){return this.running||(this.running=!0,this.started=new Date,this.id=setTimeout(this.callback,this.remaining)),this.remaining}},{key:"stop",value:function(){return this.running&&(this.running=!1,clearTimeout(this.id),this.remaining-=new Date-this.started),this.remaining}},{key:"increase",value:function(t){var e=this.running;return e&&this.stop(),this.remaining+=t,e&&this.start(),this.remaining}},{key:"getTimerLeft",value:function(){return this.running&&(this.stop(),this.start()),this.remaining}},{key:"isRunning",value:function(){return this.running}}]),t}(),ae={email:function(t,e){return/^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9-]{2,24}$/.test(t)?Promise.resolve():Promise.resolve(e||"Invalid email address")},url:function(t,e){return/^https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,63}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)$/.test(t)?Promise.resolve():Promise.resolve(e||"Invalid URL")}},se=function(t){var e=F(),n=K();null!==t.onBeforeOpen&&"function"==typeof t.onBeforeOpen&&t.onBeforeOpen(n),t.animation&&(_(n,R.show),_(e,R.fade)),Z(n),bt&&!j(n,R.noanimation)?(e.style.overflowY="hidden",n.addEventListener(bt,b.bind(null,n,e))):e.style.overflowY="auto",_([document.documentElement,document.body,e],R.shown),t.heightAuto&&t.backdrop&&!t.toast&&_([document.documentElement,document.body],R["height-auto"]),ut()&&(t.scrollbarPadding&&Wt(),function(){if(/iPad|iPhone|iPod/.test(navigator.userAgent)&&!window.MSStream&&!j(document.body,R.iosfix)){var t=document.body.scrollTop;document.body.style.top=-1*t+"px",_(document.body,R.iosfix)}}(),"undefined"!=typeof window&&Qt()&&(Jt(),window.addEventListener("resize",Jt)),x(document.body.children).forEach(function(t){t===F()||function(t,e){if("function"==typeof t.contains)return t.contains(e)}(t,F())||(t.hasAttribute("aria-hidden")&&t.setAttribute("data-previous-aria-hidden",t.getAttribute("aria-hidden")),t.setAttribute("aria-hidden","true"))}),setTimeout(function(){e.scrollTop=0})),dt()||Mt.previousActiveElement||(Mt.previousActiveElement=document.activeElement),null!==t.onOpen&&"function"==typeof t.onOpen&&setTimeout(function(){t.onOpen(n)})},re=void 0,ie=function(e,n){var o=G(),a=function(t){return ce[n.input](o,ue(t),n)};A(n.inputOptions)?(jt(),n.inputOptions.then(function(t){e.hideLoading(),a(t)})):"object"===t(n.inputOptions)?a(n.inputOptions):S("Unexpected type of inputOptions! Expected object, Map or Promise, got ".concat(t(n.inputOptions)))},le=function(t,e){var n=t.getInput();U(n),e.inputValue.then(function(o){n.value="number"===e.input?parseFloat(o)||0:o+"",Z(n),n.focus(),t.hideLoading()}).catch(function(t){S("Error in inputValue promise: "+t),n.value="",Z(n),n.focus(),re.hideLoading()})},ce={select:function(t,e,n){var o=D(t,R.select);e.forEach(function(t){var e=t[0],a=t[1],s=document.createElement("option");s.value=e,s.innerHTML=a,n.inputValue.toString()===e.toString()&&(s.selected=!0),o.appendChild(s)}),o.focus()},radio:function(t,e,n){var o=D(t,R.radio);e.forEach(function(t){var e=t[0],a=t[1],s=document.createElement("input"),r=document.createElement("label");s.type="radio",s.name=R.radio,s.value=e,n.inputValue.toString()===e.toString()&&(s.checked=!0);var i=document.createElement("span");i.innerHTML=a,i.className=R.label,r.appendChild(s),r.appendChild(i),o.appendChild(r)});var a=o.querySelectorAll("input");a.length&&a[0].focus()}},ue=function(t){var e=[];return"undefined"!=typeof Map&&t instanceof Map?t.forEach(function(t,n){e.push([n,t])}):Object.keys(t).forEach(function(n){e.push([n,t[n]])}),e},de=Object.freeze({hideLoading:m,disableLoading:m,getInput:function(t){var e=kt.innerParams.get(t||this);return u(kt.domCache.get(t||this).content,e.input)},close:w,closePopup:w,closeModal:w,closeToast:w,enableButtons:function(){g(this,["confirmButton","cancelButton"],!1)},disableButtons:function(){g(this,["confirmButton","cancelButton"],!0)},enableConfirmButton:function(){B("Swal.disableConfirmButton()","Swal.getConfirmButton().removeAttribute('disabled')"),g(this,["confirmButton"],!1)},disableConfirmButton:function(){B("Swal.enableConfirmButton()","Swal.getConfirmButton().setAttribute('disabled', '')"),g(this,["confirmButton"],!0)},enableInput:function(){return h(this.getInput(),!1)},disableInput:function(){return h(this.getInput(),!0)},showValidationMessage:function(t){var e=kt.domCache.get(this);e.validationMessage.innerHTML=t;var n=window.getComputedStyle(e.popup);e.validationMessage.style.marginLeft="-".concat(n.getPropertyValue("padding-left")),e.validationMessage.style.marginRight="-".concat(n.getPropertyValue("padding-right")),Z(e.validationMessage);var o=this.getInput();o&&(o.setAttribute("aria-invalid",!0),o.setAttribute("aria-describedBy",R["validation-message"]),I(o),_(o,R.inputerror))},resetValidationMessage:function(){var t=kt.domCache.get(this);t.validationMessage&&U(t.validationMessage);var e=this.getInput();e&&(e.removeAttribute("aria-invalid"),e.removeAttribute("aria-describedBy"),q(e,R.inputerror))},getProgressSteps:function(){return B("Swal.getProgressSteps()","const swalInstance = Swal.fire({progressSteps: ['1', '2', '3']}); const progressSteps = swalInstance.params.progressSteps"),kt.innerParams.get(this).progressSteps},setProgressSteps:function(t){B("Swal.setProgressSteps()","Swal.update()");var e=a({},kt.innerParams.get(this),{progressSteps:t});Lt(this,e),kt.innerParams.set(this,e)},showProgressSteps:function(){var t=kt.domCache.get(this);Z(t.progressSteps)},hideProgressSteps:function(){var t=kt.domCache.get(this);U(t.progressSteps)},_main:function(t){var e=this;Ft(t);var n=a({},Vt,t);!function(t){t.inputValidator||Object.keys(ae).forEach(function(e){t.input===e&&(t.inputValidator=ae[e])}),t.showLoaderOnConfirm&&!t.preConfirm&&C("showLoaderOnConfirm is set to true, but preConfirm is not defined.\nshowLoaderOnConfirm should be used together with preConfirm, see usage example:\nhttps://sweetalert2.github.io/#ajax-request"),t.animation=E(t.animation),(!t.target||"string"==typeof t.target&&!document.querySelector(t.target)||"string"!=typeof t.target&&!t.target.appendChild)&&(C('Target parameter is not valid, defaulting to "body"'),t.target="body"),"string"==typeof t.title&&(t.title=t.title.split("\n").join("<br />"));var e=K(),n="string"==typeof t.target?document.querySelector(t.target):t.target;(!e||e&&n&&e.parentNode!==n.parentNode)&&wt(t)}(n),Object.freeze(n),Mt.timeout&&(Mt.timeout.stop(),delete Mt.timeout),clearTimeout(Mt.restoreFocusTimeout);var o={popup:K(),container:F(),content:G(),actions:st(),confirmButton:ot(),cancelButton:at(),closeButton:lt(),validationMessage:nt(),progressSteps:et()};kt.domCache.set(this,o),Ot(this,n),kt.innerParams.set(this,n);var s=this.constructor;return new Promise(function(t){var a=function(t){e.closePopup({value:t})},r=function(t){e.closePopup({dismiss:t})};ee.swalPromiseResolve.set(e,t),n.timer&&(Mt.timeout=new oe(function(){r("timer"),delete Mt.timeout},n.timer)),n.input&&setTimeout(function(){var t=e.getInput();t&&I(t)},0);for(var i=function(t){n.showLoaderOnConfirm&&s.showLoading(),n.preConfirm?(e.resetValidationMessage(),Promise.resolve().then(function(){return n.preConfirm(t,n.validationMessage)}).then(function(n){N(o.validationMessage)||!1===n?e.hideLoading():a(void 0===n?t:n)})):a(t)},l=function(t){var a=t.target,l=o.confirmButton,c=o.cancelButton,u=l&&(l===a||l.contains(a)),d=c&&(c===a||c.contains(a));switch(t.type){case"click":if(u)if(e.disableButtons(),n.input){var m=function(){var t=e.getInput();if(!t)return null;switch(n.input){case"checkbox":return t.checked?1:0;case"radio":return t.checked?t.value:null;case"file":return t.files.length?t.files[0]:null;default:return n.inputAutoTrim?t.value.trim():t.value}}();n.inputValidator?(e.disableInput(),Promise.resolve().then(function(){return n.inputValidator(m,n.validationMessage)}).then(function(t){e.enableButtons(),e.enableInput(),t?e.showValidationMessage(t):i(m)})):e.getInput().checkValidity()?i(m):(e.enableButtons(),e.showValidationMessage(n.validationMessage))}else i(!0);else d&&(e.disableButtons(),r(s.DismissReason.cancel))}},c=o.popup.querySelectorAll("button"),u=0;u<c.length;u++)c[u].onclick=l,c[u].onmouseover=l,c[u].onmouseout=l,c[u].onmousedown=l;if(o.closeButton.onclick=function(){r(s.DismissReason.close)},n.toast)o.popup.onclick=function(){n.showConfirmButton||n.showCancelButton||n.showCloseButton||n.input||r(s.DismissReason.close)};else{var d=!1;o.popup.onmousedown=function(){o.container.onmouseup=function(t){o.container.onmouseup=void 0,t.target===o.container&&(d=!0)}},o.container.onmousedown=function(){o.popup.onmouseup=function(t){o.popup.onmouseup=void 0,(t.target===o.popup||o.popup.contains(t.target))&&(d=!0)}},o.container.onclick=function(t){d?d=!1:t.target===o.container&&E(n.allowOutsideClick)&&r(s.DismissReason.backdrop)}}n.reverseButtons?o.confirmButton.parentNode.insertBefore(o.cancelButton,o.confirmButton):o.confirmButton.parentNode.insertBefore(o.confirmButton,o.cancelButton);var m=function(t,e){for(var a=ct(n.focusCancel),s=0;s<a.length;s++)return(t+=e)===a.length?t=0:-1===t&&(t=a.length-1),a[t].focus();o.popup.focus()};Mt.keydownHandlerAdded&&(Mt.keydownTarget.removeEventListener("keydown",Mt.keydownHandler,{capture:Mt.keydownListenerCapture}),Mt.keydownHandlerAdded=!1),n.toast||(Mt.keydownHandler=function(t){return function(t,n){if(n.stopKeydownPropagation&&t.stopPropagation(),"Enter"!==t.key||t.isComposing)if("Tab"===t.key){for(var a=t.target,i=ct(n.focusCancel),l=-1,c=0;c<i.length;c++)if(a===i[c]){l=c;break}m(l,t.shiftKey?-1:1),t.stopPropagation(),t.preventDefault()}else-1!==["ArrowLeft","ArrowRight","ArrowUp","ArrowDown","Left","Right","Up","Down"].indexOf(t.key)?document.activeElement===o.confirmButton&&N(o.cancelButton)?o.cancelButton.focus():document.activeElement===o.cancelButton&&N(o.confirmButton)&&o.confirmButton.focus():"Escape"!==t.key&&"Esc"!==t.key||!0!==E(n.allowEscapeKey)||(t.preventDefault(),r(s.DismissReason.esc));else if(t.target&&e.getInput()&&t.target.outerHTML===e.getInput().outerHTML){if(-1!==["textarea","file"].indexOf(n.input))return;s.clickConfirm(),t.preventDefault()}}(t,n)},Mt.keydownTarget=n.keydownListenerCapture?window:o.popup,Mt.keydownListenerCapture=n.keydownListenerCapture,Mt.keydownTarget.addEventListener("keydown",Mt.keydownHandler,{capture:Mt.keydownListenerCapture}),Mt.keydownHandlerAdded=!0),e.enableButtons(),e.hideLoading(),e.resetValidationMessage(),n.toast&&(n.input||n.footer||n.showCloseButton)?_(document.body,R["toast-column"]):q(document.body,R["toast-column"]),"select"===n.input||"radio"===n.input?ie(e,n):-1!==["text","email","number","tel","textarea"].indexOf(n.input)&&A(n.inputValue)&&le(e,n),se(n),n.toast||(E(n.allowEnterKey)?n.focusCancel&&N(o.cancelButton)?o.cancelButton.focus():n.focusConfirm&&N(o.confirmButton)?o.confirmButton.focus():m(-1,1):document.activeElement&&"function"==typeof document.activeElement.blur&&document.activeElement.blur()),o.container.scrollTop=0})},update:function(t){var e={};Object.keys(t).forEach(function(n){me.isUpdatableParameter(n)?e[n]=t[n]:C('Invalid parameter to update: "'.concat(n,'". Updatable params are listed here: https://github.com/sweetalert2/sweetalert2/blob/master/src/utils/params.js'))});var n=a({},kt.innerParams.get(this),e);Ot(this,n),kt.innerParams.set(this,n),Object.defineProperties(this,{params:{value:a({},this.params,t),writable:!1,enumerable:!0}})}});y.prototype.then=function(t){return kt.promise.get(this).then(t)},y.prototype.finally=function(t){return kt.promise.get(this).finally(t)},a(y.prototype,de),a(y,Xt),Object.keys(de).forEach(function(t){y[t]=function(){if(Bt){var e;return(e=Bt)[t].apply(e,arguments)}}}),y.DismissReason=T,y.version="8.9.0";var me=y;return me.default=me,me}),"undefined"!=typeof window&&window.Sweetalert2&&(window.swal=window.sweetAlert=window.Swal=window.SweetAlert=window.Sweetalert2),"undefined"!=typeof document&&function(t,e){var n=t.createElement("style");if(t.getElementsByTagName("head")[0].appendChild(n),n.styleSheet)n.styleSheet.disabled||(n.styleSheet.cssText=e);else try{n.innerHTML=e}catch(t){n.innerText=e}}(document,'@charset "UTF-8";@-webkit-keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-shown{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;overflow-y:hidden;box-shadow:0 0 .625em #d9d9d9}.swal2-popup.swal2-toast .swal2-header{flex-direction:row}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:initial;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon::before{display:flex;align-items:center;font-size:2em;font-weight:700}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-popup.swal2-toast .swal2-icon::before{font-size:.25em}}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{height:auto;margin:0 .3125em}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 .0625em #fff,0 0 0 .125em rgba(50,100,150,.4)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:2em;height:2.8125em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.25em;left:-.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:2em 2em;transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;-webkit-transform-origin:0 2em;transform-origin:0 2em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:showSweetToast .5s;animation:showSweetToast .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:hideSweetToast .2s forwards;animation:hideSweetToast .2s forwards}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:animate-toast-success-tip .75s;animation:animate-toast-success-tip .75s}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:animate-toast-success-long .75s;animation:animate-toast-success-long .75s}@-webkit-keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@-webkit-keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-shown{top:auto;right:auto;bottom:auto;left:auto;max-width:calc(100% - .625em * 2);background-color:transparent}body.swal2-no-backdrop .swal2-shown>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-shown.swal2-top{top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-top-left,body.swal2-no-backdrop .swal2-shown.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-top-end,body.swal2-no-backdrop .swal2-shown.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-shown.swal2-center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-left,body.swal2-no-backdrop .swal2-shown.swal2-center-start{top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-end,body.swal2-no-backdrop .swal2-shown.swal2-center-right{top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom{bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom-left,body.swal2-no-backdrop .swal2-shown.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-bottom-end,body.swal2-no-backdrop .swal2-shown.swal2-bottom-right{right:0;bottom:0}.swal2-container{display:flex;position:fixed;z-index:1060;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:.625em;overflow-x:hidden;background-color:transparent;-webkit-overflow-scrolling:touch}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-bottom-end>:first-child,.swal2-container.swal2-bottom-left>:first-child,.swal2-container.swal2-bottom-right>:first-child,.swal2-container.swal2-bottom-start>:first-child,.swal2-container.swal2-bottom>:first-child{margin-top:auto}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-container.swal2-fade{transition:background-color .1s}.swal2-container.swal2-shown{background-color:rgba(0,0,0,.4)}.swal2-popup{display:none;position:relative;box-sizing:border-box;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border-radius:.3125em;background:#fff;font-family:inherit;font-size:1rem}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-header{display:flex;flex-direction:column;align-items:center}.swal2-title{position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-actions{z-index:1;flex-wrap:wrap;align-items:center;justify-content:center;margin:1.25em auto 0}.swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-actions.swal2-loading .swal2-styled.swal2-confirm{box-sizing:border-box;width:2.5em;height:2.5em;margin:.46875em;padding:0;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border:.25em solid transparent;border-radius:100%;border-color:transparent;background-color:transparent!important;color:transparent;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-actions.swal2-loading .swal2-styled.swal2-cancel{margin-right:30px;margin-left:30px}.swal2-actions.swal2-loading :not(.swal2-styled).swal2-confirm::after{content:"";display:inline-block;width:15px;height:15px;margin-left:5px;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;border:3px solid #999;border-radius:50%;border-right-color:transparent;box-shadow:1px 1px 1px #fff}.swal2-styled{margin:.3125em;padding:.625em 2em;box-shadow:none;font-weight:500}.swal2-styled:not([disabled]){cursor:pointer}.swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#3085d6;color:#fff;font-size:1.0625em}.swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#aaa;color:#fff;font-size:1.0625em}.swal2-styled:focus{outline:0;box-shadow:0 0 0 2px #fff,0 0 0 4px rgba(50,100,150,.4)}.swal2-styled::-moz-focus-inner{border:0}.swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-image{max-width:100%;margin:1.25em auto}.swal2-close{position:absolute;top:0;right:0;justify-content:center;width:1.2em;height:1.2em;padding:0;overflow:hidden;transition:color .1s ease-out;border:none;border-radius:0;outline:initial;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer}.swal2-close:hover{-webkit-transform:none;transform:none;color:#f27474}.swal2-content{z-index:1;justify-content:center;margin:0;padding:0;color:#545454;font-size:1.125em;font-weight:300;line-height:normal;word-wrap:break-word}#swal2-content{text-align:center}.swal2-checkbox,.swal2-file,.swal2-input,.swal2-radio,.swal2-select,.swal2-textarea{margin:1em auto}.swal2-file,.swal2-input,.swal2-textarea{box-sizing:border-box;width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;background:inherit;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);color:inherit;font-size:1.125em}.swal2-file.swal2-inputerror,.swal2-input.swal2-inputerror,.swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-file:focus,.swal2-input:focus,.swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 3px #c4e6f5}.swal2-file::-webkit-input-placeholder,.swal2-input::-webkit-input-placeholder,.swal2-textarea::-webkit-input-placeholder{color:#ccc}.swal2-file::-moz-placeholder,.swal2-input::-moz-placeholder,.swal2-textarea::-moz-placeholder{color:#ccc}.swal2-file:-ms-input-placeholder,.swal2-input:-ms-input-placeholder,.swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-file::-ms-input-placeholder,.swal2-input::-ms-input-placeholder,.swal2-textarea::-ms-input-placeholder{color:#ccc}.swal2-file::placeholder,.swal2-input::placeholder,.swal2-textarea::placeholder{color:#ccc}.swal2-range{margin:1em auto;background:inherit}.swal2-range input{width:80%}.swal2-range output{width:20%;color:inherit;font-weight:600;text-align:center}.swal2-range input,.swal2-range output{height:2.625em;padding:0;font-size:1.125em;line-height:2.625em}.swal2-input{height:2.625em;padding:0 .75em}.swal2-input[type=number]{max-width:10em}.swal2-file{background:inherit;font-size:1.125em}.swal2-textarea{height:6.75em;padding:.75em}.swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;background:inherit;color:inherit;font-size:1.125em}.swal2-checkbox,.swal2-radio{align-items:center;justify-content:center;background:inherit;color:inherit}.swal2-checkbox label,.swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-checkbox input,.swal2-radio input{margin:0 .4em}.swal2-validation-message{display:none;align-items:center;justify-content:center;padding:.625em;overflow:hidden;background:#f0f0f0;color:#666;font-size:1em;font-weight:300}.swal2-validation-message::before{content:"!";display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;zoom:normal;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-moz-document url-prefix(){.swal2-close:focus{outline:2px solid rgba(50,100,150,.4)}}.swal2-icon{position:relative;box-sizing:content-box;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;zoom:normal;border:.25em solid transparent;border-radius:50%;line-height:5em;cursor:default;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-icon::before{display:flex;align-items:center;height:92%;font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-warning::before{content:"!"}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-info::before{content:"i"}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-question::before{content:"?"}.swal2-icon.swal2-question.swal2-arabic-question-mark::before{content:"؟"}.swal2-icon.swal2-success{border-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:3.75em 3.75em;transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 3.75em;transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;z-index:2;top:-.25em;left:-.25em;box-sizing:content-box;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;z-index:1;top:.5em;left:1.625em;width:.4375em;height:5.625em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;z-index:2;height:.3125em;border-radius:.125em;background-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.875em;width:1.5625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-progress-steps{align-items:center;margin:0 0 1.25em;padding:0;background:inherit;font-weight:600}.swal2-progress-steps li{display:inline-block;position:relative}.swal2-progress-steps .swal2-progress-step{z-index:20;width:2em;height:2em;border-radius:2em;background:#3085d6;color:#fff;line-height:2em;text-align:center}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step{background:#3085d6}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step{background:#add8e6;color:#fff}.swal2-progress-steps .swal2-progress-step.swal2-active-progress-step~.swal2-progress-step-line{background:#add8e6}.swal2-progress-steps .swal2-progress-step-line{z-index:10;width:2.5em;height:.4em;margin:0 -1px;background:#3085d6}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-show.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-hide.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-animate-success-icon .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-animate-error-icon{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-animate-error-icon .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}@-webkit-keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:initial!important}}')}});
+webpackJsonp([3],{
+
+/***/ 291:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReporteoPageModule", function() { return ReporteoPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__reporteo__ = __webpack_require__(313);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var ReporteoPageModule = /** @class */ (function () {
+    function ReporteoPageModule() {
+    }
+    ReporteoPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__reporteo__["a" /* ReporteoPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__reporteo__["a" /* ReporteoPage */]),
+            ],
+        })
+    ], ReporteoPageModule);
+    return ReporteoPageModule;
+}());
+
+//# sourceMappingURL=reporteo.module.js.map
+
+/***/ }),
+
+/***/ 295:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GLOBAL; });
+var GLOBAL = {
+    url: 'http://157.230.81.230:5000/api/',
+    ventasA: {
+        "name": "Ventas",
+        "aspects": [{
+                "name": "Revisión de bitácora",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Pizarrón de ventas de personal actualizado",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Cuenta con marcas nuevas",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Cuenta con reporte de mercancía",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Cuenta con un reporte de la competencia",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Total de personal por m2",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Productividad",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Realiza supervición de competencia",
+                "score": "",
+                "comment": "",
+            }, {
+                "name": "Revisar que todo el modelaje esté exhibido",
+                "score": "",
+                "comment": ""
+            }
+        ]
+    },
+    infrastructuraA: {
+        "name": "Infrastructura",
+        "aspects": [{
+                "name": "Letrero en buenas condiciones",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Fachadas limpias",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Columnas limpias",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Muros limpios",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Marquesina con iluminación",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Sin goteras en tienda",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Anuncios limpios y sin letras apagadas",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Extintores vigentes",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Cortinas metalicas sin polvo y sin manchas",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Toldos sin polvo",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Cristales de escaparate limpios",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Luminarias en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Contactos en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Pintura bien aplicada en tienda",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Piso bien aplicado sin fisuras o desprendimiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Cableado en orden y bien instalado",
+                "score": "",
+                "comment": "",
+            }, {
+                "name": "Revisar que todo el modelaje esté exhibido",
+                "score": "",
+                "comment": ""
+            }
+        ]
+    },
+    personalA: {
+        "name": "Personal",
+        "aspects": [{
+                "name": "Presentación de presonal",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Actitud del personal",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Speech (saludo del empleado a cliente)",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Buena atención en área de caja",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Uniforme del personal",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Atención del Gerente",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Atención del Subgerente",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Atención del cajero",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Atención del aparadorista",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Atención del vendedor",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Rapidez/Eficacia para la venta",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Conocimiento sobre el calzado",
+                "score": "",
+                "comment": "",
+            }, {
+                "name": "Revisar que todo el modelaje esté exhibido",
+                "score": "",
+                "comment": ""
+            }
+        ]
+    },
+    salaA: {
+        "name": "Sala",
+        "aspects": [{
+                "name": "Iluminacón en sala",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Sillas limpias y en buen estado",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Tapetes limpios y en buen estado",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Pisos limpios (barridos y trapeados)",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Espejos limpios sin detalles",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Aire acondicionado en función",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Música ambiental exclusivo de 3 Hermanos",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Música en volumen adecuado",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Suficientes taconeras y en buen uso",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzadores suficientes",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Botaderos con precios bien elaborados",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Botes de basura con bolsa y sin excedentes",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Mueble caja limpio y en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Cámaras de video en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Pantallas encendidas",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Área de caja limpia sin papeles ni objetos ajenos al trabajo de caja",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Área de caja sin pilas de cajas de calzado",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Pisos limpios (AMAZONIA BEIGE)",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Sillas en buen estado y limpias ",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Sanitarios limpios, dignos y en buen estado",
+                "score": "",
+                "comment": "",
+            }, {
+                "name": "Revisar que todo el modelaje esté exhibido",
+                "score": "",
+                "comment": ""
+            }
+        ]
+    },
+    publicidadA: {
+        "name": "Publicidad",
+        "aspects": [{
+                "name": "Spots (Cajas de luz encendidas)",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Decoracion presentable y de temporada",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Graficos adecuados por área según temporada",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Graficos adecuados por área según campaña",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Precio a corde al calzado (etiqueta y/o grafico)",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Etiquetado de precios visibles",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Material p.o.p presentable (Material de papeleria)",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Redes sociales actualizadas",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Visibilidad en promociones",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Viniles presentables y de temporada",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Exhibicion según calendario estacional",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Exhibicion según calendario conmemorativo",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Cenefas en buen estado y bien aplicadas",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Dangler colocado en mobiliario correspondiente",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Test - Card aplicado en nuevas colecciones",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Rompetrafico en display - En buen estado",
+                "score": "",
+                "comment": "",
+            }, {
+                "name": "Revisar que todo el modelaje esté exhibido",
+                "score": "",
+                "comment": ""
+            }
+        ]
+    },
+    caballerosA: {
+        "name": "Caballeros",
+        "aspects": [{
+                "name": "Actualización/Cambios de precios",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado con precio correspondiente",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado de temporada al frente",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado limpio, decorado, con relleno",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Diversidad de modelos exhibidos",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Marca Nuevas exhiibidas en los frentes",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Iluminación de muebles",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Leeds de mobiliario en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Contactos a piso bien instalados y en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Limpieza mobiliario",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Pisos limpios (AMAZONIA BEIGE)",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Pergolas decorativas limpias y en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro Caballeros 3H-CABPERIMETRO-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro Caballero 3H-PERCAB-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Mesa Grapa 3H-GRAPC-01",
+                "score": "",
+                "comment": "",
+            }, {
+                "name": "Revisar que todo el modelaje esté exhibido",
+                "score": "",
+                "comment": ""
+            }
+        ]
+    },
+    damasA: {
+        "name": "Damas",
+        "aspects": [{
+                "name": "Actualización/Cambios de precios",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado con precio correspondiente",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado de temporada al frente",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado limpio, decorado, con relleno",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Diversidad de modelos exhibidos",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Marca Nuevas exhiibidas en los frentes",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Iluminación de muebles",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Leeds de mobiliario en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Contactos a piso bien instalados y en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Limpieza de mobiliario",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Pisos limpios (LOCETA BLANCO PULIDO)",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Lamparas decorativas limpias y en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro women - 3H-PERDAMA-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro Dama -3H-PERDAMA-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Góndola Women -3H-MGOND-03",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Góndola Dama 3H-DAMGOND-02",
+                "score": "",
+                "comment": "",
+            }, {
+                "name": "Revisar que todo el modelaje esté exhibido",
+                "score": "",
+                "comment": ""
+            }
+        ]
+    },
+    deportesA: {
+        "name": "Deportes",
+        "aspects": [{
+                "name": "Actualización/Cambios de precios",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado con precio correspondiente",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado de temporada al frente",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado limpio, decorado, con relleno",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Diversidad de modelos exhibidos",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Marca Nuevas exhiibidas en los frentes",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Iluminación de muebles",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Leeds de mobiliario en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Contactos a piso bien instalados y en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Limpieza mobiliario",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Pisos limpios (PALADIO SILVER)",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro Verde 3H-PERIDEP-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro Sport 3H-DEPORTIVO",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro Deportivo 3H-DEPVERDE-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Góndola CH Deportes 3H-GONDEPCH-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Góndola Deportes 3H-GONDEP-00",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro Celosia 3H-PERILUMI-00",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Góndola Sport 3H-MGOND-02",
+                "score": "",
+                "comment": "",
+            }, {
+                "name": "Revisar que todo el modelaje esté exhibido",
+                "score": "",
+                "comment": ""
+            }
+        ]
+    },
+    niñosA: {
+        "name": "Niños",
+        "aspects": [{
+                "name": "Actualización/Cambios de precios",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado con precio correspondiente",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado de temporada al frente",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado limpio, decorado, con relleno",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Diversidad de modelos exhibidos",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Marca Nuevas exhiibidas en los frentes",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Iluminación de muebles",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Leeds de mobiliario en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Contactos a piso bien instalados y en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Limpieza mobiliario",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Pisos limpios (LOCETA BLANCO PULIDO)",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Lamparas decorativas limpias y en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro Niño Arcoiris 3H-PERNINO-00",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro Kids 3H-PERNINO-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro De Niño 3H-PERNINO-02",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Góndola Niños 3H-NINOGOND-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Góndola Kids 3H-GONNI-01",
+                "score": "",
+                "comment": "",
+            }, {
+                "name": "Revisar que todo el modelaje esté exhibido",
+                "score": "",
+                "comment": ""
+            }
+        ]
+    },
+    saldosA: {
+        "name": "Saldos",
+        "aspects": [{
+                "name": "Calzado con precio correspondiente",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado limpio",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Iluminación de muebles",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Contactos bien instalados y en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Limpieza mobiliario",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Pisos limpios (AMAZONIA BEIGE)",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Letrero decorativo limpio y en funcionamiento",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro Ofertas 3H-SALD-00",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro Saldos 3H-PSALD-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Góndola Saldos 3H-SALD-01",
+                "score": "",
+                "comment": "",
+            }, {
+                "name": "Revisar que todo el modelaje esté exhibido",
+                "score": "",
+                "comment": ""
+            }
+        ]
+    },
+    generalA: {
+        "name": "General",
+        "aspects": [{
+                "name": "Área de caja limpia sin papeles ni objetos ajenos",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Área de caja sin pilas de cajas de calzado",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Pisos limpios (AMAZONIA BEIGE)",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "sillas en buen estado y limpias",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Sanitarios limpios, dignos y en buen estado",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Mueble caja 3H-CAJA-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Mesa pastelera 3H-MP-02",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Botadero 2 3H-MBOT-02",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Rack 3H-RACK-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Mesa pastel 3H-MPASTEL-00",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro Entrepaño 3H-PERIENTRE-GRAF",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro Entreñao 3H-PERIENTRE-GRAF",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Mesa luminosa de cubos 3H-SANDWISH-00",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Góndola metal 3H-GONDMETAL-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Deportivo 3H-DEPROJO-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Perímetro rojo 3H-PEROJO-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Mesa doble repisa 3H-MDOBLEREP-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Góndola de repisas 3H-GONDREP-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Botadero c/grafico 3H-BOTAGRAF-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Cubos empotrados 3H-CUBEM-01",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Mesa pastel 3H-MPASTEL-04",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Mesa pastel circular 3H-MCIRCULAR-00",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Juego de repisas 3H-JGOREPISAS-01",
+                "score": "",
+                "comment": "",
+            }, {
+                "name": "Revisar que todo el modelaje esté exhibido",
+                "score": "",
+                "comment": ""
+            }
+        ]
+    },
+    bodegaA: {
+        "name": "Bodega",
+        "aspects": [{
+                "name": "Líneas de moda y temporada cerca de la entrada a bodega",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Bodega con pisos limpios",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Iluminación en bodega",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado acomodada por estilo y color",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Armazones unicamente con calzado",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Cajas de calzado en buen estado",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado en caja empapelado",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado con sus accesorios correspondientes",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Bodega emparejada y ajustada",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Las cajas cuentan con datos de identificación",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Calzado clasificado por líneas y series",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Armazones por tipos de calzado (marcas)",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Armazones numerados",
+                "score": "",
+                "comment": "",
+            },
+            {
+                "name": "Serpenteo (zig zag) bien aplicado",
+                "score": "",
+                "comment": "",
+            }, {
+                "name": "Revisar que todo el modelaje esté exhibido",
+                "score": "",
+                "comment": ""
+            }
+        ]
+    }
+};
+//# sourceMappingURL=global.js.map
+
+/***/ }),
+
+/***/ 313:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ReporteoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_global__ = __webpack_require__(295);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ReporteoPage = /** @class */ (function () {
+    function ReporteoPage(navCtrl, navParams, modal, loadingController) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.modal = modal;
+        this.loadingController = loadingController;
+        this.user_id = localStorage.getItem('user_id');
+        this.shop_id = localStorage.getItem('shop_id');
+        this.shop_name = localStorage.getItem('name');
+        this.report = {
+            "shop": this.shop_id,
+            "user": this.user_id,
+            "areas": [],
+            "photos": [],
+            "signature": ""
+        };
+        this.evalI = false;
+        this.evalP = false;
+        this.evalV = false;
+        this.evalS = false;
+        this.evalPu = false;
+        this.evalM = false;
+        localStorage.setItem('report', JSON.stringify(this.report));
+    }
+    ReporteoPage.prototype.ionViewDidLoad = function () {
+        console.log(this.user_id, this.shop_id);
+        localStorage.setItem('report', JSON.stringify(this.report));
+    };
+    ReporteoPage.prototype.mercadeo = function (area_id) {
+        this.evalM = true;
+        var b = document.getElementById('mercadeo');
+        b.style.background = "#B91919";
+        this.navCtrl.push('MercadeoPage');
+    };
+    ReporteoPage.prototype.infrastructura = function (area_id) {
+        this.evalI = true;
+        var b = document.getElementById('infra');
+        b.style.background = "#B91919";
+        this.areaImg = "http://hostingwebmex.com/z3h/infraestructura.png";
+        localStorage.setItem('areaImg', this.areaImg);
+        this.a = __WEBPACK_IMPORTED_MODULE_2__app_global__["a" /* GLOBAL */].infrastructuraA;
+        localStorage.setItem('as', JSON.stringify(this.a));
+        var myModal = this.modal.create('AspectsPage');
+        myModal.present();
+    };
+    ReporteoPage.prototype.personal = function () {
+        this.evalP = true;
+        var b = document.getElementById('personal');
+        b.style.background = "#B91919";
+        this.areaImg = "http://hostingwebmex.com/z3h/personal.png";
+        localStorage.setItem('areaImg', this.areaImg);
+        this.a = __WEBPACK_IMPORTED_MODULE_2__app_global__["a" /* GLOBAL */].personalA;
+        localStorage.setItem('as', JSON.stringify(this.a));
+        var myModal = this.modal.create('AspectsPage');
+        myModal.present();
+    };
+    ReporteoPage.prototype.ventas = function () {
+        this.evalV = true;
+        var b = document.getElementById('ventas');
+        b.style.background = "#B91919";
+        this.a = __WEBPACK_IMPORTED_MODULE_2__app_global__["a" /* GLOBAL */].ventasA;
+        this.areaImg = "http://hostingwebmex.com/z3h/ventas.png";
+        localStorage.setItem('areaImg', this.areaImg);
+        localStorage.setItem('as', JSON.stringify(this.a));
+        var myModal = this.modal.create('AspectsPage');
+        myModal.present();
+    };
+    ReporteoPage.prototype.sala = function () {
+        this.evalS = true;
+        var b = document.getElementById('sala');
+        b.style.background = "#B91919";
+        this.a = __WEBPACK_IMPORTED_MODULE_2__app_global__["a" /* GLOBAL */].salaA;
+        this.areaImg = "http://hostingwebmex.com/z3h/sala.png";
+        localStorage.setItem('areaImg', this.areaImg);
+        localStorage.setItem('as', JSON.stringify(this.a));
+        var myModal = this.modal.create('AspectsPage');
+        myModal.present();
+    };
+    ReporteoPage.prototype.publicidad = function () {
+        this.evalPu = true;
+        var b = document.getElementById('pub');
+        b.style.background = "#B91919";
+        this.a = __WEBPACK_IMPORTED_MODULE_2__app_global__["a" /* GLOBAL */].publicidadA;
+        this.areaImg = "http://hostingwebmex.com/z3h/publicidad.png";
+        localStorage.setItem('areaImg', this.areaImg);
+        localStorage.setItem('as', JSON.stringify(this.a));
+        var myModal = this.modal.create('AspectsPage');
+        myModal.present();
+    };
+    ReporteoPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'page-reporteo',template:/*ion-inline-start:"/Users/adrianperez/Documents/Dev/Projects/3H/3HermanosIonic/src/pages/reporteo/reporteo.html"*/'<ion-header>\n  <ion-navbar color="danger">\n    <ion-title style="font-size: 1.4rem;">\n      Supervisar: {{ this.shop_name }}\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding\n  style="background-image: url(\'assets/imgs/Rg8Z0VG0Q1i0gnDEGP6A_back4.jpg\'); background-repeat: no-repeat;  background-position: top center;">\n\n\n  <ion-avatar>\n    <img src="assets/imgs/hSDtdnxwQMqFa4QC9INn_logo.png"\n      style="width:64px;height: 64px; margin: 0; transform: translateX(38vw);">\n  </ion-avatar>\n  <div style="transform:translateY(7vh);">\n    <button id="infra" ion-button block color="light" (click)="infrastructura()" class="boton1" full\n      style="font-weight:500;font-size:20px;color:#fff;  margin-bottom:15px;  border-radius: 15px; padding: 25px">\n      <div *ngIf="evalI == true">\n        <ion-icon name="checkmark-circle-outline"></ion-icon>\n      </div>\n      <div style="float: left; width: 15%; text-align:center;">\n        <img src="http://hostingwebmex.com/z3h/iconos/infra.png" alt="" width="32" height="32">\n      </div>\n      <div style="float: left; width: 75%; text-align:center; padding-left: 0px;">\n        <p style="font-size:1.6rem; letter-spacing: 0.3rem">\n          <strong> Infraestructura</strong>\n        </p>\n      </div>\n    </button>\n    <button id="personal" ion-button block color="light" (click)="personal()" class="boton1" full\n      style="font-weight:500;font-size:20px;color:#fff;  margin-bottom:15px;  border-radius: 15px; padding: 25px">\n      <div *ngIf="evalP == true">\n        <ion-icon name="checkmark-circle-outline"></ion-icon>\n      </div>\n      <div style="float: left; width: 15%; text-align:center;">\n        <img src="http://hostingwebmex.com/z3h/iconos/personal.png" alt="" width="32" height="32">\n      </div>\n      <div style="float: left; width: 85%; text-align:center; padding-left: 0px;">\n        <p style="font-size:1.6rem; letter-spacing: 0.3rem">\n          <strong> Personal</strong>\n        </p>\n      </div>\n    </button>\n    <button id="ventas" ion-button block color="light" (click)="ventas()" class="boton1" full\n      style="font-weight:500;font-size:20px;color:#fff;  margin-bottom:15px;  border-radius: 15px; padding: 25px">\n      <div *ngIf="evalV == true">\n        <ion-icon name="checkmark-circle-outline"></ion-icon>\n      </div>\n      <div style="float: left; width: 15%; text-align:center;">\n        <img src="http://hostingwebmex.com/z3h/iconos/ventas.png" alt="" width="32" height="32">\n      </div>\n      <div style="float: left; width: 85%; text-align:center; padding-left: 0px;">\n        <p style="font-size:1.6rem; letter-spacing: 0.3rem">\n          <p style="font-size:1.6rem;">\n            <strong> Ventas</strong>\n          </p>\n      </div>\n    </button>\n    <button id="sala" ion-button block color="light" (click)="sala()" class="boton1" full\n      style="font-weight:500;font-size:20px;color:#fff;  margin-bottom:15px;  border-radius: 15px; padding: 25px">\n      <div *ngIf="evalS == true">\n        <ion-icon name="checkmark-circle-outline"></ion-icon>\n      </div>\n      <div style="float: left; width: 15%; text-align:center;">\n        <img src="http://hostingwebmex.com/z3h/iconos/sala.png" alt="" width="32" height="32">\n      </div>\n      <div style="float: left; width: 85%; text-align:center; padding-left: 0px;">\n        <p style="font-size:1.6rem; letter-spacing: 0.3rem">\n          <p style="font-size:1.6rem;">\n            <strong> Sala</strong>\n          </p>\n      </div>\n    </button>\n    <button id="pub" ion-button block color="light" (click)="publicidad()" class="boton1" full\n      style="font-weight:500;font-size:20px;color:#fff;  margin-bottom:15px;  border-radius: 15px; padding: 25px">\n      <div *ngIf="evalPu == true">\n        <ion-icon name="checkmark-circle-outline"></ion-icon>\n      </div>\n      <div style="float: left; width: 15%; text-align:center;">\n        <img src="http://hostingwebmex.com/z3h/iconos/publicidad.png" alt="" width="32" height="32">\n      </div>\n      <div style="float: left; width: 85%; text-align:center; padding-left: 0px;">\n        <p style="font-size:1.6rem; letter-spacing: 0.3rem">\n          <strong> Publicidad</strong>\n        </p>\n      </div>\n    </button>\n    <button id="mercadeo" ion-button block color="light" class="boton1" full (click)="mercadeo()"\n      style="font-weight:500;font-size:20px;color:#fff;  margin-bottom:15px;  border-radius: 15px; padding: 25px">\n      <div *ngIf="evalM == true">\n        <ion-icon name="checkmark-circle-outline"></ion-icon>\n      </div>\n      <div style="float: left; width: 15%; text-align:center;">\n        <img src="http://hostingwebmex.com/z3h/iconos/mercadeo.png" alt="" width="32" height="32">\n      </div>\n      <div style="float: left; width: 85%; text-align:center; padding-left: 0px;">\n        <p style="font-size:1.6rem; letter-spacing: 0.3rem">\n          <strong> Mercadeo</strong>\n        </p>\n      </div>\n    </button>\n\n  </div>\n</ion-content>\n'/*ion-inline-end:"/Users/adrianperez/Documents/Dev/Projects/3H/3HermanosIonic/src/pages/reporteo/reporteo.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]])
+    ], ReporteoPage);
+    return ReporteoPage;
+}());
+
+//# sourceMappingURL=reporteo.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=3.js.map

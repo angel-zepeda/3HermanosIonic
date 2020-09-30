@@ -26,27 +26,27 @@ var map = {
 		2
 	],
 	"../pages/buscar-tienda/buscar-tienda.module": [
-		283,
+		287,
 		0
 	],
 	"../pages/eventos/eventos.module": [
-		284,
+		288,
 		11
 	],
 	"../pages/firma-foto/firma-foto.module": [
-		285,
+		283,
 		1
 	],
 	"../pages/gerente/gerente.module": [
-		286,
+		285,
 		10
 	],
 	"../pages/historial/historial.module": [
-		287,
+		284,
 		9
 	],
 	"../pages/historial2/historial2.module": [
-		288,
+		286,
 		8
 	],
 	"../pages/inicio/inicio.module": [
@@ -58,11 +58,11 @@ var map = {
 		4
 	],
 	"../pages/reporteo/reporteo.module": [
-		291,
+		292,
 		3
 	],
 	"../pages/reports-user/reports-user.module": [
-		292,
+		291,
 		6
 	],
 	"../pages/tiendas-gerentes/tiendas-gerentes.module": [
@@ -166,12 +166,13 @@ var HomePage = /** @class */ (function () {
             }
         });
     };
-    var _a, _b, _c;
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: "page-home",template:/*ion-inline-start:"/Users/adrianperez/Documents/Dev/Projects/3H/3HermanosIonic/src/pages/home/home.html"*/'<ion-content padding\n  style="background:url(assets/imgs/Wm5s9eJ6RvCShoptfZgZ_background_o.jpg) no-repeat center;background-size:cover;"\n  id="page1">\n  <div class="spacer" style="width:300px;height:45px;" id="home-spacer5"></div>\n  <img src="assets/imgs/hSDtdnxwQMqFa4QC9INn_logo.png"\n    style="display:block;width:40%;height:auto;margin-left:auto;margin-right:auto;" />\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <div id="home-container1">\n    <h2 id="home-heading2" style="color:#FFFFFF;font-weight:600;text-align:center;">\n      BIENVENIDO\n    </h2>\n  </div>\n  <div id="home-container2">\n    <div id="home-markdown3" style="text-align:center;" class="show-list-numbers-and-dots">\n      <p style="color:#FFFFFF;">\n        SUPERVICIÓN DE SUCURSALES\n      </p>\n    </div>\n    <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n    <p style="color:#FFFFFF; font-weight: bold; text-align: center; letter-spacing: 2px;">\n      Iniciar sesión\n    </p>\n  </div>\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <form id="home-form3">\n    <ion-item id="home-input3">\n      <ion-label>\n        Usuario\n      </ion-label>\n      <ion-input type="text" placeholder="" name="email" [(ngModel)]="user_sign_in.email"></ion-input>\n    </ion-item>\n  </form>\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <form id="home-form4">\n    <ion-item id="home-input5">\n      <ion-label>\n        Contraseña\n      </ion-label>\n      <ion-input type="password" placeholder="" name="password" [(ngModel)]="user_sign_in.password"></ion-input>\n    </ion-item>\n  </form>\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <div class="spacer" style="width:300px;height:11px;" id="home-spacer2"></div>\n  <button id="home-button1" ion-button block\n    style="font-weight:500;border-radius:10px; background: rgba(0,0,0,0.3); border: 1px solid white;" full\n    (click)="login()">\n    INGRESAR\n  </button>\n</ion-content>'/*ion-inline-end:"/Users/adrianperez/Documents/Dev/Projects/3H/3HermanosIonic/src/pages/home/home.html"*/,
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" ? _a : Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */]) === "function" ? _b : Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]) === "function" ? _c : Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_2__angular_common_http__["a" /* HttpClient */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* LoadingController */]])
     ], HomePage);
     return HomePage;
 }());
@@ -242,16 +243,16 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/aspects/aspects.module#AspectsPageModule', name: 'AspectsPage', segment: 'aspects', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/firma-foto/firma-foto.module#FirmaFotoPageModule', name: 'FirmaFotoPage', segment: 'firma-foto', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/historial/historial.module#HistorialPageModule', name: 'HistorialPage', segment: 'historial', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/gerente/gerente.module#GerentePageModule', name: 'GerentePage', segment: 'gerente', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/historial2/historial2.module#Historial2PageModule', name: 'Historial2Page', segment: 'historial2', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/buscar-tienda/buscar-tienda.module#BuscarTiendaPageModule', name: 'BuscarTiendaPage', segment: 'buscar-tienda', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/eventos/eventos.module#EventosPageModule', name: 'EventosPage', segment: 'eventos', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/firma-foto/firma-foto.module#FirmaFotoPageModule', name: 'FirmaFotoPage', segment: 'firma-foto', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/gerente/gerente.module#GerentePageModule', name: 'GerentePage', segment: 'gerente', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/historial/historial.module#HistorialPageModule', name: 'HistorialPage', segment: 'historial', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/historial2/historial2.module#Historial2PageModule', name: 'Historial2Page', segment: 'historial2', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/inicio/inicio.module#InicioPageModule', name: 'InicioPage', segment: 'inicio', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mercadeo/mercadeo.module#MercadeoPageModule', name: 'MercadeoPage', segment: 'mercadeo', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/reporteo/reporteo.module#ReporteoPageModule', name: 'ReporteoPage', segment: 'reporteo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/reports-user/reports-user.module#ReportsUserPageModule', name: 'ReportsUserPage', segment: 'reports-user', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/reporteo/reporteo.module#ReporteoPageModule', name: 'ReporteoPage', segment: 'reporteo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tiendas-gerentes/tiendas-gerentes.module#TiendasGerentesPageModule', name: 'TiendasGerentesPage', segment: 'tiendas-gerentes', priority: 'low', defaultHistory: [] }
                     ]
                 })
