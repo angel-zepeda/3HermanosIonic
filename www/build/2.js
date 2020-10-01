@@ -3410,6 +3410,7 @@ var AspectsPage = /** @class */ (function () {
             pares: "",
             mt2: "",
         };
+        this.imgUrl = "../../assets/imgs";
         this.aspects = JSON.parse(localStorage.getItem("as"));
         this.areaImg = localStorage.getItem("areaImg");
     }
@@ -3493,118 +3494,53 @@ var AspectsPage = /** @class */ (function () {
             }
         }
     };
-    AspectsPage.prototype.active = function (emojiId, name) {
-        var emoji = document.getElementById(emojiId);
-        if (emoji.id.includes("two")) {
-            var emoji2 = document.getElementById("four" + name);
-            var emoji3 = document.getElementById("six" + name);
-            var emoji4 = document.getElementById("eigth" + name);
-            var emoji5 = document.getElementById("ten" + name);
-            emoji.style.background = "url('../../assets/imgs/11.png')";
-            emoji.style.backgroundSize = "cover";
-            emoji2.style.background = "url('../../assets/imgs/2.png')";
-            emoji2.style.backgroundSize = "cover";
-            emoji3.style.background = "url('../../assets/imgs/4.png')";
-            emoji3.style.backgroundSize = "cover";
-            emoji4.style.background = "url('../../assets/imgs/5.png')";
-            emoji4.style.backgroundSize = "cover";
-            emoji5.style.background = "url('../../assets/imgs/6.png')";
-            emoji5.style.backgroundSize = "cover";
+    AspectsPage.prototype.active = function (radioId, name) {
+        var currentButton = document.getElementById(radioId);
+        var number = currentButton.id.split("-")[0];
+        var twoButton = document.getElementById("two-" + name);
+        var fourButton = document.getElementById("four-" + name);
+        var sixButton = document.getElementById("six-" + name);
+        var eightButton = document.getElementById("eigth-" + name);
+        var tenButton = document.getElementById("ten-" + name);
+        switch (number) {
+            case "two":
+                currentButton.style.backgroundImage = "url(" + this.imgUrl + "/11.png)";
+                fourButton.style.backgroundImage = "url(" + this.imgUrl + "/2.png)";
+                sixButton.style.backgroundImage = "url(" + this.imgUrl + "/3.png)";
+                eightButton.style.backgroundImage = "url(" + this.imgUrl + "/4.png)";
+                tenButton.style.backgroundImage = "url(" + this.imgUrl + "/5.png)";
+                break;
+            case "four":
+                currentButton.style.backgroundImage = "url(" + this.imgUrl + "/22.png)";
+                twoButton.style.backgroundImage = "url(" + this.imgUrl + "/1.png)";
+                sixButton.style.backgroundImage = "url(" + this.imgUrl + "/3.png)";
+                eightButton.style.backgroundImage = "url(" + this.imgUrl + "/4.png)";
+                tenButton.style.backgroundImage = "url(" + this.imgUrl + "/5.png)";
+                break;
+            case "six":
+                currentButton.style.backgroundImage = "url(" + this.imgUrl + "/33.png)";
+                fourButton.style.backgroundImage = "url(" + this.imgUrl + "/2.png)";
+                twoButton.style.backgroundImage = "url(" + this.imgUrl + "/1.png)";
+                eightButton.style.backgroundImage = "url(" + this.imgUrl + "/4.png)";
+                tenButton.style.backgroundImage = "url(" + this.imgUrl + "/5.png)";
+                break;
+            case "eigth":
+                currentButton.style.backgroundImage = "url(" + this.imgUrl + "/44.png)";
+                fourButton.style.backgroundImage = "url(" + this.imgUrl + "/2.png)";
+                sixButton.style.backgroundImage = "url(" + this.imgUrl + "/3.png)";
+                twoButton.style.backgroundImage = "url(" + this.imgUrl + "/1.png)";
+                tenButton.style.backgroundImage = "url(" + this.imgUrl + "/5.png)";
+                break;
+            case "ten":
+                currentButton.style.backgroundImage = "url(" + this.imgUrl + "/55.png)";
+                twoButton.style.backgroundImage = "url(" + this.imgUrl + "/1.png)";
+                fourButton.style.backgroundImage = "url(" + this.imgUrl + "/2.png)";
+                sixButton.style.backgroundImage = "url(" + this.imgUrl + "/3.png)";
+                eightButton.style.backgroundImage = "url(" + this.imgUrl + "/4.png)";
+                break;
+            default:
+                break;
         }
-        if (emoji.id.includes("four")) {
-            var emoji2 = document.getElementById("two" + name);
-            var emoji3 = document.getElementById("six" + name);
-            var emoji4 = document.getElementById("eigth" + name);
-            var emoji5 = document.getElementById("ten" + name);
-            emoji.style.background = "url('../../assets/imgs/22.png')";
-            emoji.style.backgroundSize = "cover";
-            emoji2.style.background = "url('../../assets/imgs/1.png')";
-            emoji2.style.backgroundSize = "cover";
-            emoji3.style.background = "url('../../assets/imgs/4.png')";
-            emoji3.style.backgroundSize = "cover";
-            emoji4.style.background = "url('../../assets/imgs/5.png')";
-            emoji4.style.backgroundSize = "cover";
-            emoji5.style.background = "url('../../assets/imgs/6.png')";
-            emoji5.style.backgroundSize = "cover";
-        }
-        if (emoji.id.includes("six")) {
-            var emoji2 = document.getElementById("two" + name);
-            var emoji3 = document.getElementById("four" + name);
-            var emoji4 = document.getElementById("eigth" + name);
-            var emoji5 = document.getElementById("ten" + name);
-            emoji.style.background = "url('../../assets/imgs/33.png')";
-            emoji.style.backgroundSize = "cover";
-            emoji2.style.background = "url('../../assets/imgs/1.png')";
-            emoji2.style.backgroundSize = "cover";
-            emoji3.style.background = "url('../../assets/imgs/2.png')";
-            emoji3.style.backgroundSize = "cover";
-            emoji4.style.background = "url('../../assets/imgs/5.png')";
-            emoji4.style.backgroundSize = "cover";
-            emoji5.style.background = "url('../../assets/imgs/6.png')";
-            emoji5.style.backgroundSize = "cover";
-        }
-        if (emoji.id.includes("eigth")) {
-            var emoji2 = document.getElementById("two" + name);
-            var emoji3 = document.getElementById("four" + name);
-            var emoji4 = document.getElementById("six" + name);
-            var emoji5 = document.getElementById("ten" + name);
-            emoji.style.background = "url('../../assets/imgs/44.png')";
-            emoji.style.backgroundSize = "cover";
-            emoji2.style.background = "url('../../assets/imgs/1.png')";
-            emoji2.style.backgroundSize = "cover";
-            emoji3.style.background = "url('../../assets/imgs/2.png')";
-            emoji3.style.backgroundSize = "cover";
-            emoji4.style.background = "url('../../assets/imgs/4.png')";
-            emoji4.style.backgroundSize = "cover";
-            emoji5.style.background = "url('../../assets/imgs/6.png')";
-            emoji5.style.backgroundSize = "cover";
-        }
-        if (emoji.id.includes("ten")) {
-            var emoji2 = document.getElementById("two" + name);
-            var emoji3 = document.getElementById("four" + name);
-            var emoji4 = document.getElementById("six" + name);
-            var emoji5 = document.getElementById("eigth" + name);
-            emoji.style.background = "url('../../assets/imgs/55.png')";
-            emoji.style.backgroundSize = "cover";
-            emoji2.style.background = "url('../../assets/imgs/1.png')";
-            emoji2.style.backgroundSize = "cover";
-            emoji3.style.background = "url('../../assets/imgs/2.png')";
-            emoji3.style.backgroundSize = "cover";
-            emoji4.style.background = "url('../../assets/imgs/4.png')";
-            emoji4.style.backgroundSize = "cover";
-            emoji5.style.background = "url('../../assets/imgs/5.png')";
-            emoji5.style.backgroundSize = "cover";
-        }
-        // if (emoji.id.includes('happy')) {
-        //   var emoji2 = document.getElementById('mad' + name);
-        //   var emoji3 = document.getElementById('angry' + name);
-        //   emoji2.style.background = "url('../../assets/imgs/3.png')";
-        //   emoji3.style.background = "url('../../assets/imgs/1.png')";
-        //   emoji.style.background = "url('../../assets/imgs/55.png')";
-        //   emoji.style.backgroundSize = "cover";
-        //   emoji2.style.backgroundSize = "cover";
-        //   emoji3.style.backgroundSize = "cover";
-        // }
-        // if (emoji.id.includes('mad')) {
-        //   var emoji2 = document.getElementById('happy' + name);
-        //   var emoji3 = document.getElementById('angry' + name);
-        //   emoji2.style.background = "url('../../assets/imgs/6.png')";
-        //   emoji3.style.background = "url('../../assets/imgs/1.png')";
-        //   emoji.style.background = "url('../../assets/imgs/22.png')";
-        //   emoji.style.backgroundSize = "cover";
-        //   emoji2.style.backgroundSize = "cover";
-        //   emoji3.style.backgroundSize = "cover";
-        // }
-        // if (emoji.id.includes('angry')) {
-        //   var emoji2 = document.getElementById('mad' + name);
-        //   var emoji3 = document.getElementById('happy' + name);
-        //   emoji2.style.background = "url('../../assets/imgs/3.png')";
-        //   emoji3.style.background = "url('../../assets/imgs/6.png')";
-        //   emoji.style.background = "url('../../assets/imgs/11.png')";
-        //   emoji.style.backgroundSize = "cover";
-        //   emoji2.style.backgroundSize = "cover";
-        //   emoji3.style.backgroundSize = "cover";
-        // }
     };
     AspectsPage.prototype.calProdV = function () {
         var resHtml = document.getElementById("resProd");
@@ -3624,11 +3560,12 @@ var AspectsPage = /** @class */ (function () {
         res = pares / dias / mt2;
         resHtml.innerHTML = "Resultado: " + res.toFixed(2);
     };
+    var _a, _b;
     AspectsPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
-            selector: "page-aspects",template:/*ion-inline-start:"/Users/adrianperez/Documents/Dev/Projects/3H/3HermanosIonic/src/pages/aspects/aspects.html"*/'<ion-header>\n  <ion-navbar color="">\n    <ion-title align="center">\n      <p style="color: red">\n        <ion-avatar>\n          <img src="assets/imgs/hSDtdnxwQMqFa4QC9INn_logo.png" width="64px" height="64px"\n            style="position: absolute; top: 1%;">\n        </ion-avatar>\n        Área: {{aspects.name}}\n      </p>\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n  <img src="{{areaImg}}" alt="" height="35%" width="100%">\n  <form>\n    <div *ngIf="aspects.name === \'Ventas\'">\n      <ion-card>\n        <div align="center">\n          <ion-card-header>\n            <strong>\n              Productividad por vendedor\n            </strong>\n          </ion-card-header>\n\n          <ion-label>\n            <p>\n              Número de pares vendidos en la semana\n            </p>\n          </ion-label>\n          <input type="number" [(ngModel)]="valProd.pares" name="pares" id="paresProd"\n            style="border: 0.9px solid cyan; border-radius: 3px; padding: 5px;">\n          <br>\n          <ion-label>\n            <p>\n              Número de vendedores en la sucursal\n            </p>\n          </ion-label>\n          <input type="number" [(ngModel)]="valProd.vendedores" name="vendedores" id="vendedoresProd"\n            style="border: 0.9px solid cyan; border-radius: 3px; padding: 5px;">\n          <br>\n          <br>\n          <button ion-button color="danger" (click)="calProdV()">Calcular</button>\n          <br>\n          <div>\n            <p id="resProd">Resultado: </p>\n          </div>\n          <br>\n        </div>\n      </ion-card>\n\n      <ion-card>\n        <div align="center">\n          <ion-card-header>\n            <strong>\n              Productividad de tienda\n            </strong>\n          </ion-card-header>\n\n          <ion-label>\n            Número de pares vendidos en la semana\n          </ion-label>\n          <input type="number" [(ngModel)]="valTiendaProd.pares" name="pares" id=""\n            style="border: 0.9px solid cyan; border-radius: 3px; padding: 5px;">\n          <br>\n          <ion-label>\n            Número de mt2 de la sucursal\n          </ion-label>\n          <input type="number" [(ngModel)]="valTiendaProd.mt2" name="mt2" id=""\n            style="border: 0.9px solid cyan; border-radius: 3px; padding: 5px;">\n          <br>\n          <br>\n          <button ion-button color="danger" (click)="calProdTienda()">Calcular</button>\n          <br>\n          <div>\n            <p id="resProdTienda">Resultado: </p>\n          </div>\n          <br>\n        </div>\n      </ion-card>\n\n    </div>\n    <div *ngFor="let a of aspects.aspects">\n      <ion-card style="background: #B91919;">\n        <p id="nameA">{{a.name}}</p>\n\n        <div *ngIf="a.name === \'Perímetro women - 3H-PERDAMA-01\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perwoman.jpg\')" id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Dama -3H-PERDAMA-01\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perdama.jpg\')" id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Women -3H-MGOND-03\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_woman.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Dama 3H-DAMGOND-02\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_dama.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <!-- DEPORTES -->\n        <div *ngIf="a.name === \'Perímetro Verde 3H-PERIDEP-01\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_verde.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Sport 3H-DEPORTIVO\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_sport.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Deportivo 3H-DEPVERDE-01\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_deportivo.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola CH Deportes 3H-GONDEPCH-01\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_ch_deportes.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Deportes 3H-GONDEP-00\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_deportes.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Celosia 3H-PERILUMI-00\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_celosia.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Sport 3H-MGOND-02\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_sport.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <!-- NIÑOS -->\n        <div *ngIf="a.name === \'Perímetro Niño Arcoiris 3H-PERNINO-00\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_nino.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Kids 3H-PERNINO-01\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_kids.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro De Niño 3H-PERNINO-02\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_de_nino.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Niños 3H-NINOGOND-01\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_ninos.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Kids 3H-GONNI-01\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_kids.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <!-- CABALLEROS -->\n        <div *ngIf="a.name === \'Perímetro Caballeros 3H-CABPERIMETRO-01\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_caballeros.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Caballero 3H-PERCAB-01\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_caballeros2.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Mesa Grapa 3H-GRAPC-01\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/mesa_grapa.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n\n        <!-- SALDOS -->\n        <div *ngIf="a.name === \'Perímetro Ofertas 3H-SALD-00\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_ofertas.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Saldos 3H-PSALD-01\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_saldos.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Saldos 3H-SALD-01\'">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_saldos.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <ion-list radio-group [(ngModel)]="a.score" name="score" id="ion-list">\n          <div class="container-emoji">\n            <!-- <ion-label class="emoji-label">Malo</ion-label> -->\n\n            <ion-radio value="2" name="score" class="radio two" id="two{{a.name}}"\n              (click)="active(\'two\'+this.a.name, this.a.name)">\n            </ion-radio>\n\n            <ion-radio value="4" name="score" class="radio four" id="four{{a.name}}"\n              (click)="active(\'four\'+this.a.name, this.a.name)">\n            </ion-radio>\n\n            <ion-radio value="6" name="score" class="radio six" id="six{{a.name}}"\n              (click)="active(\'six\'+this.a.name, this.a.name)">\n            </ion-radio>\n\n            <!-- <ion-label class="emoji-label">Regular</ion-label> -->\n            <ion-radio value="8" name="score" class="radio eigth" id="eigth{{a.name}}"\n              (click)="active(\'eigth\'+this.a.name, this.a.name)">\n            </ion-radio>\n\n            <!-- <ion-label class="emoji-label">Bueno</ion-label> -->\n            <ion-radio value="10" name="score" class="radio ten" id="ten{{a.name}}"\n              (click)="active(\'ten\'+this.a.name, this.a.name)">\n            </ion-radio>\n\n          </div>\n        </ion-list>\n        <ion-item>\n          <ion-label>Observacion: </ion-label>\n          <ion-textarea [(ngModel)]="a.comment" name="comment"></ion-textarea>\n        </ion-item>\n      </ion-card>\n      <br>\n    </div>\n    <button ion-button type="submit" (click)="enviar()" full color="danger">Enviar</button>\n  </form>\n</ion-content>'/*ion-inline-end:"/Users/adrianperez/Documents/Dev/Projects/3H/3HermanosIonic/src/pages/aspects/aspects.html"*/,
+            selector: "page-aspects",template:/*ion-inline-start:"/Users/adrianperez/Documents/Dev/Projects/3H/3HermanosIonic/src/pages/aspects/aspects.html"*/'<ion-header>\n  <ion-navbar color="">\n    <ion-title align="center">\n      <p style="color: red">\n        <ion-avatar>\n          <img src="assets/imgs/hSDtdnxwQMqFa4QC9INn_logo.png" width="64px" height="64px"\n            style="position: absolute; top: 1%;">\n        </ion-avatar>\n        Área: {{aspects.name}}\n      </p>\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n<ion-content padding>\n  <img src="{{areaImg}}" alt="" height="35%" width="100%">\n  <form>\n    <div *ngIf="aspects.name === \'Ventas\'">\n      <ion-card>\n        <div align="center">\n          <ion-card-header>\n            <strong>\n              Productividad por vendedor\n            </strong>\n          </ion-card-header>\n\n          <ion-label>\n            <p>\n              Número de pares vendidos en la semana\n            </p>\n          </ion-label>\n          <input type="number" [(ngModel)]="valProd.pares" name="pares" id="paresProd"\n            style="border: 0.9px solid cyan; border-radius: 3px; padding: 5px;">\n          <br>\n          <ion-label>\n            <p>\n              Número de vendedores en la sucursal\n            </p>\n          </ion-label>\n          <input type="number" [(ngModel)]="valProd.vendedores" name="vendedores" id="vendedoresProd"\n            style="border: 0.9px solid cyan; border-radius: 3px; padding: 5px;">\n          <br>\n          <br>\n          <button ion-button color="danger" (click)="calProdV()">Calcular</button>\n          <br>\n          <div>\n            <p id="resProd">Resultado: </p>\n          </div>\n          <br>\n        </div>\n      </ion-card>\n\n      <ion-card>\n        <div align="center">\n          <ion-card-header>\n            <strong>\n              Productividad de tienda\n            </strong>\n          </ion-card-header>\n\n          <ion-label>\n            Número de pares vendidos en la semana\n          </ion-label>\n          <input type="number" [(ngModel)]="valTiendaProd.pares" name="pares" id=""\n            style="border: 0.9px solid cyan; border-radius: 3px; padding: 5px;">\n          <br>\n          <ion-label>\n            Número de mt2 de la sucursal\n          </ion-label>\n          <input type="number" [(ngModel)]="valTiendaProd.mt2" name="mt2" id=""\n            style="border: 0.9px solid cyan; border-radius: 3px; padding: 5px;">\n          <br>\n          <br>\n          <button ion-button color="danger" (click)="calProdTienda()">Calcular</button>\n          <br>\n          <div>\n            <p id="resProdTienda">Resultado: </p>\n          </div>\n          <br>\n        </div>\n      </ion-card>\n\n    </div>\n    <div *ngFor="let a of aspects.aspects">\n      <ion-card style="background: #B91919;">\n        <p id="nameA">{{a.name}}</p>\n\n        <div *ngIf="a.name === \'Perímetro women - 3H-PERDAMA-01\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perwoman.jpg\')" id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Dama -3H-PERDAMA-01\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perdama.jpg\')" id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Women -3H-MGOND-03\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_woman.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Dama 3H-DAMGOND-02\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_dama.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <!-- DEPORTES -->\n        <div *ngIf="a.name === \'Perímetro Verde 3H-PERIDEP-01\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_verde.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Sport 3H-DEPORTIVO\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_sport.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Deportivo 3H-DEPVERDE-01\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_deportivo.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola CH Deportes 3H-GONDEPCH-01\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_ch_deportes.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Deportes 3H-GONDEP-00\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_deportes.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Celosia 3H-PERILUMI-00\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_celosia.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Sport 3H-MGOND-02\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_sport.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <!-- NIÑOS -->\n        <div *ngIf="a.name === \'Perímetro Niño Arcoiris 3H-PERNINO-00\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_nino.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Kids 3H-PERNINO-01\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_kids.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro De Niño 3H-PERNINO-02\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_de_nino.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Niños 3H-NINOGOND-01\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_ninos.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Kids 3H-GONNI-01\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_kids.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <!-- CABALLEROS -->\n        <div *ngIf="a.name === \'Perímetro Caballeros 3H-CABPERIMETRO-01\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_caballeros.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Caballero 3H-PERCAB-01\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_caballeros2.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Mesa Grapa 3H-GRAPC-01\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/mesa_grapa.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n\n        <!-- SALDOS -->\n        <div *ngIf="a.name === \'Perímetro Ofertas 3H-SALD-00\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_ofertas.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red;"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Perímetro Saldos 3H-PSALD-01\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/perimetro_saldos.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <div *ngIf="a.name === \'Góndola Saldos 3H-SALD-01\'" class="button-mob">\n          <button ion-button (click)="openModal(\'http://hostingwebmex.com/z3h/inmobiliario/gondola_saldos.jpg\')"\n            id="buttonM">\n            <ion-icon name="add-circle" style="color: red"></ion-icon>\n          </button>\n        </div>\n        <ion-list radio-group [(ngModel)]="a.score" name="score" id="ion-list">\n          <div class="container-emoji">\n            <!-- <ion-label class="emoji-label">Malo</ion-label> -->\n\n            <ion-radio value="2" name="score" class="radio two" id="two-{{a.name}}"\n              (click)="active(\'two-\'+this.a.name, this.a.name)">\n            </ion-radio>\n\n            <ion-radio value="4" name="score" class="radio four" id="four-{{a.name}}"\n              (click)="active(\'four-\'+this.a.name, this.a.name)">\n            </ion-radio>\n\n            <ion-radio value="6" name="score" class="radio six" id="six-{{a.name}}"\n              (click)="active(\'six-\'+this.a.name, this.a.name)">\n            </ion-radio>\n\n            <!-- <ion-label class="emoji-label">Regular</ion-label> -->\n            <ion-radio value="8" name="score" class="radio eigth" id="eigth-{{a.name}}"\n              (click)="active(\'eigth-\'+this.a.name, this.a.name)">\n            </ion-radio>\n\n            <!-- <ion-label class="emoji-label">Bueno</ion-label> -->\n            <ion-radio value="10" name="score" class="radio ten" id="ten-{{a.name}}"\n              (click)="active(\'ten-\'+this.a.name, this.a.name)">\n            </ion-radio>\n\n          </div>\n        </ion-list>\n        <ion-item>\n          <ion-label>Observacion: </ion-label>\n          <ion-textarea [(ngModel)]="a.comment" name="comment"></ion-textarea>\n        </ion-item>\n      </ion-card>\n      <br>\n    </div>\n    <button ion-button type="submit" (click)="enviar()" full color="danger">Enviar</button>\n  </form>\n</ion-content>'/*ion-inline-end:"/Users/adrianperez/Documents/Dev/Projects/3H/3HermanosIonic/src/pages/aspects/aspects.html"*/,
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" ? _a : Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ViewController */]) === "function" ? _b : Object])
     ], AspectsPage);
     return AspectsPage;
 }());

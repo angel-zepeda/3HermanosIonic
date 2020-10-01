@@ -20,6 +20,8 @@ export class AspectsPage {
     mt2: "",
   };
 
+  imgUrl = "../../assets/imgs";
+
   constructor(public navCtrl: NavController, private view: ViewController) {
     this.aspects = JSON.parse(localStorage.getItem("as"));
     this.areaImg = localStorage.getItem("areaImg");
@@ -107,88 +109,56 @@ export class AspectsPage {
     }
   }
 
-  active(emojiId, name) {
-    var emoji = document.getElementById(emojiId);
+  active(radioId, name) {
+    const currentButton = document.getElementById(radioId);
+    const number = currentButton.id.split("-")[0];
+    const twoButton = document.getElementById(`two-${name}`);
+    const fourButton = document.getElementById(`four-${name}`);
+    const sixButton = document.getElementById(`six-${name}`);
+    const eightButton = document.getElementById(`eigth-${name}`);
+    const tenButton = document.getElementById(`ten-${name}`);
 
-    if (emoji.id.includes("two")) {
-      var emoji2 = document.getElementById("four" + name);
-      var emoji3 = document.getElementById("six" + name);
-      var emoji4 = document.getElementById("eigth" + name);
-      var emoji5 = document.getElementById("ten" + name);
-      emoji.style.background = "url('../../assets/imgs/11.png')";
-      emoji.style.backgroundSize = "cover";
-      emoji2.style.background = "url('../../assets/imgs/2.png')";
-      emoji2.style.backgroundSize = "cover";
-      emoji3.style.background = "url('../../assets/imgs/4.png')";
-      emoji3.style.backgroundSize = "cover";
-      emoji4.style.background = "url('../../assets/imgs/5.png')";
-      emoji4.style.backgroundSize = "cover";
-      emoji5.style.background = "url('../../assets/imgs/6.png')";
-      emoji5.style.backgroundSize = "cover";
-    }
-    if (emoji.id.includes("four")) {
-      var emoji2 = document.getElementById("two" + name);
-      var emoji3 = document.getElementById("six" + name);
-      var emoji4 = document.getElementById("eigth" + name);
-      var emoji5 = document.getElementById("ten" + name);
-      emoji.style.background = "url('../../assets/imgs/22.png')";
-      emoji.style.backgroundSize = "cover";
-      emoji2.style.background = "url('../../assets/imgs/1.png')";
-      emoji2.style.backgroundSize = "cover";
-      emoji3.style.background = "url('../../assets/imgs/4.png')";
-      emoji3.style.backgroundSize = "cover";
-      emoji4.style.background = "url('../../assets/imgs/5.png')";
-      emoji4.style.backgroundSize = "cover";
-      emoji5.style.background = "url('../../assets/imgs/6.png')";
-      emoji5.style.backgroundSize = "cover";
-    }
-    if (emoji.id.includes("six")) {
-      var emoji2 = document.getElementById("two" + name);
-      var emoji3 = document.getElementById("four" + name);
-      var emoji4 = document.getElementById("eigth" + name);
-      var emoji5 = document.getElementById("ten" + name);
-      emoji.style.background = "url('../../assets/imgs/33.png')";
-      emoji.style.backgroundSize = "cover";
-      emoji2.style.background = "url('../../assets/imgs/1.png')";
-      emoji2.style.backgroundSize = "cover";
-      emoji3.style.background = "url('../../assets/imgs/2.png')";
-      emoji3.style.backgroundSize = "cover";
-      emoji4.style.background = "url('../../assets/imgs/5.png')";
-      emoji4.style.backgroundSize = "cover";
-      emoji5.style.background = "url('../../assets/imgs/6.png')";
-      emoji5.style.backgroundSize = "cover";
-    }
-    if (emoji.id.includes("eigth")) {
-      var emoji2 = document.getElementById("two" + name);
-      var emoji3 = document.getElementById("four" + name);
-      var emoji4 = document.getElementById("six" + name);
-      var emoji5 = document.getElementById("ten" + name);
-      emoji.style.background = "url('../../assets/imgs/44.png')";
-      emoji.style.backgroundSize = "cover";
-      emoji2.style.background = "url('../../assets/imgs/1.png')";
-      emoji2.style.backgroundSize = "cover";
-      emoji3.style.background = "url('../../assets/imgs/2.png')";
-      emoji3.style.backgroundSize = "cover";
-      emoji4.style.background = "url('../../assets/imgs/4.png')";
-      emoji4.style.backgroundSize = "cover";
-      emoji5.style.background = "url('../../assets/imgs/6.png')";
-      emoji5.style.backgroundSize = "cover";
-    }
-    if (emoji.id.includes("ten")) {
-      var emoji2 = document.getElementById("two" + name);
-      var emoji3 = document.getElementById("four" + name);
-      var emoji4 = document.getElementById("six" + name);
-      var emoji5 = document.getElementById("eigth" + name);
-      emoji.style.background = "url('../../assets/imgs/55.png')";
-      emoji.style.backgroundSize = "cover";
-      emoji2.style.background = "url('../../assets/imgs/1.png')";
-      emoji2.style.backgroundSize = "cover";
-      emoji3.style.background = "url('../../assets/imgs/2.png')";
-      emoji3.style.backgroundSize = "cover";
-      emoji4.style.background = "url('../../assets/imgs/4.png')";
-      emoji4.style.backgroundSize = "cover";
-      emoji5.style.background = "url('../../assets/imgs/5.png')";
-      emoji5.style.backgroundSize = "cover";
+    switch (number) {
+      case "two":
+        currentButton.style.backgroundImage = `url(${this.imgUrl}/11.png)`;
+        fourButton.style.backgroundImage = `url(${this.imgUrl}/2.png)`;
+        sixButton.style.backgroundImage = `url(${this.imgUrl}/3.png)`;
+        eightButton.style.backgroundImage = `url(${this.imgUrl}/4.png)`;
+        tenButton.style.backgroundImage = `url(${this.imgUrl}/5.png)`;
+        break;
+      case "four":
+        currentButton.style.backgroundImage = `url(${this.imgUrl}/22.png)`;
+        twoButton.style.backgroundImage = `url(${this.imgUrl}/1.png)`;
+        sixButton.style.backgroundImage = `url(${this.imgUrl}/3.png)`;
+        eightButton.style.backgroundImage = `url(${this.imgUrl}/4.png)`;
+        tenButton.style.backgroundImage = `url(${this.imgUrl}/5.png)`;
+        break;
+
+      case "six":
+        currentButton.style.backgroundImage = `url(${this.imgUrl}/33.png)`;
+        fourButton.style.backgroundImage = `url(${this.imgUrl}/2.png)`;
+        twoButton.style.backgroundImage = `url(${this.imgUrl}/1.png)`;
+        eightButton.style.backgroundImage = `url(${this.imgUrl}/4.png)`;
+        tenButton.style.backgroundImage = `url(${this.imgUrl}/5.png)`;
+        break;
+
+      case "eigth":
+        currentButton.style.backgroundImage = `url(${this.imgUrl}/44.png)`;
+        fourButton.style.backgroundImage = `url(${this.imgUrl}/2.png)`;
+        sixButton.style.backgroundImage = `url(${this.imgUrl}/3.png)`;
+        twoButton.style.backgroundImage = `url(${this.imgUrl}/1.png)`;
+        tenButton.style.backgroundImage = `url(${this.imgUrl}/5.png)`;
+        break;
+
+      case "ten":
+        currentButton.style.backgroundImage = `url(${this.imgUrl}/55.png)`;
+        twoButton.style.backgroundImage = `url(${this.imgUrl}/1.png)`;
+        fourButton.style.backgroundImage = `url(${this.imgUrl}/2.png)`;
+        sixButton.style.backgroundImage = `url(${this.imgUrl}/3.png)`;
+        eightButton.style.backgroundImage = `url(${this.imgUrl}/4.png)`;
+        break;
+      default:
+        break;
     }
   }
 

@@ -1,6 +1,6 @@
 webpackJsonp([8],{
 
-/***/ 288:
+/***/ 293:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Historial2PageModule", function() { return Historial2PageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__historial2__ = __webpack_require__(310);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__historial2__ = __webpack_require__(315);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var Historial2PageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 310:
+/***/ 315:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -59,7 +59,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var Historial2Page = /** @class */ (function () {
     function Historial2Page(navCtrl) {
         this.navCtrl = navCtrl;
-        this.report = JSON.parse(localStorage.getItem('report'));
+        this.report = [JSON.parse(localStorage.getItem('report'))];
     }
     Historial2Page.prototype.ionViewDidLoad = function () {
         console.log(this.report);

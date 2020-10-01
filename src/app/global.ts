@@ -800,7 +800,7 @@ export var GLOBAL = {
       "comment": "",
     },
     {
-      "name": "Pisos limpios (AMAZONIA BEIGE)",
+      "name": "Pisos limpios",
       "score": "",
       "comment": "",
     },

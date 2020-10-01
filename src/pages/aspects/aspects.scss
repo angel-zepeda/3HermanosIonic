@@ -85,17 +85,17 @@ page-aspects {
   }
 
   .six {
-    background-image: url('../../assets/imgs/4.png');
+    background-image: url('../../assets/imgs/3.png');
     background-size: cover;
   }
 
   .eigth {
-    background-image: url('../../assets/imgs/5.png');
+    background-image: url('../../assets/imgs/4.png');
     background-size: cover;
   }
 
   .ten {
-    background-image: url('../../assets/imgs/6.png');
+    background-image: url('../../assets/imgs/5.png');
     background-size: cover;
   }
 
@@ -105,5 +105,13 @@ page-aspects {
   }
   .radio-icon {
     display: none !important;
+  }
+
+  .button-mob {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.6rem;
   }
 }

@@ -1,6 +1,6 @@
 webpackJsonp([1],{
 
-/***/ 287:
+/***/ 286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FirmaFotoPageModule", function() { return FirmaFotoPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__firma_foto__ = __webpack_require__(309);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__firma_foto__ = __webpack_require__(308);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_signaturepad__ = __webpack_require__(202);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angular2_signaturepad___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_angular2_signaturepad__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -3381,7 +3381,7 @@ if (typeof this !== 'undefined' && this.Sweetalert2){  this.swal = this.sweetAle
 
 /***/ }),
 
-/***/ 309:
+/***/ 308:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3421,6 +3421,8 @@ var FirmaFotoPage = /** @class */ (function () {
         this.camara = camara;
         this.loadingController = loadingController;
         this.url = 'http://157.230.81.230:5000/api/report/create';
+        // url = 'http://localhost:5000/api/report/create'
+        this.role = localStorage.getItem('role');
         this.signaturePadOptions = {
             'minWidth': 2,
             'canvasWidth': 300,
@@ -3531,6 +3533,9 @@ var FirmaFotoPage = /** @class */ (function () {
             }
             loader.dismiss();
             _this.navCtrl.popAll();
+            if (_this.role && _this.role !== 'ROLE_USER') {
+                return _this.navCtrl.push('GerentePage');
+            }
             _this.navCtrl.push('InicioPage');
         });
         console.log(this.report);

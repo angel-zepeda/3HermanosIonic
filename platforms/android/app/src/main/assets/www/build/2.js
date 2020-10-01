@@ -1,6 +1,6 @@
 webpackJsonp([2],{
 
-/***/ 283:
+/***/ 282:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AspectsPageModule", function() { return AspectsPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__aspects__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__aspects__ = __webpack_require__(297);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3377,7 +3377,7 @@ if (typeof this !== 'undefined' && this.Sweetalert2){  this.swal = this.sweetAle
 
 /***/ }),
 
-/***/ 305:
+/***/ 297:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3575,36 +3575,6 @@ var AspectsPage = /** @class */ (function () {
             emoji5.style.background = "url('../../assets/imgs/5.png')";
             emoji5.style.backgroundSize = "cover";
         }
-        // if (emoji.id.includes('happy')) {
-        //   var emoji2 = document.getElementById('mad' + name);
-        //   var emoji3 = document.getElementById('angry' + name);
-        //   emoji2.style.background = "url('../../assets/imgs/3.png')";
-        //   emoji3.style.background = "url('../../assets/imgs/1.png')";
-        //   emoji.style.background = "url('../../assets/imgs/55.png')";
-        //   emoji.style.backgroundSize = "cover";
-        //   emoji2.style.backgroundSize = "cover";
-        //   emoji3.style.backgroundSize = "cover";
-        // }
-        // if (emoji.id.includes('mad')) {
-        //   var emoji2 = document.getElementById('happy' + name);
-        //   var emoji3 = document.getElementById('angry' + name);
-        //   emoji2.style.background = "url('../../assets/imgs/6.png')";
-        //   emoji3.style.background = "url('../../assets/imgs/1.png')";
-        //   emoji.style.background = "url('../../assets/imgs/22.png')";
-        //   emoji.style.backgroundSize = "cover";
-        //   emoji2.style.backgroundSize = "cover";
-        //   emoji3.style.backgroundSize = "cover";
-        // }
-        // if (emoji.id.includes('angry')) {
-        //   var emoji2 = document.getElementById('mad' + name);
-        //   var emoji3 = document.getElementById('happy' + name);
-        //   emoji2.style.background = "url('../../assets/imgs/3.png')";
-        //   emoji3.style.background = "url('../../assets/imgs/6.png')";
-        //   emoji.style.background = "url('../../assets/imgs/11.png')";
-        //   emoji.style.backgroundSize = "cover";
-        //   emoji2.style.backgroundSize = "cover";
-        //   emoji3.style.backgroundSize = "cover";
-        // }
     };
     AspectsPage.prototype.calProdV = function () {
         var resHtml = document.getElementById("resProd");
