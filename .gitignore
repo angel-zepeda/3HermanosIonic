@@ -12,6 +12,7 @@
 /platforms
 .sourcemaps
 /.sourcemaps
+/www
 
 # profiling files
 chrome-profiler-events.json

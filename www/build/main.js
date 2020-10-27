@@ -26,23 +26,23 @@ var map = {
 		2
 	],
 	"../pages/buscar-tienda/buscar-tienda.module": [
-		285,
+		286,
 		0
 	],
 	"../pages/eventos/eventos.module": [
-		284,
+		283,
 		11
 	],
 	"../pages/firma-foto/firma-foto.module": [
-		283,
+		287,
 		1
 	],
 	"../pages/gerente/gerente.module": [
-		286,
+		284,
 		10
 	],
 	"../pages/historial/historial.module": [
-		287,
+		285,
 		9
 	],
 	"../pages/historial2/historial2.module": [
@@ -54,19 +54,19 @@ var map = {
 		7
 	],
 	"../pages/mercadeo/mercadeo.module": [
-		291,
+		290,
 		4
 	],
 	"../pages/reporteo/reporteo.module": [
-		292,
+		291,
 		3
 	],
 	"../pages/reports-user/reports-user.module": [
-		290,
+		293,
 		6
 	],
 	"../pages/tiendas-gerentes/tiendas-gerentes.module": [
-		293,
+		292,
 		5
 	]
 };
@@ -243,17 +243,17 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_6__app_component__["a" /* MyApp */], {}, {
                     links: [
                         { loadChildren: '../pages/aspects/aspects.module#AspectsPageModule', name: 'AspectsPage', segment: 'aspects', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/firma-foto/firma-foto.module#FirmaFotoPageModule', name: 'FirmaFotoPage', segment: 'firma-foto', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/eventos/eventos.module#EventosPageModule', name: 'EventosPage', segment: 'eventos', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/buscar-tienda/buscar-tienda.module#BuscarTiendaPageModule', name: 'BuscarTiendaPage', segment: 'buscar-tienda', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/gerente/gerente.module#GerentePageModule', name: 'GerentePage', segment: 'gerente', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/historial/historial.module#HistorialPageModule', name: 'HistorialPage', segment: 'historial', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/buscar-tienda/buscar-tienda.module#BuscarTiendaPageModule', name: 'BuscarTiendaPage', segment: 'buscar-tienda', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/firma-foto/firma-foto.module#FirmaFotoPageModule', name: 'FirmaFotoPage', segment: 'firma-foto', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/historial2/historial2.module#Historial2PageModule', name: 'Historial2Page', segment: 'historial2', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/inicio/inicio.module#InicioPageModule', name: 'InicioPage', segment: 'inicio', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/reports-user/reports-user.module#ReportsUserPageModule', name: 'ReportsUserPage', segment: 'reports-user', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/mercadeo/mercadeo.module#MercadeoPageModule', name: 'MercadeoPage', segment: 'mercadeo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/reporteo/reporteo.module#ReporteoPageModule', name: 'ReporteoPage', segment: 'reporteo', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/tiendas-gerentes/tiendas-gerentes.module#TiendasGerentesPageModule', name: 'TiendasGerentesPage', segment: 'tiendas-gerentes', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/tiendas-gerentes/tiendas-gerentes.module#TiendasGerentesPageModule', name: 'TiendasGerentesPage', segment: 'tiendas-gerentes', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/reports-user/reports-user.module#ReportsUserPageModule', name: 'ReportsUserPage', segment: 'reports-user', priority: 'low', defaultHistory: [] }
                     ]
                 })
             ],
