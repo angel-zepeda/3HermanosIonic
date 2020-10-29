@@ -2,7 +2,7 @@ import { Component } from "@angular/core";
 import { NavController } from "ionic-angular";
 import { HttpClient } from "@angular/common/http";
 import { LoadingController } from "ionic-angular";
-import swal from "sweetalert";
+import Swal from "sweetalert2";
 
 @Component({
   selector: "page-home",
@@ -45,9 +45,14 @@ export class HomePage {
     this.http.post(this.url, this.user_sign_in).subscribe((res) => {
       loader.dismiss();
       this.user_data = res;
-      console.log(this.user_data)
+      console.log(this.user_data);
       if (this.user_data.message) {
-        swal("Oops", "" + this.user_data.message, "error");
+        // Swal.fire("Oops", "" + this.user_data.message, "error");
+        Swal.fire({
+          icon: "error",
+          title: "Oops",
+          text: `${this.user_data.message}`,
+        });
       } else {
         localStorage.setItem(
           "user_shops",
@@ -57,22 +62,22 @@ export class HomePage {
         localStorage.setItem("username", this.user_data.user.nick);
         localStorage.setItem("role", this.user_data.user.role);
         if (this.user_data.user.role === "ROLE_USER") {
-          swal(
-            "Bienvenido!",
-            "Supervisor: " + this.user_data.user.nick,
-            "success"
-          );
-          
+          Swal.fire({
+            icon: "success",
+            title: "Bienvenido",
+            text: `${this.user_data.user.nick}`,
+          });
+
           if (this.user_data.user.shops.length > 0) {
             return this.navCtrl.push("GerentePage");
           }
           this.navCtrl.push("InicioPage");
         } else {
-          swal(
-            "Bienvenido!",
-            "Gerente: " + this.user_data.user.nick,
-            "success"
-          );
+          Swal.fire({
+            icon: "success",
+            title: "Bienvenido",
+            text: `${this.user_data.user.nick}`,
+          });
           this.navCtrl.push("GerentePage");
         }
       }

@@ -3,7 +3,6 @@ import { IonicPage, NavController, NavParams, ViewController, LoadingController 
 import { SignaturePad } from 'angular2-signaturepad/signature-pad';
 import { HttpClient } from '@angular/common/http';
 import { Camera, CameraOptions } from '@ionic-native/camera'
-import swal from 'sweetalert';
 import Swal from 'sweetalert2'
 
 @IonicPage()
@@ -78,7 +77,11 @@ export class FirmaFotoPage {
       this.report.photos.push("data:image/jpeg;base64," + imageData);
     },
       (err) => {
-        swal("No se pudo guardar la imágen", "", "error");
+        Swal.fire({
+          icon: "error",
+          title: "Oops!",
+          text: `No se pudo guardar la imágen`,
+        });
       });
   }
 
